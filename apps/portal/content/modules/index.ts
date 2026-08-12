@@ -18,6 +18,16 @@ import { module15 } from "./15-preparacao-final";
 
 export { moduleMetas, getModuleMeta };
 
+import { module_tt_00_bem_vindo } from "./tt-00-bem-vindo";
+import { module_tt_01_total_auto_4g } from "./tt-01-total-auto-4g";
+import { module_tt_02_total_maquinas_4g } from "./tt-02-total-maquinas-4g";
+import { module_tt_03_total_temperatura_4g } from "./tt-03-total-temperatura-4g";
+import { module_tt_04_total_jornada_4g } from "./tt-04-total-jornada-4g";
+import { module_tt_05_carreta_solar } from "./tt-05-carreta-solar";
+import { module_tt_06_kit_autonomia } from "./tt-06-kit-autonomia";
+import { module_tt_07_imobilizador } from "./tt-07-imobilizador";
+import { module_tt_08_total_safe } from "./tt-08-total-safe";
+
 const fullModules: Record<string, ModuleContentFull> = {
   [module01.slug]: module01,
   [module02.slug]: module02,
@@ -34,6 +44,15 @@ const fullModules: Record<string, ModuleContentFull> = {
   [module13.slug]: module13,
   [module14.slug]: module14,
   [module15.slug]: module15,
+  [module_tt_00_bem_vindo.slug]: module_tt_00_bem_vindo,
+  [module_tt_01_total_auto_4g.slug]: module_tt_01_total_auto_4g,
+  [module_tt_02_total_maquinas_4g.slug]: module_tt_02_total_maquinas_4g,
+  [module_tt_03_total_temperatura_4g.slug]: module_tt_03_total_temperatura_4g,
+  [module_tt_04_total_jornada_4g.slug]: module_tt_04_total_jornada_4g,
+  [module_tt_05_carreta_solar.slug]: module_tt_05_carreta_solar,
+  [module_tt_06_kit_autonomia.slug]: module_tt_06_kit_autonomia,
+  [module_tt_07_imobilizador.slug]: module_tt_07_imobilizador,
+  [module_tt_08_total_safe.slug]: module_tt_08_total_safe,
 };
 
 export function getModuleContent(slug: string): ModuleContentFull | undefined {

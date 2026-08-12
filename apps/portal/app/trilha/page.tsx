@@ -14,19 +14,20 @@ import Link from "next/link";
 
 export default function TrilhaPage() {
   const isRegistered = useRequireRegistration();
-  const { registration, progress } = useOnboardingStore();
+  const { registration, progress, currentAcademy } = useOnboardingStore();
 
   if (!isRegistered || !registration) return null;
 
-  const readyModuleSlugs = moduleMetas.filter(m => m.status === "ready").map(m => m.slug);
+  const currentAcademyMetas = moduleMetas.filter(m => (m.academy || "atlasgr") === currentAcademy);
+  const readyModuleSlugs = currentAcademyMetas.filter(m => m.status === "ready").map(m => m.slug);
   const completedReady = readyModuleSlugs.filter(slug => progress[slug]?.passed).length;
   const pct = Math.round((completedReady / readyModuleSlugs.length) * 100);
   const allReadyDone = completedReady === readyModuleSlugs.length;
 
-  const unfinishedModules = moduleMetas.filter((m) => readyModuleSlugs.includes(m.slug) && !progress[m.slug]?.completed);
+  const unfinishedModules = currentAcademyMetas.filter((m) => readyModuleSlugs.includes(m.slug) && !progress[m.slug]?.completed);
   const nextModule = unfinishedModules.length > 0 ? unfinishedModules[0] : null;
 
-  const categories = Array.from(new Set(moduleMetas.map(m => m.category || "Outros")));
+  const categories = Array.from(new Set(currentAcademyMetas.map(m => m.category || "Outros")));
 
   return (
     <div className="min-h-screen bg-background text-foreground pb-20 selection:bg-atlas-orange selection:text-white">
@@ -125,7 +126,7 @@ export default function TrilhaPage() {
       <main className="mx-auto max-w-7xl px-6 py-12">
         <div className="space-y-16">
           {categories.map((cat) => {
-            const mods = moduleMetas.filter((m) => (m.category || "Outros") === cat);
+            const mods = currentAcademyMetas.filter((m) => (m.category || "Outros") === cat);
             return (
               <section key={cat} id={`category-${cat.replace(/\s+/g, '-').toLowerCase()}`}>
                 <div className="flex items-center gap-4 mb-8">
@@ -138,7 +139,7 @@ export default function TrilhaPage() {
                     <ModuleCard
                       key={m.slug}
                       meta={m}
-                      index={moduleMetas.findIndex((meta) => meta.slug === m.slug)}
+                      index={currentAcademyMetas.findIndex((meta) => meta.slug === m.slug)}
                       isCompleted={!!progress[m.slug]?.completed}
                     />
                   ))}

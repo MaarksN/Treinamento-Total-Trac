@@ -28,8 +28,10 @@ interface OnboardingState {
   createdAgents: AgentBlueprint[];
   hasHydrated: boolean;
   onboardingCompleted: boolean;
+  currentAcademy: "atlasgr" | "totaltrack";
 
   setHasHydrated: (v: boolean) => void;
+  setAcademy: (academy: "atlasgr" | "totaltrack") => void;
   enrollColaborador: (data: RegistrationData) => EnrolledColaborador;
   removeColaborador: (id: string) => void;
   startSessionAs: (id: string) => boolean;
@@ -68,8 +70,10 @@ export const useOnboardingStore = create<OnboardingState>()(
       createdAgents: [],
       hasHydrated: false,
       onboardingCompleted: false,
+      currentAcademy: "atlasgr",
 
       setHasHydrated: (v) => set({ hasHydrated: v }),
+      setAcademy: (a) => set({ currentAcademy: a }),
       completeOnboarding: () => set({ onboardingCompleted: true }),
 
       // Cadastro é feito exclusivamente pelo Administrador (painel /admin).
