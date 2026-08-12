@@ -37,7 +37,7 @@ export interface ModuleMeta {
   status: ModuleStatus;
   category?: string;
   outline?: { what: string; why: string; how: string };
-  academy?: "atlasgr" | "totaltrack";
+  academy?: "totaltrac" | "totaltrack";
 }
 
 export interface ModuleContentFull extends ModuleMeta {

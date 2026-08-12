@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Certificado — Portal ATLASGR",
+  title: "Certificado — Portal Total Trac",
 };
 
 export default function CertificadoLayout({ children }: { children: React.ReactNode }) {

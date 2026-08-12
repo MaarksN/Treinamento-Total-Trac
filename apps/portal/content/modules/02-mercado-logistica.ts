@@ -1,4 +1,4 @@
-import type { ModuleContentFull } from "@/lib/types";
+﻿import type { ModuleContentFull } from "@/lib/types";
 import { getModuleMeta } from "./meta";
 
 const meta = getModuleMeta("02-mercado-logistica")!;
@@ -8,7 +8,7 @@ export const module02: ModuleContentFull = {
   sources: [
     "Outline consolidado (content/modules/meta.ts)",
     "Dados ANTT e CNT 2024",
-    "Treinamento Operacional AtlasGR",
+    "Treinamento Operacional Total Trac",
   ],
   objectives: [
     "Dominar o conceito da cadeia de suprimentos e seus elos críticos.",
@@ -30,7 +30,7 @@ export const module02: ModuleContentFull = {
               "Para ser um especialista em risco, você precisa primeiro entender as peças do tabuleiro logístico. O Brasil é um país continental com 65% de suas mercadorias fluindo pelo asfalto.",
             ],
             [
-              "A AtlasGR é o árbitro de segurança nesse jogo, garantindo que as regras entre a indústria (quem produz), a transportadora (quem move) e a seguradora (quem protege o financeiro) sejam cumpridas à risca.",
+              "A Total Trac é o árbitro de segurança nesse jogo, garantindo que as regras entre a indústria (quem produz), a transportadora (quem move) e a seguradora (quem protege o financeiro) sejam cumpridas à risca.",
             ],
           ],
         },
@@ -132,7 +132,7 @@ export const module02: ModuleContentFull = {
         {
           type: "case",
           title: "O Cobre que virou Eletrônico",
-          text: "Um novo cliente começou a enviar cargas de fios de cobre puro, mas no sistema as cadastrou como 'Granel / Baixo Risco'. O motorista parou em um local ermo, a torre tratou como rotina de nível baixo. A carga (avaliada em 1 milhão de reais) foi roubada. A falha não foi do Connect, foi do cadastro da Matriz de Risco do cliente. Esse case reforça a importância da consultoria inicial da AtlasGR: alinhar o PGR à atratividade real da carga.",
+          text: "Um novo cliente começou a enviar cargas de fios de cobre puro, mas no sistema as cadastrou como 'Granel / Baixo Risco'. O motorista parou em um local ermo, a torre tratou como rotina de nível baixo. A carga (avaliada em 1 milhão de reais) foi roubada. A falha não foi do Connect, foi do cadastro da Matriz de Risco do cliente. Esse case reforça a importância da consultoria inicial da Total Trac: alinhar o PGR à atratividade real da carga.",
           source: "Relatórios de Gestão de Risco",
         },
       ],
@@ -149,7 +149,7 @@ export const module02: ModuleContentFull = {
               "O Brasil construiu sua matriz de transporte de carga nas décadas de 1950 e 1970, apostando quase todas as fichas na malha rodoviária. O resultado, décadas depois, é um país que movimenta a maior parte da sua produção industrial e agrícola dentro de uma carreta — e não dentro de um vagão.",
             ],
             [
-              "Para a gestão de risco, isso não é um detalhe técnico: é o motivo pelo qual a AtlasGR existe. Ferrovia tem trilho fixo, poucos pontos de acesso e vigilância concentrada. Rodovia tem milhares de quilômetros de acostamento, postos de combustível, balanças e paradas obrigatórias — ou seja, milhares de oportunidades de exposição.",
+              "Para a gestão de risco, isso não é um detalhe técnico: é o motivo pelo qual a Total Trac existe. Ferrovia tem trilho fixo, poucos pontos de acesso e vigilância concentrada. Rodovia tem milhares de quilômetros de acostamento, postos de combustível, balanças e paradas obrigatórias — ou seja, milhares de oportunidades de exposição.",
             ],
           ],
         },
@@ -187,7 +187,7 @@ export const module02: ModuleContentFull = {
           type: "case",
           title: "Maio de 2018: Quando o Brasil Parou",
           text: "A greve dos caminhoneiros de 2018 paralisou o país em poucos dias porque não havia plano B: com quase dois terços da carga nacional dependente de estradas, o desabastecimento de combustível, remédios e alimentos se espalhou em tempo recorde. Para as operações de gerenciamento de risco, o episódio virou um divisor de águas — mostrou que um PGR não pode tratar apenas de roubo de carga. Ele precisa prever cenários de ruptura sistêmica: rotas alternativas mapeadas, protocolos de comunicação com o embarcador em tempo real e critérios claros para decidir quando um caminhão deve parar (arriscando saque de manifestantes) ou seguir viagem (arriscando bloqueios e acidentes). Quem já tinha esses cenários desenhados perdeu dias; quem não tinha, perdeu contratos inteiros.",
-          source: "Análise de Continuidade Operacional AtlasGR",
+          source: "Análise de Continuidade Operacional Total Trac",
         },
         {
           type: "callout",
@@ -231,7 +231,7 @@ export const module02: ModuleContentFull = {
   finalChecklist: [
     "Diferencio Embarcador de Transportadora.",
     "Sei explicar por que eletrônicos exigem iscas e não apenas rastreamento primário.",
-    "Entendo o que um TMS faz e por que ele precisa da Atlas.",
+    "Entendo o que um TMS faz e por que ele precisa da Total Trac.",
   ],
   mindMap: {
     root: "Mercado Logístico",
@@ -242,7 +242,7 @@ export const module02: ModuleContentFull = {
     ],
   },
   scenario:
-    "Cenário: Uma transportadora liga pedindo para desativar os protocolos de 'Alto Risco' de uma carga de remédios para ganhar tempo de viagem. Qual a postura da AtlasGR baseada no PGR?",
+    "Cenário: Uma transportadora liga pedindo para desativar os protocolos de 'Alto Risco' de uma carga de remédios para ganhar tempo de viagem. Qual a postura da Total Trac baseada no PGR?",
   diagram: {
     title: "Cadeia Básica",
     chart: "graph LR\n  Fabrica --> Embarcador\n  Embarcador --> OperadorLogistico\n  OperadorLogistico --> Transportadora\n  Transportadora --> ClienteFinal",

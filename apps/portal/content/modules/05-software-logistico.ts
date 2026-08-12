@@ -1,4 +1,4 @@
-import type { ModuleContentFull } from "@/lib/types";
+﻿import type { ModuleContentFull } from "@/lib/types";
 import { getModuleMeta } from "./meta";
 
 const meta = getModuleMeta("05-software-logistico")!;
@@ -26,7 +26,7 @@ export const module05: ModuleContentFull = {
           heading: "A Orquestração do Risco",
           paragraphs: [
             [
-              "Bem-vindo ao Atlas Connect. Se o PGR é a lei, o Connect é a delegacia, o juiz e o camburão, tudo em um sistema só. É nesta tela que milhares de veículos são acompanhados e onde a inteligência artificial da Atlas separa o que é rotina do que é tragédia.",
+              "Bem-vindo ao Atlas Connect. Se o PGR é a lei, o Connect é a delegacia, o juiz e o camburão, tudo em um sistema só. É nesta tela que milhares de veículos são acompanhados e onde a inteligência artificial da Total Trac separa o que é rotina do que é tragédia.",
             ],
             [
               "Seu objetivo aqui não é decorar onde fica o botão de 'Salvar'. É entender o FLUXO DA INFORMAÇÃO: como uma viagem nasce, como o sistema vigia e como os alertas são priorizados.",
@@ -93,7 +93,7 @@ export const module05: ModuleContentFull = {
           type: "text",
           paragraphs: [
             [
-              "O Operador não caça problemas; o Motor de Regras os traz até ele. O Motor é o cérebro da AtlasGR. Ele lê o PGR e classifica a gravidade do que acabou de acontecer.",
+              "O Operador não caça problemas; o Motor de Regras os traz até ele. O Motor é o cérebro da Total Trac. Ele lê o PGR e classifica a gravidade do que acabou de acontecer.",
             ],
           ],
         },
@@ -117,7 +117,7 @@ export const module05: ModuleContentFull = {
           type: "case",
           title: "O Operador que Escolheu o Mais Fácil",
           text: "Um caso clássico usado em reciclagens: Um operador iniciante viu sua Fila de Alertas subir. No topo, piscava em vermelho um Alerta Nível 1 (Pânico). Embaixo, piscava em amarelo um Alerta Nível 4 (Parada não programada). Como ele já conhecia o motorista do Nível 4, resolveu atender o Nível 4 primeiro para 'limpar a tela rápido'. Ele gastou 5 minutos nessa ligação. Quando abriu o Nível 1, a carreta já havia sumido no mapa (Jammer ativado). O Nível 1 era um sequestro real. Regra de Ouro: Nunca subverta a priorização do sistema. Ele sabe mais de risco do que você.",
-          source: "Manual de Falhas Comuns - DHO AtlasGR",
+          source: "Manual de Falhas Comuns - DHO Total Trac",
         },
       ],
     },

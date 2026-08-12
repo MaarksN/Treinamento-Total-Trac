@@ -6,7 +6,6 @@ import { useEffect, useRef, useState } from "react";
 import { Menu, X, Rocket, Zap } from "lucide-react";
 import { Logo } from "@/components/brand/Logo";
 import { ThemeToggle } from "@/components/theme/ThemeToggle";
-import { AcademySwitcher } from "@/components/brand/AcademySwitcher";
 import { useOnboardingStore } from "@/lib/store";
 import { levelProgress } from "@/lib/gamification";
 import { cn } from "@/lib/utils";
@@ -116,7 +115,9 @@ export function SiteHeader({ hideNavLinks = false }: { hideNavLinks?: boolean })
 
           <div className="w-px h-6 bg-border/50 hidden sm:block mx-2" />
 
-          <AcademySwitcher />
+          <span className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-gradient-atlas text-white text-[11px] font-bold tracking-widest uppercase shadow-sm">
+            Total Trac
+          </span>
           <ThemeToggle />
           <button
             ref={menuButtonRef}

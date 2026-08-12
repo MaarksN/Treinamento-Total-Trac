@@ -1,4 +1,4 @@
-import type { ModuleContentFull } from "@/lib/types";
+﻿import type { ModuleContentFull } from "@/lib/types";
 import { getModuleMeta } from "./meta";
 
 const meta = getModuleMeta("11-operacao")!;
@@ -6,7 +6,7 @@ const meta = getModuleMeta("11-operacao")!;
 export const module11: ModuleContentFull = {
   ...meta,
   sources: [
-    "Apostila de Treinamento Inicial (v. 4.0) — Procedimentos Atlas GR",
+    "Apostila de Treinamento Inicial (v. 4.0) — Procedimentos Total Trac",
     "Treinamento Connect — Tratando Eventos Críticos",
     "Manual de Check list Central",
   ],
@@ -24,7 +24,7 @@ export const module11: ModuleContentFull = {
       blocks: [
         {
           type: "text",
-          heading: "O Coração da AtlasGR",
+          heading: "O Coração da Total Trac",
           paragraphs: [
             [
               "Todos os módulos anteriores construíram a base teórica. Agora você está sentado na cadeira, o fone de ouvido no ouvido, e a tela do Atlas Connect piscando em vermelho. Bem-vindo à Operação 24 horas.",
@@ -56,7 +56,7 @@ export const module11: ModuleContentFull = {
             points: ["Fica olhando bolinhas no mapa.", "Só age quando o motorista ou cliente liga.", "Não previne, apenas constata a tragédia depois de ocorrida."],
           },
           right: {
-            label: "O Monitorador (AtlasGR)",
+            label: "O Monitorador (Total Trac)",
             points: ["Confia no Motor de Regras.", "Trata implacavelmente a Fila de Alertas do Connect.", "Age quando a IA avisa que o motorista errou, ANTES do roubo."],
           },
         },
@@ -149,7 +149,7 @@ export const module11: ModuleContentFull = {
           heading: "A Ocorrência Não Bate o Ponto Junto com Você",
           paragraphs: [
             [
-              "Às 22h a sua carga horária acaba, mas o caminhão parado na zona de risco continua parado. O sinistro em investigação continua em investigação. Se o próximo operador sentar na cadeira sem saber o que já foi feito, a AtlasGR não perde só o SLA: perde a linha do tempo inteira de uma ocorrência, e isso é o que vira prova em uma auditoria ou em um processo de sinistro.",
+              "Às 22h a sua carga horária acaba, mas o caminhão parado na zona de risco continua parado. O sinistro em investigação continua em investigação. Se o próximo operador sentar na cadeira sem saber o que já foi feito, a Total Trac não perde só o SLA: perde a linha do tempo inteira de uma ocorrência, e isso é o que vira prova em uma auditoria ou em um processo de sinistro.",
             ],
             [
               "Handover não é 'um oi, tchau, deixei anotado ali'. É um protocolo formal, com registro escrito no Connect, que garante que o turno seguinte assume a ocorrência no ponto exato em que você parou — não um passo antes, não um passo depois.",

@@ -63,7 +63,7 @@ export default function AdminPage() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = "colaboradores-onboarding-atlasgr.csv";
+    a.download = "colaboradores-onboarding-totaltrac.csv";
     a.click();
     URL.revokeObjectURL(url);
   }

@@ -12,30 +12,30 @@ const montserrat = Montserrat({
 
 // A Mont é a fonte primária da marca, mas seus arquivos licenciados não estão no
 // repositório. O manual indica Montserrat como família secundária oficial.
-const title = "Portal de Treinamento ATLASGR";
+const title = "Portal de Treinamento Total Trac";
 const description =
-  "Portal Enterprise de onboarding e treinamento corporativo da ATLASGR: conectamos pessoas e tecnologia, gerando valor com segurança e inovação para a logística nacional.";
+  "Portal Enterprise de onboarding e treinamento corporativo da Total Trac: conectamos pessoas e tecnologia, gerando valor com segurança e inovação para a logística nacional.";
 
 export const metadata: Metadata = {
   title: {
     default: title,
-    template: "%s | ATLASGR",
+    template: "%s | Total Trac",
   },
   description,
-  applicationName: "Portal ATLASGR",
+  applicationName: "Portal Total Trac",
   keywords: [
-    "ATLASGR",
+    "Total Trac",
     "treinamento corporativo",
     "onboarding",
     "logística",
     "segurança patrimonial",
     "portal enterprise",
   ],
-  authors: [{ name: "ATLASGR" }],
+  authors: [{ name: "Total Trac" }],
   openGraph: {
     title,
     description,
-    siteName: "Portal ATLASGR",
+    siteName: "Portal Total Trac",
     locale: "pt_BR",
     type: "website",
   },

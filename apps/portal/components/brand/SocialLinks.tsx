@@ -3,15 +3,15 @@ import { cn } from "@/lib/utils";
 import { Tooltip } from "@/components/ui/Tooltip";
 import { FacebookIcon, InstagramIcon, LinkedinIcon, YoutubeIcon } from "./SocialIcons";
 
-// Dados reais extraídos de atlasgr.com.br (fornecidos pelo usuário).
+// Dados reais extraídos de totaltrac.com.br (fornecidos pelo usuário).
 const links = [
-  { label: "Site oficial", href: "https://www.atlasgr.com.br/", icon: Globe },
-  { label: "Instagram", href: "https://www.instagram.com/atlasgroficial/", icon: InstagramIcon },
-  { label: "LinkedIn", href: "https://www.linkedin.com/company/atlasgroficial", icon: LinkedinIcon },
-  { label: "Facebook", href: "https://www.facebook.com/atlasgroficial", icon: FacebookIcon },
-  { label: "YouTube", href: "https://www.youtube.com/@atlasgroficial", icon: YoutubeIcon },
+  { label: "Site oficial", href: "https://www.totaltrac.com.br/", icon: Globe },
+  { label: "Instagram", href: "https://www.instagram.com/totaltracoficial/", icon: InstagramIcon },
+  { label: "LinkedIn", href: "https://www.linkedin.com/company/totaltracoficial", icon: LinkedinIcon },
+  { label: "Facebook", href: "https://www.facebook.com/totaltracoficial", icon: FacebookIcon },
+  { label: "YouTube", href: "https://www.youtube.com/@totaltracoficial", icon: YoutubeIcon },
   { label: "WhatsApp Comercial: (16) 99183-9108", href: "https://api.whatsapp.com/send?phone=5516991839108", icon: MessageCircle },
-  { label: "comercial@atlasgr.com.br", href: "mailto:comercial@atlasgr.com.br", icon: Mail },
+  { label: "comercial@totaltrac.com.br", href: "mailto:comercial@totaltrac.com.br", icon: Mail },
 ];
 
 export function SocialLinks({ className }: { className?: string }) {

@@ -5,7 +5,7 @@ import { Maximize2, PlayCircle } from "lucide-react";
 import { Skeleton } from "@/components/ui/Skeleton";
 import { cn } from "@/lib/utils";
 
-// Vídeo institucional real da ATLASGR (fornecido pelo usuário).
+// Vídeo institucional real da Total Trac (fornecido pelo usuário).
 const VIDEO_ID = "yALfdQPaPi4";
 
 export function InstitutionalVideo() {
@@ -17,7 +17,7 @@ export function InstitutionalVideo() {
       <div className="aspect-video overflow-hidden rounded-2xl border border-border shadow-lg">
         <iframe
           src={`https://www.youtube-nocookie.com/embed/${VIDEO_ID}?autoplay=1&rel=0`}
-          title="Vídeo institucional ATLASGR"
+          title="Vídeo institucional Total Trac"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
           className="h-full w-full"
@@ -30,7 +30,7 @@ export function InstitutionalVideo() {
     <button
       type="button"
       onClick={() => setPlaying(true)}
-      aria-label="Reproduzir vídeo institucional da ATLASGR"
+      aria-label="Reproduzir vídeo institucional da Total Trac"
       className="group relative flex aspect-video w-full items-center justify-center overflow-hidden rounded-2xl border border-border bg-atlas-graphite shadow-lg"
     >
       {!thumbLoaded && <Skeleton className="absolute inset-0 h-full w-full rounded-none" />}
@@ -51,7 +51,7 @@ export function InstitutionalVideo() {
         className="relative z-10 text-white/90 drop-shadow-lg transition-transform duration-300 group-hover:scale-110"
       />
       <span className="absolute bottom-4 left-4 z-10 text-left text-sm font-medium text-white drop-shadow">
-        Vídeo institucional ATLASGR
+        Vídeo institucional Total Trac
       </span>
       <Maximize2 size={16} className="absolute right-4 top-4 z-10 text-white/70" />
     </button>

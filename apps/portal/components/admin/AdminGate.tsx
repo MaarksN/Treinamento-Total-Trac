@@ -3,13 +3,13 @@
 import { useEffect, useState, type ReactNode } from "react";
 import { Lock, ShieldAlert } from "lucide-react";
 
-const SESSION_KEY = "atlasgr-admin-unlocked";
+const SESSION_KEY = "totaltrac-admin-unlocked";
 
 // Protótipo sem backend: este PIN só evita que qualquer visitante que clique
 // num link caia direto no painel administrativo. Não é controle de acesso
 // real (o PIN fica no bundle do cliente) — numa versão com backend, /admin
 // precisa de autenticação de verdade (sessão de servidor, SSO, etc.).
-const ADMIN_PIN = "ATLASGR2026";
+const ADMIN_PIN = "2639";
 
 export function AdminGate({ children }: { children: ReactNode }) {
   const [unlocked, setUnlocked] = useState(false);

@@ -1,13 +1,13 @@
-import type { ModuleMeta } from "@/lib/types";
+﻿import type { ModuleMeta } from "@/lib/types";
 
 export const moduleMetas: ModuleMeta[] = [
   {
-    slug: "01-bem-vindo-atlasgr",
+    slug: "01-bem-vindo-totaltrac",
     number: 1,
-    title: "Bem-vindo à ATLASGR",
+    title: "Bem-vindo à Total Trac",
     shortDescription: "História, propósito, valores, cultura e organograma da empresa.",
     durationMinutes: 40,
-    academy: "atlasgr", status: "ready", category: "Fundamentos",
+    academy: "totaltrac", status: "ready", category: "Fundamentos",
   },
   {
     slug: "02-mercado-logistica",
@@ -15,7 +15,7 @@ export const moduleMetas: ModuleMeta[] = [
     title: "Mercado de Logística",
     shortDescription: "Supply chain, transportadoras, embarcadores e tipos de carga e operação.",
     durationMinutes: 35,
-    academy: "atlasgr", status: "ready", category: "Fundamentos",
+    academy: "totaltrac", status: "ready", category: "Fundamentos",
   },
   {
     slug: "03-gerenciamento-risco",
@@ -23,23 +23,23 @@ export const moduleMetas: ModuleMeta[] = [
     title: "Gerenciamento de Risco",
     shortDescription: "Do conceito básico ao avançado: PGR, apólice, sinistro e o papel da Central.",
     durationMinutes: 55,
-    academy: "atlasgr", status: "ready", category: "Fundamentos",
+    academy: "totaltrac", status: "ready", category: "Fundamentos",
   },
   {
-    slug: "04-produtos-atlasgr",
+    slug: "04-produtos-totaltrac",
     number: 4,
-    title: "Produtos ATLASGR",
+    title: "Produtos Total Trac",
     shortDescription: "Visão geral do portfólio: gerenciamento de risco, tecnologia, perfil securitário e bases dedicadas.",
     durationMinutes: 45,
-    academy: "atlasgr", status: "ready", category: "Soluções ATLASGR",
+    academy: "totaltrac", status: "ready", category: "Soluções Total Trac",
   },
   {
     slug: "05-software-logistico",
     number: 5,
-    title: "Software Logístico — Sistema Atlas Connect",
-    shortDescription: "Telas, funcionalidades e fluxo de trabalho do sistema Atlas Connect.",
+    title: "Software Logístico — Sistema Total Trac Connect",
+    shortDescription: "Telas, funcionalidades e fluxo de trabalho do sistema Total Trac Connect.",
     durationMinutes: 50,
-    academy: "atlasgr", status: "ready", category: "Soluções ATLASGR",
+    academy: "totaltrac", status: "ready", category: "Soluções Total Trac",
   },
   {
     slug: "06-atlas-profile",
@@ -47,7 +47,7 @@ export const moduleMetas: ModuleMeta[] = [
     title: "Atlas Profile",
     shortDescription: "Background check, biometria e compliance na análise de motoristas e veículos.",
     durationMinutes: 35,
-    academy: "atlasgr", status: "ready", category: "Soluções ATLASGR",
+    academy: "totaltrac", status: "ready", category: "Soluções Total Trac",
   },
   {
     slug: "07-integracoes",
@@ -55,15 +55,15 @@ export const moduleMetas: ModuleMeta[] = [
     title: "Integrações",
     shortDescription: "Como o Atlas Connect conversa com ERP, TMS e rastreadores de diferentes fabricantes.",
     durationMinutes: 30,
-    academy: "atlasgr", status: "ready", category: "Soluções ATLASGR",
+    academy: "totaltrac", status: "ready", category: "Soluções Total Trac",
   },
   {
     slug: "08-clientes",
     number: 8,
     title: "Clientes",
-    shortDescription: "Perfis de cliente atendidos pela Atlas: transportadoras, embarcadores e segmentos.",
+    shortDescription: "Perfis de cliente atendidos pela Total Trac: transportadoras, embarcadores e segmentos.",
     durationMinutes: 30,
-    academy: "atlasgr", status: "ready", category: "Mercado e clientes",
+    academy: "totaltrac", status: "ready", category: "Mercado e clientes",
   },
   {
     slug: "09-processo-comercial",
@@ -71,7 +71,7 @@ export const moduleMetas: ModuleMeta[] = [
     title: "Processo Comercial",
     shortDescription: "ICP, persona, dores, objeções, diferenciais competitivos e argumentação.",
     durationMinutes: 40,
-    academy: "atlasgr", status: "ready", category: "Mercado e clientes",
+    academy: "totaltrac", status: "ready", category: "Mercado e clientes",
   },
   {
     slug: "10-termos-tecnicos",
@@ -79,7 +79,7 @@ export const moduleMetas: ModuleMeta[] = [
     title: "Termos Técnicos",
     shortDescription: "Glossário consolidado com os termos usados no dia a dia da Central e do mercado.",
     durationMinutes: 30,
-    academy: "atlasgr", status: "ready", category: "Excelência operacional",
+    academy: "totaltrac", status: "ready", category: "Excelência operacional",
   },
   {
     slug: "11-operacao",
@@ -87,7 +87,7 @@ export const moduleMetas: ModuleMeta[] = [
     title: "Operação",
     shortDescription: "Fluxos, monitoramento, checklist, alertas e eventos do dia a dia da Central.",
     durationMinutes: 45,
-    academy: "atlasgr", status: "ready", category: "Excelência operacional",
+    academy: "totaltrac", status: "ready", category: "Excelência operacional",
   },
   {
     slug: "12-compliance",
@@ -95,7 +95,7 @@ export const moduleMetas: ModuleMeta[] = [
     title: "Compliance",
     shortDescription: "LGPD, segurança da informação, sigilo e boas práticas internas.",
     durationMinutes: 30,
-    academy: "atlasgr", status: "ready", category: "Excelência operacional",
+    academy: "totaltrac", status: "ready", category: "Excelência operacional",
   },
   {
     slug: "13-tecnologia",
@@ -103,15 +103,15 @@ export const moduleMetas: ModuleMeta[] = [
     title: "Tecnologia",
     shortDescription: "IA, analytics e automações aplicadas ao gerenciamento de risco logístico.",
     durationMinutes: 35,
-    academy: "atlasgr", status: "ready", category: "Excelência operacional",
+    academy: "totaltrac", status: "ready", category: "Excelência operacional",
   },
   {
     slug: "14-casos-reais",
     number: 14,
     title: "Casos Reais",
-    shortDescription: "Cases, recuperações e resultados operacionais da Atlas.",
+    shortDescription: "Cases, recuperações e resultados operacionais da Total Trac.",
     durationMinutes: 30,
-    academy: "atlasgr", status: "ready", category: "Excelência operacional",
+    academy: "totaltrac", status: "ready", category: "Excelência operacional",
   },
   {
     slug: "15-preparacao-final",
@@ -119,17 +119,17 @@ export const moduleMetas: ModuleMeta[] = [
     title: "Preparação Final",
     shortDescription: "Revisão geral de todo o conteúdo antes da prova final.",
     durationMinutes: 30,
-    academy: "atlasgr", status: "ready", category: "Conclusão",
+    academy: "totaltrac", status: "ready", category: "Conclusão",
   },
 
   // --- TOTAL TRACK MODULES ---
   {
     slug: "tt-00-bem-vindo",
     number: 16,
-    title: "Bem-vindo à Total Track",
+    title: "Bem-vindo à Total Trac",
     shortDescription: "Apresentação da empresa, ecossistema e visão geral de tecnologias e soluções logísticas.",
     durationMinutes: 30,
-    academy: "totaltrack", status: "ready", category: "Fundamentos Total Track",
+    academy: "totaltrac", status: "ready", category: "Fundamentos Total Trac",
   },
   {
     slug: "tt-01-total-auto-4g",
@@ -137,7 +137,7 @@ export const moduleMetas: ModuleMeta[] = [
     title: "Total Auto 4G",
     shortDescription: "Monitoramento completo do veículo, controle de desempenho e segurança com opções de RFID e Bloqueio.",
     durationMinutes: 40,
-    academy: "totaltrack", status: "ready", category: "Soluções para Veículos",
+    academy: "totaltrac", status: "ready", category: "Soluções para Veículos",
   },
   {
     slug: "tt-02-total-maquinas-4g",
@@ -145,7 +145,7 @@ export const moduleMetas: ModuleMeta[] = [
     title: "Total Máquinas 4G",
     shortDescription: "Gestão de máquinas pesadas e equipamentos com controle de horas e áreas de trabalho.",
     durationMinutes: 30,
-    academy: "totaltrack", status: "ready", category: "Soluções para Máquinas e Ativos",
+    academy: "totaltrac", status: "ready", category: "Soluções para Máquinas e Ativos",
   },
   {
     slug: "tt-03-total-temperatura-4g",
@@ -153,7 +153,7 @@ export const moduleMetas: ModuleMeta[] = [
     title: "Total Temperatura 4G",
     shortDescription: "Controle de cargas sensíveis com monitoramento de variações térmicas em tempo real.",
     durationMinutes: 35,
-    academy: "totaltrack", status: "ready", category: "Monitoramento Especializado",
+    academy: "totaltrac", status: "ready", category: "Monitoramento Especializado",
   },
   {
     slug: "tt-04-total-jornada-4g",
@@ -161,7 +161,7 @@ export const moduleMetas: ModuleMeta[] = [
     title: "Total Jornada 4G",
     shortDescription: "Controle de jornada online, reduzindo riscos trabalhistas e automatizando processos burocráticos.",
     durationMinutes: 40,
-    academy: "totaltrack", status: "ready", category: "Monitoramento Especializado",
+    academy: "totaltrac", status: "ready", category: "Monitoramento Especializado",
   },
   {
     slug: "tt-05-carreta-solar",
@@ -169,7 +169,7 @@ export const moduleMetas: ModuleMeta[] = [
     title: "Carreta Solar",
     shortDescription: "Monitoramento inteligente de implementos com painel solar e bateria de longa duração.",
     durationMinutes: 30,
-    academy: "totaltrack", status: "ready", category: "Soluções para Máquinas e Ativos",
+    academy: "totaltrac", status: "ready", category: "Soluções para Máquinas e Ativos",
   },
   {
     slug: "tt-06-kit-autonomia",
@@ -177,7 +177,7 @@ export const moduleMetas: ModuleMeta[] = [
     title: "Kit Autonomia (Carreta 4G)",
     shortDescription: "Rastreamento de carretas com foco em segurança, possuindo bateria para até 30 dias desengatada.",
     durationMinutes: 35,
-    academy: "totaltrack", status: "ready", category: "Soluções para Máquinas e Ativos",
+    academy: "totaltrac", status: "ready", category: "Soluções para Máquinas e Ativos",
   },
   {
     slug: "tt-07-imobilizador",
@@ -185,7 +185,7 @@ export const moduleMetas: ModuleMeta[] = [
     title: "Imobilizador 4G",
     shortDescription: "Proteção contra roubo e uso indevido, resistente a Jammer, com atuação inteligente autônoma.",
     durationMinutes: 45,
-    academy: "totaltrack", status: "ready", category: "Segurança",
+    academy: "totaltrac", status: "ready", category: "Segurança",
   },
   {
     slug: "tt-08-total-safe",
@@ -193,7 +193,7 @@ export const moduleMetas: ModuleMeta[] = [
     title: "Total Safe (Videotelemetria)",
     shortDescription: "Câmeras com IA para monitoramento de comportamento, detecção de fadiga, distração e prevenção de acidentes.",
     durationMinutes: 45,
-    academy: "totaltrack", status: "ready", category: "Segurança",
+    academy: "totaltrac", status: "ready", category: "Segurança",
   }
 ];
 

@@ -42,7 +42,7 @@ export default function CertificadoPage() {
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = `certificado-atlasgr-${registration.nomeCompleto.replace(/\s+/g, "-").toLowerCase()}.pdf`;
+      a.download = `certificado-totaltrac-${registration.nomeCompleto.replace(/\s+/g, "-").toLowerCase()}.pdf`;
       a.click();
       URL.revokeObjectURL(url);
     } finally {
@@ -76,7 +76,7 @@ export default function CertificadoPage() {
           <Award size={48} className="mx-auto mb-4 text-atlas-orange" />
           <h1 className="font-display text-2xl font-bold text-foreground">Certificado emitido!</h1>
           <p className="mt-2 text-muted">
-            Parabéns, {registration.nomeCompleto.split(" ")[0]}! Você concluiu a trilha de onboarding ATLASGR
+            Parabéns, {registration.nomeCompleto.split(" ")[0]}! Você concluiu a trilha de onboarding Total Trac
             (versão de protótipo) com {examResult.score}% de aproveitamento.
           </p>
 

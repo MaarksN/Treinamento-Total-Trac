@@ -1,4 +1,4 @@
-// Custom SVGs aligned with the AtlasGR Identity
+﻿// Custom SVGs aligned with the Total Trac Identity
 import { SVGProps } from "react";
 
 export function AtlasLogisticsIcon(props: SVGProps<SVGSVGElement>) {

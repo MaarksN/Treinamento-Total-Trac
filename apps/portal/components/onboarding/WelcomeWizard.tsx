@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -110,7 +110,7 @@ export default function WelcomeWizard({ onComplete }: { onComplete?: () => void 
                   A gestão por exceção começa aqui.
                 </h2>
                 <p className="text-gray-400 max-w-lg mx-auto text-lg">
-                  Bem-vindo à nova plataforma da AtlasGR. Configure seu cockpit corporativo
+                  Bem-vindo à nova plataforma da Total Trac. Configure seu cockpit corporativo
                   para obter a melhor experiência em gestão de risco e logística.
                 </p>
               </motion.div>
@@ -126,7 +126,7 @@ export default function WelcomeWizard({ onComplete }: { onComplete?: () => void 
               >
                 <div className="text-center mb-8">
                   <h2 className="text-2xl font-bold text-white mb-2">Escolha seu Perfil</h2>
-                  <p className="text-gray-400">Baseado no Playbook AtlasGR, como você atua na operação?</p>
+                  <p className="text-gray-400">Baseado no Playbook Total Trac, como você atua na operação?</p>
                 </div>
                 <div className="grid gap-4">
                   {PROFILES.map((profile) => (

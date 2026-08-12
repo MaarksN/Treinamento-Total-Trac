@@ -1,4 +1,4 @@
-import TerminalWindow from "@/components/showcase/TerminalWindow";
+﻿import TerminalWindow from "@/components/showcase/TerminalWindow";
 import ArchitectureFlow from "@/components/showcase/ArchitectureFlow";
 import ValueMetricsCards from "@/components/showcase/ValueMetricsCards";
 import MapaDoCrime from "@/components/charts/MapaDoCrime";
@@ -13,7 +13,7 @@ const PRODUCT_SLUGS = ["profile", "connect", "gr", "analytics"];
 const PRODUCT_NAMES: Record<string, string> = {
   profile: "Atlas Profile",
   connect: "Atlas Connect",
-  gr: "Atlas GR",
+  gr: "Total Trac",
   analytics: "Atlas Analytics",
 };
 
@@ -23,7 +23,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  return { title: `${PRODUCT_NAMES[slug] || slug} — Portal ATLASGR` };
+  return { title: `${PRODUCT_NAMES[slug] || slug} — Portal Total Trac` };
 }
 
 // This is a dynamic route. In a real app, data would be fetched based on slug.
@@ -123,7 +123,7 @@ export default async function ProdutoPage({ params }: { params: Promise<{ slug: 
                 <h2 className="text-3xl font-bold mb-4">Cockpit Executivo em Tempo Real</h2>
                 <GlossaryTooltip>
                   <p className="text-gray-400 text-lg leading-relaxed">
-                    As mesmas visões de Power BI usadas pela gestão da Atlas: risco por rodovia, ofensores de safety e SLA de permanência em alvos.
+                    As mesmas visões de Power BI usadas pela gestão da Total Trac: risco por rodovia, ofensores de safety e SLA de permanência em alvos.
                   </p>
                 </GlossaryTooltip>
               </div>

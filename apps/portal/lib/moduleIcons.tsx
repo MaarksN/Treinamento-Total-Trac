@@ -1,10 +1,10 @@
 import { AtlasLogisticsIcon, AtlasSecurityIcon, AtlasIntelligenceIcon, AtlasTechnologyIcon } from "@/components/ui/AtlasIllustrations";
 
 export const moduleIcons: Record<string, React.FC<React.SVGProps<SVGSVGElement>>> = {
-  "01-bem-vindo-atlasgr": AtlasLogisticsIcon,
+  "01-bem-vindo-totaltrac": AtlasLogisticsIcon,
   "02-mercado-logistica": AtlasLogisticsIcon,
   "03-gerenciamento-risco": AtlasSecurityIcon,
-  "04-produtos-atlasgr": AtlasSecurityIcon,
+  "04-produtos-totaltrac": AtlasSecurityIcon,
   "05-software-logistico": AtlasTechnologyIcon,
   "06-atlas-profile": AtlasSecurityIcon,
   "07-integracoes": AtlasTechnologyIcon,

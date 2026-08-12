@@ -1,5 +1,5 @@
 {
-  "name": "@atlasgr/auth",
+  "name": "@totaltrac/auth",
   "version": "1.0.0",
   "private": true,
   "main": "./src/index.ts",

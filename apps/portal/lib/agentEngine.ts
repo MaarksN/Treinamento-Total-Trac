@@ -147,7 +147,7 @@ function inferName(prompt: string, fallback: string) {
 export function buildAgentBlueprint(input: AgentBuilderInput): AgentBlueprint {
   const prompt = compactPrompt(input.prompt);
   const profile = areaProfiles[input.area];
-  const role = input.role.trim() || "Equipe ATLASGR";
+  const role = input.role.trim() || "Equipe Total Trac";
   const focus = prompt.length > 180 ? `${prompt.slice(0, 177)}...` : prompt;
   const name = inferName(prompt, profile.defaultName);
 

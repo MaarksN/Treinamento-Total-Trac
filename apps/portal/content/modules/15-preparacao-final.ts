@@ -1,4 +1,4 @@
-import type { ModuleContentFull } from "@/lib/types";
+﻿import type { ModuleContentFull } from "@/lib/types";
 import { getModuleMeta } from "./meta";
 
 const meta = getModuleMeta("15-preparacao-final")!;
@@ -7,7 +7,7 @@ export const module15: ModuleContentFull = {
   ...meta,
   sources: [
     "Revisão Consolidada Módulos 01 a 14",
-    "Diretrizes do Exame de Certificação AtlasGR",
+    "Diretrizes do Exame de Certificação Total Trac",
   ],
   objectives: [
     "Revisar de forma sistêmica e interligada todo o conteúdo do Onboarding.",
@@ -29,7 +29,7 @@ export const module15: ModuleContentFull = {
               "Você absorveu a história, a cultura, as entranhas do mercado, os sistemas, as integrações, os crimes e os cases reais. O volume de informações foi brutal, e isso foi intencional.",
             ],
             [
-              "Na AtlasGR, nós não entregamos tarefas simples; nós entregamos responsabilidade sobre a espinha dorsal logística do Brasil. Este módulo é a amarração de tudo o que foi ensinado para garantir a sua Certificação.",
+              "Na Total Trac, nós não entregamos tarefas simples; nós entregamos responsabilidade sobre a espinha dorsal logística do Brasil. Este módulo é a amarração de tudo o que foi ensinado para garantir a sua Certificação.",
             ],
           ],
         },
@@ -51,7 +51,7 @@ export const module15: ModuleContentFull = {
           type: "text",
           paragraphs: [
             [
-              "No começo, vimos que a AtlasGR nasceu em 2004 para quebrar o modelo reativo. Nós vendemos Pessoas, Tecnologias e Processos (PGR).",
+              "No começo, vimos que a Total Trac nasceu em 2004 para quebrar o modelo reativo. Nós vendemos Pessoas, Tecnologias e Processos (PGR).",
             ],
           ],
         },
@@ -166,7 +166,7 @@ export const module15: ModuleContentFull = {
         {
           type: "quote",
           text: "Você não chegou até a questão 150 por sorte. Chegou porque estudou. Confie no processo, confie no que você aprendeu e responda com a calma de quem já sabe o caminho.",
-          author: "Equipe de DHO — AtlasGR",
+          author: "Equipe de DHO — Total Trac",
         },
       ],
     },
@@ -177,13 +177,13 @@ export const module15: ModuleContentFull = {
         {
           type: "quote",
           text: "A ignorância custa fortunas; a inteligência previne tragédias. Vocês agora são portadores da nossa inteligência tática. Honrem a camisa, cumpram os SLAs, e garantam a segurança do Brasil.",
-          author: "Diretoria e Fundação AtlasGR",
+          author: "Diretoria e Fundação Total Trac",
         },
       ],
     },
   ],
   summary: [
-    "O ecossistema AtlasGR atua Antes, Durante, e Depois do risco.",
+    "O ecossistema Total Trac atua Antes, Durante, e Depois do risco.",
     "As políticas de segurança corporativa (Tolerância Zero) acompanham você independente do setor.",
     "A certificação final (70% de corte) não é o fim da linha, é o acesso ao acompanhamento prático.",
     "Revisar o conceito dos pilares e do PGR é essencial para dominar as perguntas da prova.",
@@ -202,9 +202,9 @@ export const module15: ModuleContentFull = {
     ],
   },
   scenario:
-    "Cenário Prático Final: Faça uma reflexão interna. Se você fosse o CEO da AtlasGR hoje, qual área da empresa você consideraria a mais vital para o sucesso das operações diárias? Reflita sobre o peso da Torre de Controle e inicie o exame.",
+    "Cenário Prático Final: Faça uma reflexão interna. Se você fosse o CEO da Total Trac hoje, qual área da empresa você consideraria a mais vital para o sucesso das operações diárias? Reflita sobre o peso da Torre de Controle e inicie o exame.",
   diagram: {
     title: "O Ciclo do Colaborador",
-    chart: "graph TD\n  Teoria[Onboarding Universidade] --> Prova{Simulador Final 70%}\n  Prova -- Falha --> Reciclagem[Revisão de Conteúdo]\n  Prova -- Sucesso --> PDI[Treinamento Prático Setorial]\n  PDI --> Profissional[Especialista AtlasGR]",
+    chart: "graph TD\n  Teoria[Onboarding Universidade] --> Prova{Simulador Final 70%}\n  Prova -- Falha --> Reciclagem[Revisão de Conteúdo]\n  Prova -- Sucesso --> PDI[Treinamento Prático Setorial]\n  PDI --> Profissional[Especialista Total Trac]",
   },
 };

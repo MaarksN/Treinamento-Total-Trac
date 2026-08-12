@@ -10,7 +10,7 @@ export const h5pConfig = new H5PConfig(undefined, {
   coreUrl: '/h5p/core',
   editorLibraryUrl: '/h5p/editor',
   librariesUrl: '/api/h5p/libraries',
-  platformName: 'Treinamento AtlasGR',
+  platformName: 'Treinamento TotalTrac',
   platformVersion: '1.0.0',
   sendUsageStatistics: false,
 });

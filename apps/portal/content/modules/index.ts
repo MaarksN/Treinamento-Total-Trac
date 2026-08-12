@@ -1,9 +1,9 @@
 import type { ModuleContentFull } from "@/lib/types";
 import { moduleMetas, getModuleMeta } from "./meta";
-import { module01 } from "./01-bem-vindo-atlasgr";
+import { module01 } from "./01-bem-vindo-totaltrac";
 import { module02 } from "./02-mercado-logistica";
 import { module03 } from "./03-gerenciamento-risco";
-import { module04 } from "./04-produtos-atlasgr";
+import { module04 } from "./04-produtos-totaltrac";
 import { module05 } from "./05-software-logistico";
 import { module06 } from "./06-atlas-profile";
 import { module07 } from "./07-integracoes";

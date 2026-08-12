@@ -1,4 +1,4 @@
-import type { ModuleContentFull } from "@/lib/types";
+﻿import type { ModuleContentFull } from "@/lib/types";
 import { getModuleMeta } from "./meta";
 
 const meta = getModuleMeta("03-gerenciamento-risco")!;
@@ -9,7 +9,7 @@ export const module03: ModuleContentFull = {
     "Outline consolidado (content/modules/meta.ts)",
     "Apólice de Seguro de Transporte e RCTR-C",
     "Manual de Estruturação de PGR",
-    "Protocolos de CIA - Central de Inteligência Atlas",
+    "Protocolos de CIA - Central de Inteligência Total Trac",
   ],
   objectives: [
     "Definir tecnicamente Gerenciamento de Risco, Apólice Securitária e PGR.",
@@ -67,7 +67,7 @@ export const module03: ModuleContentFull = {
             points: [
               "É o manual tático e operacional.",
               "Diz O QUE TEM QUE SER FEITO (tecnologias, paradas permitidas, horários) para evitar a perda.",
-              "Gerido e executado pela AtlasGR.",
+              "Gerido e executado pela Total Trac.",
             ],
           },
         },
@@ -75,7 +75,7 @@ export const module03: ModuleContentFull = {
           type: "text",
           paragraphs: [
             [
-              "O papel da AtlasGR não é ser a seguradora, e sim ser a auditora imparcial e executora rigorosa. Nós garantimos que o caminhão não quebre o ",
+              "O papel da Total Trac não é ser a seguradora, e sim ser a auditora imparcial e executora rigorosa. Nós garantimos que o caminhão não quebre o ",
               { term: "pgr" },
               ", garantindo assim a cobertura da Apólice.",
             ],
@@ -126,7 +126,7 @@ export const module03: ModuleContentFull = {
           type: "text",
           paragraphs: [
             [
-              "A Torre de Controle faz a prevenção primária. Mas quando a prevenção falha — um botão de pânico é apertado, ou o sinal de satélite é derrubado na Dutra — a ocorrência é escalonada em segundos para a Central de Inteligência Atlas (CIA).",
+              "A Torre de Controle faz a prevenção primária. Mas quando a prevenção falha — um botão de pânico é apertado, ou o sinal de satélite é derrubado na Dutra — a ocorrência é escalonada em segundos para a Central de Inteligência Total Trac (CIA).",
             ],
           ],
         },
@@ -150,7 +150,7 @@ export const module03: ModuleContentFull = {
           type: "case",
           title: "A Diferença de 1 Milhão de Reais",
           text: "Um cliente sofreu a perda total de uma carga de defensivos agrícolas. No painel do Atlas Connect, o operador marcou o evento como 'Furto Qualificado' porque o baú estava arrombado, mas não havia sinal do motorista. A apólice do cliente cobria Roubo, mas tinha exclusão para Furto em postos não credenciados. A Seguradora negou o pagamento baseada no apontamento primário. Após investigação da CIA e depoimento do motorista na delegacia, provou-se que o motorista foi rendido com arma de fogo no pátio, configurando Roubo. A seguradora pagou o prêmio, mas a lição ficou: Nomenclatura no calor do momento requer neutralidade.",
-          source: "Arquivo de Auditoria Forense AtlasGR",
+          source: "Arquivo de Auditoria Forense Total Trac",
         },
       ],
     },

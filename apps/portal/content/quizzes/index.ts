@@ -1,10 +1,10 @@
-import type { QuizQuestion } from "@/lib/types";
+﻿import type { QuizQuestion } from "@/lib/types";
 
 const quiz01: QuizQuestion[] = [
   {
     id: "q01-1",
-    moduleSlug: "01-bem-vindo-atlasgr",
-    question: "Em que ano a Atlas Segurança e Inteligência Logística foi fundada?",
+    moduleSlug: "01-bem-vindo-totaltrac",
+    question: "Em que ano a Total Trac Segurança e Inteligência Logística foi fundada?",
     options: [
       "1998",
       "2004",
@@ -17,7 +17,7 @@ const quiz01: QuizQuestion[] = [
   },
   {
     id: "q01-2",
-    moduleSlug: "01-bem-vindo-atlasgr",
+    moduleSlug: "01-bem-vindo-totaltrac",
     question: "Qual o propósito declarado da empresa?",
     options: [
       "Ser a maior do Brasil",
@@ -31,7 +31,7 @@ const quiz01: QuizQuestion[] = [
   },
   {
     id: "q01-3",
-    moduleSlug: "01-bem-vindo-atlasgr",
+    moduleSlug: "01-bem-vindo-totaltrac",
     question: "Qual área da Diretoria é descrita como 'o coração da empresa'?",
     options: [
       "TI",
@@ -45,8 +45,8 @@ const quiz01: QuizQuestion[] = [
   },
   {
     id: "q01-4",
-    moduleSlug: "01-bem-vindo-atlasgr",
-    question: "Qual das opções abaixo NÃO é um dos 5 valores da ATLASGR?",
+    moduleSlug: "01-bem-vindo-totaltrac",
+    question: "Qual das opções abaixo NÃO é um dos 5 valores da Total Trac?",
     options: [
       "Transparência",
       "Atitude de Dono",
@@ -59,7 +59,7 @@ const quiz01: QuizQuestion[] = [
   },
   {
     id: "q01-5",
-    moduleSlug: "01-bem-vindo-atlasgr",
+    moduleSlug: "01-bem-vindo-totaltrac",
     question: "Qual departamento é responsável por recrutar, treinar e reter talentos?",
     options: [
       "TI",
@@ -73,7 +73,7 @@ const quiz01: QuizQuestion[] = [
   },
   {
     id: "q01-6",
-    moduleSlug: "01-bem-vindo-atlasgr",
+    moduleSlug: "01-bem-vindo-totaltrac",
     question: "O que a regra de tolerância zero diz sobre fotografar telas operacionais?",
     options: [
       "É permitido apenas para o WhatsApp da equipe",
@@ -87,8 +87,8 @@ const quiz01: QuizQuestion[] = [
   },
   {
     id: "q01-7",
-    moduleSlug: "01-bem-vindo-atlasgr",
-    question: "Para que serve a Universidade Corporativa da AtlasGR?",
+    moduleSlug: "01-bem-vindo-totaltrac",
+    question: "Para que serve a Universidade Corporativa da Total Trac?",
     options: [
       "Para vender cursos ao público",
       "Apenas para líderes",
@@ -101,7 +101,7 @@ const quiz01: QuizQuestion[] = [
   },
   {
     id: "q01-8",
-    moduleSlug: "01-bem-vindo-atlasgr",
+    moduleSlug: "01-bem-vindo-totaltrac",
     question: "Como o valor 'Atitude de Dono' é descrito na prática?",
     options: [
       "Mandar nos colegas",
@@ -115,10 +115,10 @@ const quiz01: QuizQuestion[] = [
   },
   {
     id: "q01-9",
-    moduleSlug: "01-bem-vindo-atlasgr",
+    moduleSlug: "01-bem-vindo-totaltrac",
     question: "O uso de IA generativa externa com dados da empresa é:",
     options: [
-      "Proibido; deve-se usar o Assistente AtlasGR",
+      "Proibido; deve-se usar o Assistente Total Trac",
       "Recomendado para ganhar tempo",
       "Opcional",
       "Permitido apenas pelo gerente",
@@ -129,7 +129,7 @@ const quiz01: QuizQuestion[] = [
   },
   {
     id: "q01-10",
-    moduleSlug: "01-bem-vindo-atlasgr",
+    moduleSlug: "01-bem-vindo-totaltrac",
     question: "O que acontece aos 90 dias da jornada do colaborador?",
     options: [
       "Demissão automática",
@@ -165,7 +165,7 @@ const quiz02: QuizQuestion[] = [
     options: [
       "O dono da carga",
       "A seguradora",
-      "A AtlasGR",
+      "A Total Trac",
       "Quem executa o transporte (dono da frota)",
     ],
     correctIndex: 3,
@@ -294,7 +294,7 @@ const quiz03: QuizQuestion[] = [
     options: [
       "Apólice é para roubo, PGR é para acidente",
       "Apólice é o contrato financeiro de seguro; PGR é o manual de regras operacionais de segurança",
-      "PGR é emitido pelo Detran, Apólice pela Atlas",
+      "PGR é emitido pelo Detran, Apólice pela Total Trac",
       "São exatamente a mesma coisa",
     ],
     correctIndex: 1,
@@ -374,15 +374,15 @@ const quiz03: QuizQuestion[] = [
   {
     id: "q03-7",
     moduleSlug: "03-gerenciamento-risco",
-    question: "O que significa 'CIA' na estrutura da Atlas?",
+    question: "O que significa 'CIA' na estrutura da Total Trac?",
     options: [
       "Central de Inteligência Artificial",
       "Centro de Integração e Armazenamento",
       "Companhia Independente de Automação",
-      "Central de Inteligência Atlas",
+      "Central de Inteligência Total Trac",
     ],
     correctIndex: 3,
-    explanation: "Central de Inteligência Atlas, a 'tropa de elite' para pronta resposta.",
+    explanation: "Central de Inteligência Total Trac, a 'tropa de elite' para pronta resposta.",
     reference: "Módulo 3"
   },
   {
@@ -432,8 +432,8 @@ const quiz03: QuizQuestion[] = [
 const quiz04: QuizQuestion[] = [
   {
     id: "q04-1",
-    moduleSlug: "04-produtos-atlasgr",
-    question: "Quais são os quatro pilares do portfólio da ATLASGR?",
+    moduleSlug: "04-produtos-totaltrac",
+    question: "Quais são os quatro pilares do portfólio da Total Trac?",
     options: [
       "Vendas, TI, DHO, Operações",
       "Profile, Connect, GR, Analytics",
@@ -446,7 +446,7 @@ const quiz04: QuizQuestion[] = [
   },
   {
     id: "q04-2",
-    moduleSlug: "04-produtos-atlasgr",
+    moduleSlug: "04-produtos-totaltrac",
     question: "O que o Atlas Profile resolve antes da viagem?",
     options: [
       "Define a rota no GPS",
@@ -460,7 +460,7 @@ const quiz04: QuizQuestion[] = [
   },
   {
     id: "q04-3",
-    moduleSlug: "04-produtos-atlasgr",
+    moduleSlug: "04-produtos-totaltrac",
     question: "O que o Atlas Connect fornece à operação?",
     options: [
       "Punição para motoristas",
@@ -474,8 +474,8 @@ const quiz04: QuizQuestion[] = [
   },
   {
     id: "q04-4",
-    moduleSlug: "04-produtos-atlasgr",
-    question: "O Atlas GR garante a aderência a qual documento?",
+    moduleSlug: "04-produtos-totaltrac",
+    question: "O Total Trac garante a aderência a qual documento?",
     options: [
       "Nota Fiscal (NF-e)",
       "Carteira de Trabalho",
@@ -488,7 +488,7 @@ const quiz04: QuizQuestion[] = [
   },
   {
     id: "q04-5",
-    moduleSlug: "04-produtos-atlasgr",
+    moduleSlug: "04-produtos-totaltrac",
     question: "Qual a principal diferença entre Connect e Analytics?",
     options: [
       "Nenhuma",
@@ -502,12 +502,12 @@ const quiz04: QuizQuestion[] = [
   },
   {
     id: "q04-6",
-    moduleSlug: "04-produtos-atlasgr",
+    moduleSlug: "04-produtos-totaltrac",
     question: "No Case de 26% de economia (Embarcador de Suco), qual pilar foi fundamental para provar a ineficiência logística?",
     options: [
       "Atlas Profile",
       "Atlas Analytics",
-      "Atlas GR",
+      "Total Trac",
       "Apenas o TMS do cliente",
     ],
     correctIndex: 1,
@@ -516,12 +516,12 @@ const quiz04: QuizQuestion[] = [
   },
   {
     id: "q04-7",
-    moduleSlug: "04-produtos-atlasgr",
-    question: "Em qual pilar a CIA (Central de Inteligência Atlas) atua diretamente?",
+    moduleSlug: "04-produtos-totaltrac",
+    question: "Em qual pilar a CIA (Central de Inteligência Total Trac) atua diretamente?",
     options: [
       "Atlas Profile",
       "Atlas Analytics",
-      "Atlas GR",
+      "Total Trac",
       "TMS",
     ],
     correctIndex: 2,
@@ -530,7 +530,7 @@ const quiz04: QuizQuestion[] = [
   },
   {
     id: "q04-8",
-    moduleSlug: "04-produtos-atlasgr",
+    moduleSlug: "04-produtos-totaltrac",
     question: "O que é o 'Custo Invisível' que o Atlas Profile tenta mitigar?",
     options: [
       "O pedágio",
@@ -544,7 +544,7 @@ const quiz04: QuizQuestion[] = [
   },
   {
     id: "q04-9",
-    moduleSlug: "04-produtos-atlasgr",
+    moduleSlug: "04-produtos-totaltrac",
     question: "Para que serve a Biometria (FaceID) no Atlas Profile?",
     options: [
       "Para bater ponto",
@@ -558,7 +558,7 @@ const quiz04: QuizQuestion[] = [
   },
   {
     id: "q04-10",
-    moduleSlug: "04-produtos-atlasgr",
+    moduleSlug: "04-produtos-totaltrac",
     question: "Por que a união dos 4 pilares é chamada de transformação do reativo para preventivo?",
     options: [
       "Porque é um slogan de marketing",
@@ -766,7 +766,7 @@ const quiz06: QuizQuestion[] = [
       "Que os servidores quebram fácil",
       "Que dados como biometria e crimes precisam ser protegidos e mascarados/apagados rigorosamente",
       "Que os dados não podem ser usados por IA",
-      "Que a Atlas precisa pagar o governo",
+      "Que a Total Trac precisa pagar o governo",
     ],
     correctIndex: 1,
     explanation: "Dados sensíveis têm regras draconianas de proteção na LGPD.",
@@ -797,7 +797,7 @@ const quiz06: QuizQuestion[] = [
       "Pedir autorização ao DHO",
     ],
     correctIndex: 1,
-    explanation: "A regra de LGPD e Compliance da Atlas proíbe o envio de prints.",
+    explanation: "A regra de LGPD e Compliance da Total Trac proíbe o envio de prints.",
     reference: "Módulo 6"
   },
   {
@@ -822,7 +822,7 @@ const quiz06: QuizQuestion[] = [
       "Que o caminhão está pegando fogo",
       "Que há uma pendência documental tratável (ex: CNH vence amanhã, veículo com licenciamento pendente de sistema)",
       "Que o motorista é um assassino procurado",
-      "Que a Atlas falhou",
+      "Que a Total Trac falhou",
     ],
     correctIndex: 1,
     explanation: "É um meio termo que exige ação antes da liberação.",
@@ -835,7 +835,7 @@ const quiz06: QuizQuestion[] = [
     options: [
       "Ele viaja normal",
       "O sistema pode bloquear o início da viagem por falha na validação de identidade (depende do PGR)",
-      "A Atlas paga a ele",
+      "A Total Trac paga a ele",
       "O rastreador desliga",
     ],
     correctIndex: 1,
@@ -876,11 +876,11 @@ const quiz07: QuizQuestion[] = [
   {
     id: "q07-2",
     moduleSlug: "07-integracoes",
-    question: "Para a AtlasGR, por que integrar rastreadores físicos é um desafio superado?",
+    question: "Para a Total Trac, por que integrar rastreadores físicos é um desafio superado?",
     options: [
       "Porque não existem rastreadores no Brasil",
       "Porque o Connect atua como um Tradutor Universal que converte os sinais de centenas de marcas de hardware para uma tela padronizada",
-      "Porque a Atlas fabrica todos eles",
+      "Porque a Total Trac fabrica todos eles",
       "Porque o motorista avisa por SMS",
     ],
     correctIndex: 1,
@@ -904,7 +904,7 @@ const quiz07: QuizQuestion[] = [
   {
     id: "q07-4",
     moduleSlug: "07-integracoes",
-    question: "Como a integração beneficia a Torre de Controle da Atlas?",
+    question: "Como a integração beneficia a Torre de Controle da Total Trac?",
     options: [
       "Deixa a tela mais bonita",
       "Permite que o operador envie comandos (ex: bloqueio de combustível) direto do Connect, sem logar no software do rastreador (Sascar/Omnilink)",
@@ -920,7 +920,7 @@ const quiz07: QuizQuestion[] = [
     moduleSlug: "07-integracoes",
     question: "Se um cliente muda a rota no TMS dele, e há integração via API, o que ocorre?",
     options: [
-      "A Atlas Connect não fica sabendo",
+      "A Total Trac Connect não fica sabendo",
       "A viagem no Connect atualiza a rota automaticamente em milissegundos",
       "O sistema Connect trava",
       "O motorista precisa ligar para a Torre",
@@ -932,7 +932,7 @@ const quiz07: QuizQuestion[] = [
   {
     id: "q07-6",
     moduleSlug: "07-integracoes",
-    question: "O que a Atlas Connect envia DE VOLTA para o ERP do cliente?",
+    question: "O que a Total Trac Connect envia DE VOLTA para o ERP do cliente?",
     options: [
       "Comprovantes de pedágio",
       "Músicas",
@@ -960,7 +960,7 @@ const quiz07: QuizQuestion[] = [
   {
     id: "q07-8",
     moduleSlug: "07-integracoes",
-    question: "Qual a função do 'Tradutor Universal' no ecossistema AtlasGR?",
+    question: "Qual a função do 'Tradutor Universal' no ecossistema Total Trac?",
     options: [
       "Traduzir o sistema para inglês",
       "Decodificar as linguagens de Autotrac, OnixSat, Sascar etc., unificando-as no Connect",
@@ -992,7 +992,7 @@ const quiz07: QuizQuestion[] = [
     options: [
       "A Torre e o Motorista",
       "O Caminhão e o Posto",
-      "Os Sistemas de Gestão do Cliente (TMS/ERP) e a Plataforma Atlas Connect",
+      "Os Sistemas de Gestão do Cliente (TMS/ERP) e a Plataforma Total Trac Connect",
       "A Seguradora e o Banco",
     ],
     correctIndex: 2,
@@ -1033,9 +1033,9 @@ const quiz08: QuizQuestion[] = [
   {
     id: "q08-3",
     moduleSlug: "08-clientes",
-    question: "O Operador Logístico foca em qual ferramenta da Atlas?",
+    question: "O Operador Logístico foca em qual ferramenta da Total Trac?",
     options: [
-      "Não usa a Atlas",
+      "Não usa a Total Trac",
       "Apenas no Profile",
       "Nas duas frentes: Connect (Operacional) e Analytics (Executiva/SLA)",
       "Nenhuma das anteriores",
@@ -1083,7 +1083,7 @@ const quiz08: QuizQuestion[] = [
       "Operador de celulares perdendo antenas",
     ],
     correctIndex: 0,
-    explanation: "Combustível = Roubo Direto = Atuação do Atlas GR/Connect.",
+    explanation: "Combustível = Roubo Direto = Atuação do Total Trac/Connect.",
     reference: "Módulo 8"
   },
   {
@@ -1103,7 +1103,7 @@ const quiz08: QuizQuestion[] = [
   {
     id: "q08-8",
     moduleSlug: "08-clientes",
-    question: "Para uma Transportadora que diz 'meu motorista reclama do rastreador', o que a Atlas defende?",
+    question: "Para uma Transportadora que diz 'meu motorista reclama do rastreador', o que a Total Trac defende?",
     options: [
       "Desligar o rastreador",
       "O Connect não rastreia apenas, ele salva a vida do motorista em caso de coação (CIA) e protege o CNPJ da transportadora",
@@ -1120,7 +1120,7 @@ const quiz08: QuizQuestion[] = [
     question: "Quem seria o 'consumidor final' do serviço Atlas Analytics em uma Transportadora grande?",
     options: [
       "O auxiliar administrativo",
-      "O Operador da Torre da Atlas",
+      "O Operador da Torre da Total Trac",
       "O Diretor/CEO buscando reduzir o custo de apólice mostrando baixa sinistralidade",
       "O porteiro da frota",
     ],
@@ -1162,10 +1162,10 @@ const quiz09: QuizQuestion[] = [
   {
     id: "q09-2",
     moduleSlug: "09-processo-comercial",
-    question: "Por que a objeção 'Já tenho rastreador' não impede a venda da AtlasGR?",
+    question: "Por que a objeção 'Já tenho rastreador' não impede a venda da Total Trac?",
     options: [
       "Porque rastreador é de graça",
-      "Porque a Atlas vende o PROCESSO de monitoramento com humanos e regras, não a caixa de plástico (rastreador)",
+      "Porque a Total Trac vende o PROCESSO de monitoramento com humanos e regras, não a caixa de plástico (rastreador)",
       "Porque vendemos caminhões",
       "Porque obrigamos a comprar",
     ],
@@ -1232,7 +1232,7 @@ const quiz09: QuizQuestion[] = [
   {
     id: "q09-7",
     moduleSlug: "09-processo-comercial",
-    question: "Se o cliente acha o serviço da Atlas caro, qual o contra-argumento de valor ensinado?",
+    question: "Se o cliente acha o serviço da Total Trac caro, qual o contra-argumento de valor ensinado?",
     options: [
       "Dar desconto imediato de 50%",
       "Lembrar quanto custou a ele o último sinistro de carga roubada ou atraso grave (O Barato Sai Caro)",
@@ -1240,13 +1240,13 @@ const quiz09: QuizQuestion[] = [
       "Ignorar o cliente",
     ],
     correctIndex: 1,
-    explanation: "O valor foca em ancorar o preço da Atlas na prevenção de perdas gigantescas.",
+    explanation: "O valor foca em ancorar o preço da Total Trac na prevenção de perdas gigantescas.",
     reference: "Módulo 9"
   },
   {
     id: "q09-8",
     moduleSlug: "09-processo-comercial",
-    question: "Qual a tríade do Diferencial Matador da AtlasGR?",
+    question: "Qual a tríade do Diferencial Matador da Total Trac?",
     options: [
       "Preço, Prazo e Software",
       "Processo (PGR) + Pessoas especializadas (CIA/Torre) + Tecnologia (Connect)",
@@ -1378,7 +1378,7 @@ const quiz10: QuizQuestion[] = [
     question: "O que é SLA?",
     options: [
       "Sem Lucro Algum",
-      "Service Level Agreement (Acordo de Nível de Serviço) - Os limites de tempo (ex: 10 min) para a AtlasGR realizar uma tratativa",
+      "Service Level Agreement (Acordo de Nível de Serviço) - Os limites de tempo (ex: 10 min) para a Total Trac realizar uma tratativa",
       "Sistema de Localização Avançada",
       "Um tipo de apólice",
     ],
@@ -1417,7 +1417,7 @@ const quiz10: QuizQuestion[] = [
   {
     id: "q10-10",
     moduleSlug: "10-termos-tecnicos",
-    question: "Se a palavra está sublinhada no portal AtlasGR (no treinamento), o que ela é?",
+    question: "Se a palavra está sublinhada no portal Total Trac (no treinamento), o que ela é?",
     options: [
       "Um erro de digitação",
       "Um link para vírus",
@@ -1434,7 +1434,7 @@ const quiz11: QuizQuestion[] = [
   {
     id: "q11-1",
     moduleSlug: "11-operacao",
-    question: "A AtlasGR faz Monitoramento ou Rastreamento?",
+    question: "A Total Trac faz Monitoramento ou Rastreamento?",
     options: [
       "Rastreamento passivo",
       "Monitoramento Ativo (trata alertas de exceções gerados pelo sistema, antecipando o problema)",
@@ -1526,7 +1526,7 @@ const quiz11: QuizQuestion[] = [
       "Apenas a vontade do motorista",
     ],
     correctIndex: 1,
-    explanation: "Os sistemas da Atlas tratam paradas acima de 15min fora de base como alto risco.",
+    explanation: "Os sistemas da Total Trac tratam paradas acima de 15min fora de base como alto risco.",
     reference: "Módulo 11"
   },
   {
@@ -1591,7 +1591,7 @@ const quiz12: QuizQuestion[] = [
   {
     id: "q12-2",
     moduleSlug: "12-compliance",
-    question: "Qual a regra sobre 'Tirar foto (print/celular) das telas da AtlasGR'?",
+    question: "Qual a regra sobre 'Tirar foto (print/celular) das telas da Total Trac'?",
     options: [
       "Pode, se for para ajudar o cliente",
       "Proibição Total e Tolerância Zero. Viola a LGPD e a política de sigilo, passível de justa causa e ação criminal.",
@@ -1675,7 +1675,7 @@ const quiz12: QuizQuestion[] = [
   {
     id: "q12-8",
     moduleSlug: "12-compliance",
-    question: "A AtlasGR pode mandar histórico criminal detalhado para o WhatsApp de clientes?",
+    question: "A Total Trac pode mandar histórico criminal detalhado para o WhatsApp de clientes?",
     options: [
       "Sim",
       "Não, sob pena de infração direta à LGPD e ação por dano moral contra a empresa",
@@ -1689,7 +1689,7 @@ const quiz12: QuizQuestion[] = [
   {
     id: "q12-9",
     moduleSlug: "12-compliance",
-    question: "Tolerância Zero na AtlasGR inclui atitudes de:",
+    question: "Tolerância Zero na Total Trac inclui atitudes de:",
     options: [
       "Atrasar no ponto 5 minutos",
       "Vestimenta fora do padrão de sexta-feira",
@@ -1776,7 +1776,7 @@ const quiz13: QuizQuestion[] = [
   {
     id: "q13-5",
     moduleSlug: "13-tecnologia",
-    question: "O conceito de 'Risco' hoje na AtlasGR envolve apenas o Roubo de Carga?",
+    question: "O conceito de 'Risco' hoje na Total Trac envolve apenas o Roubo de Carga?",
     options: [
       "Sim",
       "Não, envolve fortemente o 'Safety' (Segurança viária), pois evitar acidentes/tombamentos usando IA salva a carga, a vida do motorista e o ativo do cliente",
@@ -1893,7 +1893,7 @@ const quiz14: QuizQuestion[] = [
     moduleSlug: "14-casos-reais",
     question: "Qual foi o 'Erro Fatal' (Enforcamento) no caso da carga de Defensivos Agrícolas (R$ 800k perdidos)?",
     options: [
-      "O sistema da Atlas caiu",
+      "O sistema da Total Trac caiu",
       "O caminhão pegou fogo acidentalmente",
       "O Operador acreditou na desculpa verbal do motorista, não solicitou a contra-senha de segurança e encerrou o alerta, enquanto o motorista estava rendido com uma arma",
       "A polícia demorou",
@@ -1924,7 +1924,7 @@ const quiz14: QuizQuestion[] = [
       "Passaram a transportar apenas de dia",
       "Pararam de transportar",
       "Eles começaram a pagar dobrado para o motorista",
-      "Adotaram Profile Rígido (cortando maus motoristas na origem) + Atlas GR Implacável (sem tolerância para quebra de rotas)",
+      "Adotaram Profile Rígido (cortando maus motoristas na origem) + Total Trac Implacável (sem tolerância para quebra de rotas)",
     ],
     correctIndex: 3,
     explanation: "A união do Pilar de Profile (Antes) com GR e Bloqueio automático erradicou os crimes de conluio.",
@@ -1989,7 +1989,7 @@ const quiz14: QuizQuestion[] = [
   {
     id: "q14-10",
     moduleSlug: "14-casos-reais",
-    question: "Como o Operador da Atlas deve ver o seu próprio trabalho frente a esses casos reais?",
+    question: "Como o Operador da Total Trac deve ver o seu próprio trabalho frente a esses casos reais?",
     options: [
       "Como alguém que apenas clica em botões num software 24/7",
       "Como o último muro de defesa antes de um prejuízo catastrófico. O seu botão e seu SLA afetam diretamente a economia nacional.",
@@ -2037,9 +2037,9 @@ const quiz15: QuizQuestion[] = [
     question: "Quando as regras do jogo (PGR) são quebradas e a crise vira real (roubo confirmado/perda de contato), quem entra em ação?",
     options: [
       "O DHO",
-      "O Departamento Comercial da Atlas",
+      "O Departamento Comercial da Total Trac",
       "O Setor de TI da transportadora",
-      "A CIA (Central de Inteligência Atlas) junto da Pronta Resposta",
+      "A CIA (Central de Inteligência Total Trac) junto da Pronta Resposta",
     ],
     correctIndex: 3,
     explanation: "A CIA é a tropa de elite escalonada em sinistros/quebra crítica.",
@@ -2093,7 +2093,7 @@ const quiz15: QuizQuestion[] = [
     question: "Quem define as REGRAS e o VALOR da carga no ecossistema (Quem dita o PGR principal)?",
     options: [
       "O Motorista terceirizado através do CT-e",
-      "O Operador da Atlas",
+      "O Operador da Total Trac",
       "A TI do cliente",
       "O Embarcador (Dono da carga) e a Seguradora, representados na Apólice/NF-e",
     ],
@@ -2104,7 +2104,7 @@ const quiz15: QuizQuestion[] = [
   {
     id: "q15-8",
     moduleSlug: "15-preparacao-final",
-    question: "Qual é a nota de aprovação (Corte) para obter a Certificação AtlasGR na Prova Final?",
+    question: "Qual é a nota de aprovação (Corte) para obter a Certificação Total Trac na Prova Final?",
     options: [
       "50% de acertos",
       "60% de acertos",
@@ -2118,7 +2118,7 @@ const quiz15: QuizQuestion[] = [
   {
     id: "q15-9",
     moduleSlug: "15-preparacao-final",
-    question: "O objetivo de vender os '4 Produtos' da AtlasGR juntos para um cliente é:",
+    question: "O objetivo de vender os '4 Produtos' da Total Trac juntos para um cliente é:",
     options: [
       "Para ele ter senhas demais e esquecer de usar",
       "Para cobrar o quádruplo do preço apenas pelo software vazio",
@@ -2146,10 +2146,10 @@ const quiz15: QuizQuestion[] = [
 ];
 
 export const quizzesByModule: Record<string, QuizQuestion[]> = {
-  "01-bem-vindo-atlasgr": quiz01,
+  "01-bem-vindo-totaltrac": quiz01,
   "02-mercado-logistica": quiz02,
   "03-gerenciamento-risco": quiz03,
-  "04-produtos-atlasgr": quiz04,
+  "04-produtos-totaltrac": quiz04,
   "05-software-logistico": quiz05,
   "06-atlas-profile": quiz06,
   "07-integracoes": quiz07,

@@ -1,4 +1,4 @@
-// Dados fictícios apenas para ilustrar como os dashboards ficariam com uma base
+﻿// Dados fictícios apenas para ilustrar como os dashboards ficariam com uma base
 // real de colaboradores (não há backend/BD nesta fase do protótipo). Nomes e
 // números são inventados e não representam pessoas reais.
 export interface SeedCollaborator {
@@ -30,7 +30,7 @@ export const demoKpis = {
     { pergunta: "O que é o 'Consolidado SM' no Atlas Connect?", errosPct: 21 },
   ],
   questoesMaisAcertadas: [
-    { pergunta: "Em que ano a Atlas foi fundada?", acertosPct: 97 },
+    { pergunta: "Em que ano a Total Trac foi fundada?", acertosPct: 97 },
     { pergunta: "O uso de celular pessoal é permitido na sala de operação?", acertosPct: 94 },
   ],
   abandonoPct: 12,

@@ -1,4 +1,4 @@
-import type { ModuleContentFull } from "@/lib/types";
+﻿import type { ModuleContentFull } from "@/lib/types";
 import { getModuleMeta } from "./meta";
 
 const meta = getModuleMeta("06-atlas-profile")!;
@@ -26,7 +26,7 @@ export const module06: ModuleContentFull = {
           heading: "A Fraude Começa Fora da Estrada",
           paragraphs: [
             [
-              "Se você deixar um fraudador assumir a boleia do caminhão, o Atlas Connect e o Atlas GR terão que travar uma guerra para parar o veículo. A lógica do Atlas Profile é simples: nós não deixamos o inimigo entrar no caminhão.",
+              "Se você deixar um fraudador assumir a boleia do caminhão, o Atlas Connect e o Total Trac terão que travar uma guerra para parar o veículo. A lógica do Atlas Profile é simples: nós não deixamos o inimigo entrar no caminhão.",
             ],
             [
               "O Profile atua no 'Background Check' (Pesquisa de Antecedentes e Validação Documental), atuando como um filtro implacável que varre o histórico da frota e do condutor antes do frete ser aprovado.",
@@ -126,8 +126,8 @@ export const module06: ModuleContentFull = {
         {
           type: "case",
           title: "O Motorista Clonado",
-          text: "Caso Clássico (2024): Uma transportadora tentou cadastrar um motorista para uma carga de R$ 5 Milhões em notebooks. O banco de dados aprovou o CPF (o cara era ficha limpa). Mas na hora do FaceID, o sistema apontou 0% de similaridade facial. A CIA da AtlasGR foi acionada. Descobriu-se que o golpista achou os documentos reais do motorista perdido no chão de um posto de gasolina. Ele usou a CNH física para se candidatar ao frete, pretendendo desviar a carreta inteira para uma facção criminosa. O roubo de 5 milhões foi abortado por uma simples verificação facial na portaria.",
-          source: "Arquivo de Prevenção a Fraudes AtlasGR",
+          text: "Caso Clássico (2024): Uma transportadora tentou cadastrar um motorista para uma carga de R$ 5 Milhões em notebooks. O banco de dados aprovou o CPF (o cara era ficha limpa). Mas na hora do FaceID, o sistema apontou 0% de similaridade facial. A CIA da Total Trac foi acionada. Descobriu-se que o golpista achou os documentos reais do motorista perdido no chão de um posto de gasolina. Ele usou a CNH física para se candidatar ao frete, pretendendo desviar a carreta inteira para uma facção criminosa. O roubo de 5 milhões foi abortado por uma simples verificação facial na portaria.",
+          source: "Arquivo de Prevenção a Fraudes Total Trac",
         },
       ],
     },
@@ -174,7 +174,7 @@ export const module06: ModuleContentFull = {
           variant: "warning",
           title: "Discriminação Disfarçada de 'Cautela'",
           text: [
-            "Usar um antecedente fora do escopo permitido para reprovar um motorista, mesmo 'só para garantir', é decisão discriminatória e gera passivo trabalhista e indenizatório para o cliente e para a AtlasGR. O sistema foi desenhado para não exibir esses dados ao operador exatamente para eliminar essa tentação.",
+            "Usar um antecedente fora do escopo permitido para reprovar um motorista, mesmo 'só para garantir', é decisão discriminatória e gera passivo trabalhista e indenizatório para o cliente e para a Total Trac. O sistema foi desenhado para não exibir esses dados ao operador exatamente para eliminar essa tentação.",
           ],
         },
         {
@@ -186,7 +186,7 @@ export const module06: ModuleContentFull = {
             },
             {
               q: "Quem analisa a contestação, o cliente (transportadora)?",
-              a: "Não. A contestação é sempre analisada pela C.I.A (Célula de Inteligência Atlas), que tem acesso ao dado bruto sob sigilo. O cliente recebe apenas o resultado da revisão, nunca o motivo detalhado.",
+              a: "Não. A contestação é sempre analisada pela C.I.A (Célula de Inteligência Total Trac), que tem acesso ao dado bruto sob sigilo. O cliente recebe apenas o resultado da revisão, nunca o motivo detalhado.",
             },
             {
               q: "Qual o prazo para responder ao candidato?",
@@ -218,7 +218,7 @@ export const module06: ModuleContentFull = {
   summary: [
     "Profile varre antecedentes criminais, documentação de trânsito e fraudes veiculares.",
     "O FaceID é a única barreira funcional contra o crime de Falsidade Ideológica.",
-    "A entrega de status ('Não Recomendado') blinda o cliente e a Atlas de processos por dano moral (LGPD).",
+    "A entrega de status ('Não Recomendado') blinda o cliente e a Total Trac de processos por dano moral (LGPD).",
     "O Custo Invisível evitado pelo Profile é gigante: caminhões não são retidos no meio da estrada por documentação atrasada.",
   ],
   finalChecklist: [

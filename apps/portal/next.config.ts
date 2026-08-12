@@ -6,7 +6,7 @@ import type { NextConfig } from "next";
 // continuam servindo a partir da raiz.
 const isGithubActions = process.env.GITHUB_ACTIONS === "true";
 const githubRepository = process.env.GITHUB_REPOSITORY || ""; // owner/repo
-const extractedRepoName = githubRepository.split('/')[1] || "TREINAMENTO-ATLASGR";
+const extractedRepoName = githubRepository.split('/')[1] || "TREINAMENTO-Total Trac";
 
 // Se for um site de usuário/organização (ex: owner.github.io), não precisamos de basePath
 const isUserPage = extractedRepoName.toLowerCase().endsWith('.github.io');

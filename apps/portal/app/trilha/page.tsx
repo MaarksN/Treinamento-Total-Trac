@@ -18,7 +18,7 @@ export default function TrilhaPage() {
 
   if (!isRegistered || !registration) return null;
 
-  const currentAcademyMetas = moduleMetas.filter(m => (m.academy || "atlasgr") === currentAcademy);
+  const currentAcademyMetas = moduleMetas.filter(m => (m.academy || "totaltrac") === currentAcademy);
   const readyModuleSlugs = currentAcademyMetas.filter(m => m.status === "ready").map(m => m.slug);
   const completedReady = readyModuleSlugs.filter(slug => progress[slug]?.passed).length;
   const pct = Math.round((completedReady / readyModuleSlugs.length) * 100);

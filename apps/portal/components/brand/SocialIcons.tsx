@@ -1,5 +1,5 @@
 // lucide-react não inclui glifos de marca (licenciamento) — ícones mínimos
-// próprios para as redes sociais reais da ATLASGR.
+// próprios para as redes sociais reais da Total Trac.
 import type { SVGProps } from "react";
 
 function base(props: SVGProps<SVGSVGElement>) {

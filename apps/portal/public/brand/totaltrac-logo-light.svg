@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 50" fill="none">
+  <!-- Ícone de sinal/rastreamento -->
+  <circle cx="25" cy="25" r="8" fill="#008FCE"/>
+  <circle cx="25" cy="25" r="14" stroke="#374898" stroke-width="2.5" fill="none" opacity="0.6"/>
+  <circle cx="25" cy="25" r="20" stroke="#374898" stroke-width="1.5" fill="none" opacity="0.3"/>
+  <circle cx="25" cy="25" r="3" fill="#ffffff"/>
+  <!-- Texto TOTAL TRAC -->
+  <text x="52" y="20" font-family="Roboto, Arial, sans-serif" font-weight="900" font-size="16" fill="#374898" letter-spacing="1">TOTAL</text>
+  <text x="52" y="39" font-family="Roboto, Arial, sans-serif" font-weight="400" font-size="14" fill="#008FCE" letter-spacing="3">TRAC</text>
+  <!-- Linha divisória vertical -->
+  <line x1="48" y1="10" x2="48" y2="40" stroke="#93DBF2" stroke-width="1.5"/>
+</svg>

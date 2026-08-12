@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useOnboardingStore } from "@/lib/store";
 import { Button } from "@/components/ui/Button";
@@ -10,12 +10,12 @@ export function AcademySwitcher() {
   return (
     <div className="flex items-center gap-2 p-1 bg-surface-2 rounded-xl border border-border/50">
       <Button
-        variant={currentAcademy === "atlasgr" ? "primary" : "ghost"}
+        variant={currentAcademy === "totaltrac" ? "primary" : "ghost"}
         size="sm"
         className="px-4 py-1 text-xs font-bold rounded-lg transition-all"
-        onClick={() => setAcademy("atlasgr")}
+        onClick={() => setAcademy("totaltrac")}
       >
-        ATLASGR
+        Total Trac
       </Button>
       <Button
         variant={currentAcademy === "totaltrack" ? "primary" : "ghost"}
@@ -27,7 +27,7 @@ export function AcademySwitcher() {
         }`}
         onClick={() => setAcademy("totaltrack")}
       >
-        Total Track
+        Total Trac
       </Button>
     </div>
   );

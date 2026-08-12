@@ -1,4 +1,4 @@
-import type { ModuleContentFull } from "@/lib/types";
+﻿import type { ModuleContentFull } from "@/lib/types";
 import { getModuleMeta } from "./meta";
 
 const meta = getModuleMeta("07-integracoes")!;
@@ -6,12 +6,12 @@ const meta = getModuleMeta("07-integracoes")!;
 export const module07: ModuleContentFull = {
   ...meta,
   sources: [
-    "Documentação de Integração de API AtlasGR",
+    "Documentação de Integração de API Total Trac",
     "Manuais de Tecnologias Embarcadas (Hardwares)",
   ],
   objectives: [
     "Desmistificar o conceito técnico de APIs e integração de dados B2B.",
-    "Compreender como a Atlas atua como 'Tradutor Universal' de hardwares de terceiros.",
+    "Compreender como a Total Trac atua como 'Tradutor Universal' de hardwares de terceiros.",
     "Explicar o benefício comercial de 'zero digitação' proporcionado pela integração.",
     "Dominar o conceito de comandos remotos bidirecionais (enviar e receber dados).",
     "Aplicar o checklist de homologação técnica para evitar que erros de integração cheguem à produção.",
@@ -26,7 +26,7 @@ export const module07: ModuleContentFull = {
           heading: "Falando Todas as Línguas",
           paragraphs: [
             [
-              "Imagine uma sala cheia de pessoas de países diferentes. A transportadora fala Japonês (usando o sistema SSW), o embarcador fala Alemão (usando SAP), o rastreador da carreta fala Mandarim (Sascar) e a isca dentro da carga fala Árabe (Isca Gold). A AtlasGR é o Tradutor Simultâneo.",
+              "Imagine uma sala cheia de pessoas de países diferentes. A transportadora fala Japonês (usando o sistema SSW), o embarcador fala Alemão (usando SAP), o rastreador da carreta fala Mandarim (Sascar) e a isca dentro da carga fala Árabe (Isca Gold). A Total Trac é o Tradutor Simultâneo.",
             ],
             [
               "A capacidade de conectar todos esses sistemas dispersos em uma única tela (O Connect) e fazê-los trabalhar juntos é o que nos torna essenciais. Sem nós, o cliente precisaria de 15 pessoas digitando dados o dia todo.",
@@ -56,7 +56,7 @@ export const module07: ModuleContentFull = {
               ". A API (Interface de Programação de Aplicações) é um mensageiro.",
             ],
             [
-              "A transportadora fatura a Nota Fiscal no sistema financeiro dela. Imediatamente, a API da Atlas 'bate na porta' do sistema deles, copia a Nota Fiscal, traz para o Connect e CRIA a viagem automaticamente. Zero cliques humanos.",
+              "A transportadora fatura a Nota Fiscal no sistema financeiro dela. Imediatamente, a API da Total Trac 'bate na porta' do sistema deles, copia a Nota Fiscal, traz para o Connect e CRIA a viagem automaticamente. Zero cliques humanos.",
             ],
           ],
         },
@@ -68,7 +68,7 @@ export const module07: ModuleContentFull = {
             points: ["Assistente imprime a NF no galpão.", "Lê os dados e redigita (e erra a placa) no sistema de rastreamento.", "Avisa o motorista por WhatsApp."],
           },
           right: {
-            label: "Mundo AtlasGR (O Presente)",
+            label: "Mundo Total Trac (O Presente)",
             points: ["Botão de Faturar pressionado.", "Connect puxa os dados e cruza com a PGR e o Profile em 2 segundos.", "Torre assume o controle da viagem."],
           },
         },
@@ -82,7 +82,7 @@ export const module07: ModuleContentFull = {
           type: "text",
           paragraphs: [
             [
-              "A AtlasGR é 'Agnóstica de Hardware'. Isso significa que nós não obrigamos o cliente a jogar os rastreadores dele fora para comprar o nosso. Nós integramos todos eles.",
+              "A Total Trac é 'Agnóstica de Hardware'. Isso significa que nós não obrigamos o cliente a jogar os rastreadores dele fora para comprar o nosso. Nós integramos todos eles.",
             ],
           ],
         },
@@ -91,7 +91,7 @@ export const module07: ModuleContentFull = {
           title: "Como funciona a centralização:",
           items: [
             "Um cliente tem uma frota misturada: Caminhões novos com 'Sascar' e antigos com 'OnixSat'.",
-            "Para o cliente rastrear antes da Atlas, ele abria o site da Sascar no Monitor 1 e o site da Onixsat no Monitor 2.",
+            "Para o cliente rastrear antes da Total Trac, ele abria o site da Sascar no Monitor 1 e o site da Onixsat no Monitor 2.",
             "O Atlas Connect recebe a longitude/latitude dos dois fornecedores e coloca TUDO NA MESMA TELA, no mesmo formato.",
           ],
         },
@@ -105,7 +105,7 @@ export const module07: ModuleContentFull = {
           type: "text",
           paragraphs: [
             [
-              "A integração não é uma rua de mão única (onde só recebemos dados). Ela é bidirecional. O Operador da Atlas pode, através da NOSSA tela, enviar comandos que vão bater no satélite e chegar no hardware do fabricante terceiro.",
+              "A integração não é uma rua de mão única (onde só recebemos dados). Ela é bidirecional. O Operador da Total Trac pode, através da NOSSA tela, enviar comandos que vão bater no satélite e chegar no hardware do fabricante terceiro.",
             ],
           ],
         },
@@ -128,7 +128,7 @@ export const module07: ModuleContentFull = {
         {
           type: "case",
           title: "O Fator Humano Removido",
-          text: "Em 2022, um grande cliente perdia em média 2 cargas por mês. O motivo? Os assistentes de logística esqueciam de vincular o equipamento 'Isca Móvel' à placa da carreta durante a correria da expedição. Se o rastreador principal fosse derrubado, a isca estava ligada, mas o sistema não sabia em qual carreta ela estava. A Atlas implantou a integração API pesada. A partir de então, a leitura do código de barras da caixa amarrava a Isca à NF e à Placa simultaneamente no Connect. Em 12 meses, os roubos caíram a zero. Retirar a digitação manual tira a principal fonte de erros da segurança.",
+          text: "Em 2022, um grande cliente perdia em média 2 cargas por mês. O motivo? Os assistentes de logística esqueciam de vincular o equipamento 'Isca Móvel' à placa da carreta durante a correria da expedição. Se o rastreador principal fosse derrubado, a isca estava ligada, mas o sistema não sabia em qual carreta ela estava. A Total Trac implantou a integração API pesada. A partir de então, a leitura do código de barras da caixa amarrava a Isca à NF e à Placa simultaneamente no Connect. Em 12 meses, os roubos caíram a zero. Retirar a digitação manual tira a principal fonte de erros da segurança.",
           source: "Laboratório de Integração Tecnológica - TI Atlas",
         },
       ],
@@ -182,7 +182,7 @@ export const module07: ModuleContentFull = {
             },
             {
               q: "E se o fabricante do rastreador não seguir nenhum padrão?",
-              a: "É basicamente todos eles. Por isso a Atlas mantém uma camada de tradução própria para cada fabricante homologado — é trabalho de tradutor, não de milagre.",
+              a: "É basicamente todos eles. Por isso a Total Trac mantém uma camada de tradução própria para cada fabricante homologado — é trabalho de tradutor, não de milagre.",
             },
           ],
         },
@@ -215,7 +215,7 @@ export const module07: ModuleContentFull = {
     "Entendo como funciona o envio de comandos remotos (sirene/bloqueio) via API.",
   ],
   mindMap: {
-    root: "Integrações AtlasGR",
+    root: "Integrações Total Trac",
     branches: [
       { label: "Softwares", items: ["APIs", "ERP (Nota Fiscal)", "TMS (Fretes)"] },
       { label: "Hardwares", items: ["Agnóstico", "Fabricantes (Sascar/etc)"] },

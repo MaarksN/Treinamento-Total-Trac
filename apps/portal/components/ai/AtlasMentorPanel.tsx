@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -24,7 +24,7 @@ export function AtlasMentorPanel() {
     setTimeout(() => {
       setMessages(prev => [...prev, {
         role: 'ai',
-        content: "Essa é uma simulação de resposta do Atlas Mentor. Em um cenário real, eu analisaria sua dúvida usando a base de conhecimento da AtlasGR para fornecer a melhor tática logística."
+        content: "Essa é uma simulação de resposta do Atlas Mentor. Em um cenário real, eu analisaria sua dúvida usando a base de conhecimento da Total Trac para fornecer a melhor tática logística."
       }]);
       setIsTyping(false);
     }, 1500);

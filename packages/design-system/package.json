@@ -1,5 +1,5 @@
 {
-  "name": "@atlasgr/design-system",
+  "name": "@totaltrac/design-system",
   "version": "1.0.0",
   "private": true,
   "main": "./src/index.ts",

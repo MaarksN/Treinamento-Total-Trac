@@ -23,7 +23,7 @@ export default function GlossarioPage() {
       <main className="mx-auto max-w-4xl px-4 py-10 sm:px-6">
         <h1 className="font-display text-3xl font-bold text-foreground">Glossário Técnico</h1>
         <p className="mt-2 text-muted">
-          {glossary.length} termos reunidos a partir dos materiais internos da ATLASGR e de fontes públicas do
+          {glossary.length} termos reunidos a partir dos materiais internos da Total Trac e de fontes públicas do
           setor de transporte e seguros. Novos termos serão incorporados conforme os demais módulos forem concluídos.
         </p>
 

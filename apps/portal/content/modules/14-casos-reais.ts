@@ -1,4 +1,4 @@
-import type { ModuleContentFull } from "@/lib/types";
+﻿import type { ModuleContentFull } from "@/lib/types";
 import { getModuleMeta } from "./meta";
 
 const meta = getModuleMeta("14-casos-reais")!;
@@ -29,7 +29,7 @@ export const module14: ModuleContentFull = {
               "Até aqui, você estudou manuais, diretrizes de IA e regras da Seguradora. Neste módulo, vamos colocar a teoria na sala de autópsia.",
             ],
             [
-              "Analisaremos o maior case de sucesso financeiro da AtlasGR e a maior tragédia operacional gerada por uma quebra de protocolo, comprovando que o processo não existe para engessar o trabalho, mas para evitar o colapso.",
+              "Analisaremos o maior case de sucesso financeiro da Total Trac e a maior tragédia operacional gerada por uma quebra de protocolo, comprovando que o processo não existe para engessar o trabalho, mas para evitar o colapso.",
             ],
           ],
         },
@@ -156,7 +156,7 @@ export const module14: ModuleContentFull = {
           items: [
             { label: "09:41 (O Alerta)", text: "Connect acusa desvio de rota fora do corredor logístico autorizado no Atlas Profile." },
             { label: "09:43 (A Verificação)", text: "Em vez de ligar e confiar na voz, o operador ativa o DMS e visualiza dois ocupantes estranhos na cabine. Contra-senha nem chega a ser solicitada: a evidência visual já basta." },
-            { label: "09:47 (A Ação)", text: "CIA assume a ocorrência e aciona o bloqueio progressivo do motor via Atlas Connect, evitando reação violenta dos criminosos." },
+            { label: "09:47 (A Ação)", text: "CIA assume a ocorrência e aciona o bloqueio progressivo do motor via Total Trac Connect, evitando reação violenta dos criminosos." },
             { label: "10:05 (A Interceptação)", text: "Coordenadas em tempo real são repassadas à Polícia Rodoviária. Veículo é abordado antes de alcançar o ponto de troca de carga." },
             { label: "10:19 (O Fechamento)", text: "Motorista recuperado ileso, carga 100% intacta. Ocorrência encerrada sem acionamento de sinistro junto à Seguradora." },
           ],

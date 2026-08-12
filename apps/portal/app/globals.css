@@ -7,31 +7,39 @@
   --background: #fcfcfc;
   --surface: #ffffff;
   --surface-2: #f4f4f5;
-  --foreground: #111111; /* A bit darker for premium contrast */
+  --foreground: #111111;
   --muted: #6b7178;
   --border: #e4e4e7;
   --input: #e4e4e7;
-  --ring: rgba(255, 86, 24, 0.45);
+  --ring: rgba(55, 72, 152, 0.45);
 
-  --primary: #FF5618;
+  --primary: #374898;
   --primary-foreground: #FFFFFF;
-  --secondary: #333333;
+  --secondary: #008FCE;
   --secondary-foreground: #FFFFFF;
   --destructive: #EF4444;
   --destructive-foreground: #FFFFFF;
-  --accent: #f4f4f5;
-  --accent-foreground: #111111;
+  --accent: #f0f2fb;
+  --accent-foreground: #1E2F37;
   --popover: #ffffff;
   --popover-foreground: #111111;
   --card: #ffffff;
   --card-foreground: #111111;
 
-  --atlas-orange: #ff5618;
-  --atlas-orange-2: #ff6b10;
+  /* Total Trac brand colors */
+  --tt-blue: #374898;
+  --tt-blue-2: #008FCE;
+  --tt-dark-blue: #2D3B78;
+  --tt-light-blue: #93DBF2;
+  --tt-darkest: #1E2F37;
+
+  /* Kept as aliases so existing utility classes still compile */
+  --atlas-orange: #374898;
+  --atlas-orange-2: #008FCE;
   --font-mont: var(--font-montserrat);
-  --atlas-graphite: #333333;
+  --atlas-graphite: #1E2F37;
   --atlas-black: #090a0c;
-  --atlas-ring: rgba(255, 86, 24, 0.42);
+  --atlas-ring: rgba(55, 72, 152, 0.42);
 
   --glass-bg: rgba(255, 255, 255, 0.7);
   --glass-border: rgba(255, 255, 255, 0.5);
@@ -63,23 +71,25 @@
   --input: #27272a;
   --ring: rgba(255, 86, 24, 0.45);
 
-  --primary: #FF5618;
+  --primary: #374898;
   --primary-foreground: #FFFFFF;
   --secondary: #27272a;
   --secondary-foreground: #ededed;
   --destructive: #EF4444;
   --destructive-foreground: #ededed;
-  --accent: #27272a;
-  --accent-foreground: #ededed;
+  --accent: #1a2050;
+  --accent-foreground: #93DBF2;
   --popover: #121212;
   --popover-foreground: #ededed;
   --card: #121212;
   --card-foreground: #ededed;
 
-  --atlas-orange: #FF5618;
-  --atlas-orange-2: #ff6b10;
+  --tt-blue: #5a7cc3;
+  --tt-blue-2: #44c6ec;
+  --atlas-orange: #5a7cc3;
+  --atlas-orange-2: #44c6ec;
   --atlas-graphite: #27272a;
-  --atlas-ring: rgba(255, 86, 24, 0.45);
+  --atlas-ring: rgba(90, 124, 195, 0.45);
 
   --glass-bg: rgba(18, 18, 18, 0.6);
   --glass-border: rgba(255, 255, 255, 0.08);
@@ -199,14 +209,14 @@ body {
   }
 
   .text-gradient-atlas {
-    background: linear-gradient(105deg, var(--atlas-orange), var(--atlas-orange-2));
+    background: linear-gradient(105deg, var(--tt-blue, #374898), var(--tt-blue-2, #008FCE));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
 
   .bg-gradient-atlas {
-    background: linear-gradient(135deg, var(--atlas-orange), var(--atlas-orange-2));
+    background: linear-gradient(135deg, var(--tt-blue, #374898), var(--tt-blue-2, #008FCE));
   }
 
   .font-display {

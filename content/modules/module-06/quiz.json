@@ -1,0 +1,14 @@
+{
+    "id": "quiz-module-06",
+    "questions": [
+        {
+            "question": "Qual a principal tecnologia abordada no module-06?",
+            "options": [
+                "Telemetria 4G e Imobilizadores",
+                "Rede 3G obsoleta",
+                "Nenhuma das anteriores"
+            ],
+            "answer": 0
+        }
+    ]
+}

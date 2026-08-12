@@ -70,7 +70,7 @@ export default function HomePage() {
           transition={{ delay: 0.1, duration: 0.5 }}
           className="font-display text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-[1.08] tracking-tight text-foreground mb-6"
         >
-          Bem-vindo à <span className="text-gradient-atlas bg-clip-text">ATLASGR</span>
+          Bem-vindo à <span className="text-gradient-atlas bg-clip-text">Total Trac</span>
         </motion.h1>
 
         {/* Subtítulo — Ajuste de Tamanho e Espaçamento */}
@@ -81,7 +81,7 @@ export default function HomePage() {
           className="mx-auto max-w-3xl text-lg sm:text-xl md:text-2xl font-medium text-muted leading-relaxed mb-12"
         >
           Conectamos pessoas e tecnologia, gerando valor com <strong className="text-foreground font-bold">segurança</strong> e <strong className="text-foreground font-bold">inovação</strong>.
-          Sua evolução na logística inteligente começa agora.
+          Rastreamento inteligente que protege veículos, ativos e frotas.
         </motion.p>
 
         {/* Botão Único Laranja Gradiente: INICIAR ONBOARDING */}
@@ -102,7 +102,7 @@ export default function HomePage() {
       </main>
 
       <footer className="border-t border-border/40 py-6 text-center text-xs sm:text-sm font-semibold text-muted">
-        © {new Date().getFullYear()} ATLASGR. Todos os direitos reservados.
+        © {new Date().getFullYear()} Total Trac. Todos os direitos reservados.
       </footer>
 
       <AccessModal open={modalOpen} onOpenChange={setModalOpen} returnTo={returnTo} />

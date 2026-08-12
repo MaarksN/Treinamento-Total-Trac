@@ -1,4 +1,4 @@
-import type { ModuleContentFull } from "@/lib/types";
+﻿import type { ModuleContentFull } from "@/lib/types";
 import { getModuleMeta } from "./meta";
 
 const meta = getModuleMeta("09-processo-comercial")!;
@@ -6,7 +6,7 @@ const meta = getModuleMeta("09-processo-comercial")!;
 export const module09: ModuleContentFull = {
   ...meta,
   sources: [
-    "Playbook Comercial AtlasGR 2026",
+    "Playbook Comercial Total Trac 2026",
     "Módulo 8 — Clientes (Revisão)",
   ],
   objectives: [
@@ -26,7 +26,7 @@ export const module09: ModuleContentFull = {
           heading: "Venda Complexa",
           paragraphs: [
             [
-              "Vender AtlasGR não é vender sapato no shopping. É uma venda B2B (Business to Business) complexa. Demora de 3 a 6 meses para fechar um contrato. Envolve o CEO, o Diretor de TI, o Gerente de Operações e o Sindicato dos Motoristas do cliente.",
+              "Vender Total Trac não é vender sapato no shopping. É uma venda B2B (Business to Business) complexa. Demora de 3 a 6 meses para fechar um contrato. Envolve o CEO, o Diretor de TI, o Gerente de Operações e o Sindicato dos Motoristas do cliente.",
             ],
             [
               "Este módulo vai mapear o funil de vendas, desde o primeiro 'Alô' até a assinatura do contrato milionário.",
@@ -113,7 +113,7 @@ export const module09: ModuleContentFull = {
           type: "case",
           title: "Do SDR ao Closer",
           text: "Um vendedor inicial (SDR) mapeia transportadoras de alto valor (ICP). Ele faz ligação fria e acha uma que perdeu o seguro (Gatilho). Ele qualifica o lead e passa para o Executivo de Contas (Closer). O Closer faz a demonstração do Atlas Connect e prova que a empresa será aceita pela seguradora novamente. Ele contorna a objeção de preço ('o barato sai caro'), envia o contrato e fecha o negócio no sistema (CRM). Todo esse processo deve ser registrado no Bitrix24/Hubspot de forma milimétrica.",
-          source: "Diretrizes Comerciais AtlasGR",
+          source: "Diretrizes Comerciais Total Trac",
         },
       ],
     },
@@ -129,7 +129,7 @@ export const module09: ModuleContentFull = {
               "O contrato assinado não é o fim da venda, é o começo do risco. Renovação não se negocia em uma ligação de 15 minutos no mês 11 — ela é construída (ou destruída) todos os dias, ticket a ticket, na Central de Monitoramento. Se a Torre atende mal, nenhum desconto de renovação segura o cliente.",
             ],
             [
-              "Por isso a taxa de renovação da AtlasGR depende muito mais da Central de Operações do que do time comercial: é lá que o cliente sente, todo santo dia, se a promessa vendida na demo virou realidade operacional.",
+              "Por isso a taxa de renovação da Total Trac depende muito mais da Central de Operações do que do time comercial: é lá que o cliente sente, todo santo dia, se a promessa vendida na demo virou realidade operacional.",
             ],
           ],
         },
@@ -148,7 +148,7 @@ export const module09: ModuleContentFull = {
           type: "case",
           title: "A Renovação que Quase Foi Perdida",
           text: "Um cliente do ICP (frota de 80 caminhões) avisou no mês 10 que 'estava avaliando propostas concorrentes' porque, na visão dele, pagava caro por um serviço que só usava 'quando dava problema'. O Closer ligou em pânico, mas quem reverteu o cancelamento foi a Central de Operações: levantou o histórico e mostrou, em números, que a C.I.A. havia evitado 4 sinistros de grande porte naquele ano, com acionamento médio de 3 minutos. O cliente renovou com upgrade para o Atlas Analytics, porque viu prova operacional, não promessa comercial.",
-          source: "Diretrizes Comerciais AtlasGR",
+          source: "Diretrizes Comerciais Total Trac",
         },
         {
           type: "callout",
@@ -168,7 +168,7 @@ export const module09: ModuleContentFull = {
           type: "checklist",
           title: "Próximos Passos",
           items: [
-            "Revise as metodologias SPIN Selling e BANT na intranet da AtlasGR.",
+            "Revise as metodologias SPIN Selling e BANT na intranet da Total Trac.",
             "Prepare-se para o Módulo 10, onde o foco deixará as vendas e focará puramente no 'tecniquês' da operação.",
           ],
         },

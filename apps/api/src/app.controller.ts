@@ -4,6 +4,6 @@ import { Controller, Get } from '@nestjs/common';
 export class AppController {
   @Get()
   getHealth() {
-    return { status: 'ok', service: 'treinamento-atlasgr-api' };
+    return { status: 'ok', service: 'treinamento-totaltrac-api' };
   }
 }

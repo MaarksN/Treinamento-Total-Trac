@@ -2,7 +2,7 @@ import React from 'react';
 import Image, { ImageProps } from 'next/image';
 import { cn } from '@/lib/utils';
 
-// REGRAS DE NEGÓCIO DA PLATAFORMA (ATLASGR):
+// REGRAS DE NEGÓCIO DA PLATAFORMA (Total Trac):
 // 1. Imagens genéricas são estritamente proibidas.
 // 2. O foco de todas as imagens deve ser o contexto da operação logística,
 //    trazendo elementos reais ou representações fiéis do nosso "centro de comando".

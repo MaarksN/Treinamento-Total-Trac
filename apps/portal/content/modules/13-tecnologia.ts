@@ -1,4 +1,4 @@
-import type { ModuleContentFull } from "@/lib/types";
+﻿import type { ModuleContentFull } from "@/lib/types";
 import { getModuleMeta } from "./meta";
 
 const meta = getModuleMeta("13-tecnologia")!;
@@ -6,7 +6,7 @@ const meta = getModuleMeta("13-tecnologia")!;
 export const module13: ModuleContentFull = {
   ...meta,
   sources: [
-    "Visão Estratégica AtlasGR 2026",
+    "Visão Estratégica Total Trac 2026",
     "Showcase de produto Atlas Analytics",
     "Manuais de Telemetria Avançada",
   ],
@@ -27,7 +27,7 @@ export const module13: ModuleContentFull = {
           heading: "A Decisão Baseada em Dados",
           paragraphs: [
             [
-              "Na década passada, a logística era gerida por intuição. O gerente de frota 'achava' que a rota X era ruim. Hoje, a AtlasGR transformou o gerenciamento de risco em uma ciência exata.",
+              "Na década passada, a logística era gerida por intuição. O gerente de frota 'achava' que a rota X era ruim. Hoje, a Total Trac transformou o gerenciamento de risco em uma ciência exata.",
             ],
             [
               "Através de algoritmos preditivos e Inteligência Artificial embarcada dentro dos caminhões (Telemetria), nós antecipamos o acidente antes que ele quebre a carga. Neste módulo, olhamos para o futuro das operações.",
@@ -39,7 +39,7 @@ export const module13: ModuleContentFull = {
           variant: "info",
           title: "O Conceito Chave",
           text: [
-            "Preditivo significa 'dizer antes que aconteça'. O objetivo supremo da AtlasGR é que o botão de pânico nunca precise ser apertado.",
+            "Preditivo significa 'dizer antes que aconteça'. O objetivo supremo da Total Trac é que o botão de pânico nunca precise ser apertado.",
           ],
         },
       ],
@@ -56,7 +56,7 @@ export const module13: ModuleContentFull = {
             points: ["O acidente/roubo acontece.", "A empresa aciona o seguro depois do fato.", "Prejuízo inevitável, foco na indenização tardia."],
           },
           right: {
-            label: "A AtlasGR (Preditivo)",
+            label: "A Total Trac (Preditivo)",
             points: ["A IA detecta anomalia no comportamento da viagem.", "O sistema bloqueia e atua preventivamente.", "Prejuízo evitado, foco na manutenção da operação."],
           },
         },
@@ -106,7 +106,7 @@ export const module13: ModuleContentFull = {
             { label: "1. Captação", text: "O Connect gera milhares de eventos diários (Atrasos, Sensores, Bloqueios)." },
             { label: "2. Processamento", text: "O algoritmo de IA limpa o ruído e consolida tendências." },
             { label: "3. Entrega", text: "O CEO do Embarcador recebe um painel provando matematicamente quais rotas dão lucro e quais dão prejuízo oculto." },
-            { label: "4. Ação", text: "A diretoria altera a logística de distribuição inteira da empresa baseada nos dados da AtlasGR." },
+            { label: "4. Ação", text: "A diretoria altera a logística de distribuição inteira da empresa baseada nos dados da Total Trac." },
           ],
         },
       ],
@@ -118,7 +118,7 @@ export const module13: ModuleContentFull = {
         {
           type: "case",
           title: "A Carreata Tombada",
-          text: "Uma transportadora tradicional recusou o 'Adicional de Safety' (Câmeras de Fadiga) alegando ser um custo alto. Dois meses depois, em uma viagem de R$ 2.5 Milhões de peças automotivas, o motorista adormeceu. O caminhão deu perda total. A carga foi destruída. A seguradora demorou meses para indenizar a carga, mas o ativo (Caminhão) e os processos civis recaíram sobre o dono da frota. Se o sensor estivesse lá, a cabine vibraria 5 segundos antes do sono pesado. A recusa tecnológica saiu 500 vezes mais cara que a mensalidade do sistema de inteligência da AtlasGR.",
+          text: "Uma transportadora tradicional recusou o 'Adicional de Safety' (Câmeras de Fadiga) alegando ser um custo alto. Dois meses depois, em uma viagem de R$ 2.5 Milhões de peças automotivas, o motorista adormeceu. O caminhão deu perda total. A carga foi destruída. A seguradora demorou meses para indenizar a carga, mas o ativo (Caminhão) e os processos civis recaíram sobre o dono da frota. Se o sensor estivesse lá, a cabine vibraria 5 segundos antes do sono pesado. A recusa tecnológica saiu 500 vezes mais cara que a mensalidade do sistema de inteligência da Total Trac.",
           source: "Case Interno de Argumentação Comercial",
         },
       ],
@@ -132,10 +132,10 @@ export const module13: ModuleContentFull = {
           heading: "Human in the Loop",
           paragraphs: [
             [
-              "É tentador tratar a IA da AtlasGR como um oráculo infalível, mas ela não é. Na prática, o modelo faz uma única coisa muito bem: sinalizar padrões suspeitos e priorizar quais alertas merecem atenção imediata da Torre. A decisão de bloquear uma carga, acionar o cliente ou escalar para a C.I.A. continua sendo sempre humana.",
+              "É tentador tratar a IA da Total Trac como um oráculo infalível, mas ela não é. Na prática, o modelo faz uma única coisa muito bem: sinalizar padrões suspeitos e priorizar quais alertas merecem atenção imediata da Torre. A decisão de bloquear uma carga, acionar o cliente ou escalar para a C.I.A. continua sendo sempre humana.",
             ],
             [
-              "Chamamos isso de 'human in the loop': a máquina filtra o ruído em milhares de eventos por dia, mas é o operador treinado que interpreta o contexto, pesa exceções e assina a decisão final. Sem esse humano no circuito, a AtlasGR não venderia gerenciamento de risco — venderia só um software bonito e sem responsabilidade nenhuma.",
+              "Chamamos isso de 'human in the loop': a máquina filtra o ruído em milhares de eventos por dia, mas é o operador treinado que interpreta o contexto, pesa exceções e assina a decisão final. Sem esse humano no circuito, a Total Trac não venderia gerenciamento de risco — venderia só um software bonito e sem responsabilidade nenhuma.",
             ],
           ],
         },
@@ -144,7 +144,7 @@ export const module13: ModuleContentFull = {
           variant: "warning",
           title: "Confiar Cegamente no Modelo é Negligência",
           text: [
-            "Todo modelo aprende com dados históricos. Se uma rota nunca teve sinistro registrado, a IA tende a classificá-la como 'baixo risco' — mesmo que o cenário tenha mudado ontem (nova obra, novo grupo criminoso atuando, alteração no PGR do cliente). Confiar no score sem checar o contexto é abrir mão do trabalho que a AtlasGR foi contratada para fazer.",
+            "Todo modelo aprende com dados históricos. Se uma rota nunca teve sinistro registrado, a IA tende a classificá-la como 'baixo risco' — mesmo que o cenário tenha mudado ontem (nova obra, novo grupo criminoso atuando, alteração no PGR do cliente). Confiar no score sem checar o contexto é abrir mão do trabalho que a Total Trac foi contratada para fazer.",
           ],
         },
         {
@@ -180,7 +180,7 @@ export const module13: ModuleContentFull = {
             },
             {
               q: "A IA pode ter viés?",
-              a: "Sim. Se o histórico de dados tem lacunas ou reflete um período atípico, o modelo herda essa distorção. Por isso a AtlasGR recalibra os modelos periodicamente e mantém o julgamento humano como camada final de segurança.",
+              a: "Sim. Se o histórico de dados tem lacunas ou reflete um período atípico, o modelo herda essa distorção. Por isso a Total Trac recalibra os modelos periodicamente e mantém o julgamento humano como camada final de segurança.",
             },
           ],
         },
@@ -208,12 +208,12 @@ export const module13: ModuleContentFull = {
     "Tecnologia e Operador não competem; a IA faz o trabalho braçal e o Operador toma a decisão de crise.",
   ],
   finalChecklist: [
-    "Sei a diferença entre a logística reativa do passado e a preditiva da AtlasGR.",
+    "Sei a diferença entre a logística reativa do passado e a preditiva da Total Trac.",
     "Consigo explicar como um sensor de fadiga funciona na prática.",
     "Entendo que o Atlas Analytics é feito para descobrir tendências e gerar dashboards executivos.",
   ],
   mindMap: {
-    root: "Tecnologia AtlasGR",
+    root: "Tecnologia Total Trac",
     branches: [
       { label: "A Mente", items: ["Preditivo", "IA Embarcada", "Automação", "Human-in-the-loop"] },
       { label: "Safety (Cabine)", items: ["Sensor Fadiga", "Alerta Celular", "Vibração"] },

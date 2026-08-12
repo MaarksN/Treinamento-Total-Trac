@@ -26,15 +26,15 @@ describe("genId", () => {
 
 describe("sha256Hex", () => {
   it("produces a stable 64-char hex digest for the same input", async () => {
-    const a = await sha256Hex("atlasgr");
-    const b = await sha256Hex("atlasgr");
+    const a = await sha256Hex("totaltrac");
+    const b = await sha256Hex("totaltrac");
     expect(a).toBe(b);
     expect(a).toMatch(/^[0-9a-f]{64}$/);
   });
 
   it("produces different digests for different input", async () => {
-    const a = await sha256Hex("atlasgr-1");
-    const b = await sha256Hex("atlasgr-2");
+    const a = await sha256Hex("totaltrac-1");
+    const b = await sha256Hex("totaltrac-2");
     expect(a).not.toBe(b);
   });
 });

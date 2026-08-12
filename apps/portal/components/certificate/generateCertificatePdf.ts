@@ -98,7 +98,7 @@ export async function generateCertificatePdf(
   if (markImage) {
     const markH = 28;
     const markW = markH * MARK_RATIO;
-    const wordmark = "ATLASGR";
+    const wordmark = "Total Trac";
     const wmWidth = bold.widthOfTextAtSize(wordmark, 22);
     const gap = 12;
     const totalW = markW + gap + wmWidth;
@@ -106,7 +106,7 @@ export async function generateCertificatePdf(
     page.drawImage(markImage, { x: startX, y: headerY - markH + 4, width: markW, height: markH, opacity: 0.9 });
     page.drawText(wordmark, { x: startX + markW + gap, y: headerY - 18, size: 22, font: bold, color: TEXT_PRIMARY });
   } else {
-    centerText(page, "ATLASGR", headerY - 18, bold, 22, TEXT_PRIMARY, width);
+    centerText(page, "Total Trac", headerY - 18, bold, 22, TEXT_PRIMARY, width);
   }
   centerText(page, "PORTAL TÁTICO E OPERACIONAL", headerY - 38, regular, 9, ORANGE, width);
 
@@ -132,7 +132,7 @@ export async function generateCertificatePdf(
     width
   );
 
-  const paragraph = `Cumpriu com distinção o treinamento de alta performance ATLASGR. O titular provou domínio operacional e estratégico, atingindo ${Math.round(cert.score)}% de eficácia em ${cert.cargaHoraria} minutos de simulação rigorosa.`;
+  const paragraph = `Cumpriu com distinção o treinamento de alta performance Total Trac. O titular provou domínio operacional e estratégico, atingindo ${Math.round(cert.score)}% de eficácia em ${cert.cargaHoraria} minutos de simulação rigorosa.`;
   centerText(page, paragraph, headerY - 210, regular, 11, TEXT_PRIMARY, width);
 
   // ---------- Modules List ----------
@@ -162,7 +162,7 @@ export async function generateCertificatePdf(
   const footerY = listBottom - 50;
   const sigX = 100;
   page.drawLine({ start: { x: sigX, y: footerY }, end: { x: sigX + 180, y: footerY }, thickness: 1, color: BORDER_COLOR });
-  page.drawText("Comando Tático ATLASGR", { x: sigX + 20, y: footerY - 16, size: 10, font: bold, color: TEXT_PRIMARY });
+  page.drawText("Comando Tático Total Trac", { x: sigX + 20, y: footerY - 16, size: 10, font: bold, color: TEXT_PRIMARY });
   page.drawText("Diretoria Operacional", { x: sigX + 45, y: footerY - 28, size: 8, font: regular, color: TEXT_SECONDARY });
 
   // Digital verification seal
@@ -174,7 +174,7 @@ export async function generateCertificatePdf(
   centerText(page, `${Math.round(cert.score)}%`, sealCy - 8, display, 12, TEXT_PRIMARY, width);
 
   // Scannable QR Code
-  const qrDataUrl = await QRCode.toDataURL(`ATLASGR-CERT|id=${cert.id}|hash=${cert.hash}`, {
+  const qrDataUrl = await QRCode.toDataURL(`Total Trac-CERT|id=${cert.id}|hash=${cert.hash}`, {
     margin: 1,
     width: 250,
     color: { dark: "#000000", light: "#ffffff" },

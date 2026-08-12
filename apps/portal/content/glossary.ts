@@ -1,6 +1,6 @@
-import type { GlossaryTerm } from "@/lib/types";
+﻿import type { GlossaryTerm } from "@/lib/types";
 
-// Núcleo de termos reais, extraídos dos materiais internos da ATLASGR já lidos
+// Núcleo de termos reais, extraídos dos materiais internos da Total Trac já lidos
 // (organograma, política organizacional, manual de checklist, cronograma de
 // treinamentos, manual do portal de Gerenciamento de Risco da Pósitron) mais um
 // pequeno grupo de termos de mercado/regulatórios de conhecimento público,
@@ -32,7 +32,7 @@ export const glossary: GlossaryTerm[] = [
     definition:
       "Responsabilidade Civil Facultativa – Desvio de Carga: modalidade de seguro do mercado brasileiro (regulada pela SUSEP) que cobre o transportador contra prejuízos por roubo, furto ou desaparecimento de carga durante o transporte.",
     importance: "Complementa a cobertura básica de transporte e costuma trazer exigências operacionais (rastreamento, checklist, PGR) que a Central precisa cumprir.",
-    atlasUsage: "Assunto de treinamento formal na Atlas (\"Treinamento Apólice RCF-DC\"), incluído no cronograma de capacitação da Central.",
+    atlasUsage: "Assunto de treinamento formal na Total Trac (\"Treinamento Apólice RCF-DC\"), incluído no cronograma de capacitação da Central.",
   },
   {
     id: "sinistro",
@@ -45,7 +45,7 @@ export const glossary: GlossaryTerm[] = [
     id: "gr",
     term: "GR (Gerenciadora de Risco)",
     definition:
-      "Empresa especializada — como a ATLASGR — contratada para monitorar, em tempo real, veículos e cargas de um cliente, seguindo as regras definidas no PGR e na apólice de seguro.",
+      "Empresa especializada — como a Total Trac — contratada para monitorar, em tempo real, veículos e cargas de um cliente, seguindo as regras definidas no PGR e na apólice de seguro.",
     atlasUsage:
       "No portal de rastreamento do fabricante do equipamento (ex.: Pósitron), cada veículo é associado a uma GR com permissões próprias: GR Principal, Comando Disponível, Ação Embarcada Disponível e Alerta Compartilhado.",
   },
@@ -54,26 +54,26 @@ export const glossary: GlossaryTerm[] = [
     term: "GR Principal",
     definition:
       "Permissão que identifica qual Gerenciadora de Risco é responsável pela configuração e gestão do equipamento de rastreamento de um veículo. Apenas uma GR pode ser a principal por veículo.",
-    atlasUsage: "Configurada no momento da associação do veículo à Atlas no portal do fabricante do rastreador.",
+    atlasUsage: "Configurada no momento da associação do veículo à Total Trac no portal do fabricante do rastreador.",
   },
   {
     id: "connect",
     term: "Atlas Connect",
     definition:
-      "Sistema próprio da ATLASGR usado pela Central para cadastrar clientes e veículos, criar e consolidar SMs, configurar o PGR, solicitar e validar checklists, acompanhar a Torre de Controle e registrar eventos e alertas.",
+      "Sistema próprio da Total Trac usado pela Central para cadastrar clientes e veículos, criar e consolidar SMs, configurar o PGR, solicitar e validar checklists, acompanhar a Torre de Controle e registrar eventos e alertas.",
     importance: "É a principal ferramenta de trabalho de operadores, supervisão e CIA no dia a dia da Central.",
   },
   {
     id: "torre-de-controle",
     term: "Torre de Controle",
     definition:
-      "Módulo do sistema Atlas Connect que reúne, em uma visão única, as viagens em andamento e os eventos que exigem atenção da Central.",
+      "Módulo do sistema Total Trac Connect que reúne, em uma visão única, as viagens em andamento e os eventos que exigem atenção da Central.",
   },
   {
     id: "sm",
     term: "SM",
     definition:
-      "Sigla usada internamente pela Atlas para identificar o registro de uma viagem sob monitoramento ativo dentro do Connect — criada no início da viagem (\"Início de SM\") e encerrada ao final (\"Fim de SM\"), com um consolidado gerado ao término.",
+      "Sigla usada internamente pela Total Trac para identificar o registro de uma viagem sob monitoramento ativo dentro do Connect — criada no início da viagem (\"Início de SM\") e encerrada ao final (\"Fim de SM\"), com um consolidado gerado ao término.",
     atlasUsage: "Aparece nos treinamentos do sistema Connect (\"Criação de SM\", \"Consolidado de SM\") e nas rotinas diárias da liderança operacional.",
   },
   {
@@ -117,7 +117,7 @@ export const glossary: GlossaryTerm[] = [
     definition:
       "Palavra de confirmação usada em toda ligação com a Central — diferente da senha de coação — que garante que só pessoas autorizadas (administrativo do cliente ou motorista) têm acesso às informações da operação por telefone. Sem a confirmação da senha de voz, o atendimento é encerrado.",
     example:
-      "Empresas costumam usar uma senha combinada (ex.: 'TRANSPORTADORA@ATLASGR'); motoristas costumam usar o nome de uma cidade combinada, para facilitar a memorização.",
+      "Empresas costumam usar uma senha combinada (ex.: 'TRANSPORTADORA@Total Trac'); motoristas costumam usar o nome de uma cidade combinada, para facilitar a memorização.",
     importance: "Evita que uma pessoa não autorizada, se passando por motorista ou responsável da transportadora, obtenha informações sensíveis da viagem por telefone.",
     atlasUsage: "Solicitada pelo operador logo no início de qualquer atendimento por telefone — antes mesmo de tratar o motivo da ligação.",
   },
@@ -130,7 +130,7 @@ export const glossary: GlossaryTerm[] = [
   },
   {
     id: "cia",
-    term: "CIA (Central de Inteligência Atlas)",
+    term: "CIA (Central de Inteligência Total Trac)",
     definition:
       "Setor de inteligência de risco da Central, dividido em CIA I e CIA II, responsável por tratar os alertas mais críticos, acionar autoridades policiais e empresas de pronta resposta, e apurar sinistros.",
   },
@@ -201,7 +201,7 @@ export const glossary: GlossaryTerm[] = [
     id: "tms",
     term: "TMS (Transportation Management System)",
     definition:
-      "Sistema de gestão de transporte usado por embarcadores e transportadoras para planejar rotas, controlar fretes e acompanhar entregas — geralmente integrado a sistemas de rastreamento como o da Atlas.",
+      "Sistema de gestão de transporte usado por embarcadores e transportadoras para planejar rotas, controlar fretes e acompanhar entregas — geralmente integrado a sistemas de rastreamento como o da Total Trac.",
   },
   {
     id: "erp",
@@ -302,6 +302,6 @@ export function findGlossaryTerm(id: string): GlossaryTerm | undefined {
 glossary.push({
   id: "analytics",
   term: "Atlas Analytics",
-  definition: "Produto do portfólio da AtlasGR focado em consolidar dados históricos e gerar dashboards executivos para tomada de decisão estratégica.",
+  definition: "Produto do portfólio da Total Trac focado em consolidar dados históricos e gerar dashboards executivos para tomada de decisão estratégica.",
   atlasUsage: "Usado para descobrir padrões e gargalos de eficiência, diferentemente do Connect que foca no tempo real.",
 });

@@ -1,15 +1,15 @@
-import type { ModuleContentFull } from "@/lib/types";
+﻿import type { ModuleContentFull } from "@/lib/types";
 
 export const module_tt_06_kit_autonomia: ModuleContentFull = {
   slug: "tt-06-kit-autonomia",
   number: 0,
   title: "Kit Autonomia",
-  shortDescription: "Módulo sobre Kit Autonomia da Total Track.",
+  shortDescription: "Módulo sobre Kit Autonomia da Total Trac.",
   durationMinutes: 30,
-  academy: "totaltrack",
+  academy: "totaltrac",
   status: "ready",
   category: "Geral",
-  sources: ["Documentação Total Track"],
+  sources: ["Documentação Total Trac"],
   objectives: ["Compreender Kit Autonomia", "Entender as aplicações"],
   scenario: "Você precisa entender como funciona o Kit Autonomia para aplicar na operação logística.",
   diagram: {
@@ -24,7 +24,7 @@ export const module_tt_06_kit_autonomia: ModuleContentFull = {
         {
           type: "text",
           paragraphs: [
-            ["O ", { term: "Kit Autonomia" }, " é uma solução desenvolvida pela Total Track para otimizar operações."],
+            ["O ", { term: "Kit Autonomia" }, " é uma solução desenvolvida pela Total Trac para otimizar operações."],
           ],
         },
       ],

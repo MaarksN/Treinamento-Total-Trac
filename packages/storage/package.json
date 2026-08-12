@@ -1,5 +1,5 @@
 {
-  "name": "@atlasgr/storage",
+  "name": "@totaltrac/storage",
   "version": "1.0.0",
   "private": true,
   "main": "./src/index.ts",

@@ -1,15 +1,15 @@
-import type { ModuleContentFull } from "@/lib/types";
+﻿import type { ModuleContentFull } from "@/lib/types";
 
 export const module_tt_05_carreta_solar: ModuleContentFull = {
   slug: "tt-05-carreta-solar",
   number: 0,
   title: "Carreta Solar",
-  shortDescription: "Módulo sobre Carreta Solar da Total Track.",
+  shortDescription: "Módulo sobre Carreta Solar da Total Trac.",
   durationMinutes: 30,
-  academy: "totaltrack",
+  academy: "totaltrac",
   status: "ready",
   category: "Geral",
-  sources: ["Documentação Total Track"],
+  sources: ["Documentação Total Trac"],
   objectives: ["Compreender Carreta Solar", "Entender as aplicações"],
   scenario: "Você precisa entender como funciona o Carreta Solar para aplicar na operação logística.",
   diagram: {
@@ -24,7 +24,7 @@ export const module_tt_05_carreta_solar: ModuleContentFull = {
         {
           type: "text",
           paragraphs: [
-            ["O ", { term: "Carreta Solar" }, " é uma solução desenvolvida pela Total Track para otimizar operações."],
+            ["O ", { term: "Carreta Solar" }, " é uma solução desenvolvida pela Total Trac para otimizar operações."],
           ],
         },
       ],

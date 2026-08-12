@@ -1,4 +1,4 @@
-export const XP_PER_MODULE = 100;
+﻿export const XP_PER_MODULE = 100;
 export const XP_PER_QUIZ_PASS = 50;
 export const XP_PER_EXAM_PASS = 200;
 export const XP_CERTIFICATE = 150;
@@ -42,13 +42,13 @@ export interface BadgeDef {
 }
 
 export const BADGES: BadgeDef[] = [
-  { id: "primeiro-passo", label: "Iniciação Logística", description: "Primeiro login no Cockpit AtlasGR.", tier: "bronze" },
-  { id: "modulo-1", label: "Operador de Base", description: "Concluiu o módulo Bem-vindo à ATLASGR.", tier: "bronze" },
+  { id: "primeiro-passo", label: "Iniciação Logística", description: "Primeiro login no Cockpit Total Trac.", tier: "bronze" },
+  { id: "modulo-1", label: "Operador de Base", description: "Concluiu o módulo Bem-vindo à Total Trac.", tier: "bronze" },
   { id: "guardiao-risco", label: "Guardião da Carga", description: "Concluiu o módulo de Gerenciamento de Risco.", tier: "silver" },
   { id: "mestre-connect", label: "Arquiteto Connect", description: "Concluiu o módulo de Tecnologia / Sistema Connect.", tier: "gold" },
   { id: "nota-maxima", label: "Precisão Cirúrgica", description: "Gabaritou um simulador tático.", tier: "gold" },
-  { id: "certificado", label: "Especialista Homologado", description: "Emitiu o certificado oficial AtlasGR.", tier: "holographic" },
+  { id: "certificado", label: "Especialista Homologado", description: "Emitiu o certificado oficial Total Trac.", tier: "holographic" },
   { id: "streak-3", label: "Vigilância Constante", description: "Acessou o Cockpit por 3 dias consecutivos.", tier: "silver" },
-  { id: "explorador-ia", label: "Explorador de IA", description: "Explorou três ferramentas da Academia ATLASGR.", tier: "silver" },
+  { id: "explorador-ia", label: "Explorador de IA", description: "Explorou três ferramentas da Academia Total Trac.", tier: "silver" },
   { id: "arquiteto-agentes", label: "Arquiteto de Agentes", description: "Criou o primeiro agente orientado por prompt.", tier: "gold" },
 ];

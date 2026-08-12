@@ -28,10 +28,10 @@ interface OnboardingState {
   createdAgents: AgentBlueprint[];
   hasHydrated: boolean;
   onboardingCompleted: boolean;
-  currentAcademy: "atlasgr" | "totaltrack";
+  currentAcademy: "totaltrac" | "totaltrack";
 
   setHasHydrated: (v: boolean) => void;
-  setAcademy: (academy: "atlasgr" | "totaltrack") => void;
+  setAcademy: (academy: "totaltrac" | "totaltrack") => void;
   enrollColaborador: (data: RegistrationData) => EnrolledColaborador;
   removeColaborador: (id: string) => void;
   startSessionAs: (id: string) => boolean;
@@ -70,7 +70,7 @@ export const useOnboardingStore = create<OnboardingState>()(
       createdAgents: [],
       hasHydrated: false,
       onboardingCompleted: false,
-      currentAcademy: "atlasgr",
+      currentAcademy: "totaltrac",
 
       setHasHydrated: (v) => set({ hasHydrated: v }),
       setAcademy: (a) => set({ currentAcademy: a }),
@@ -135,7 +135,7 @@ export const useOnboardingStore = create<OnboardingState>()(
         get().touchStreak();
         if (score === 100) get().addBadge("nota-maxima");
         if (passed) {
-          if (slug === "01-bem-vindo-atlasgr") get().addBadge("modulo-1");
+          if (slug === "01-bem-vindo-totaltrac") get().addBadge("modulo-1");
           if (slug === "03-gerenciamento-risco") get().addBadge("guardiao-risco");
           if (slug === "05-software-logistico") get().addBadge("mestre-connect");
         }
@@ -191,7 +191,7 @@ export const useOnboardingStore = create<OnboardingState>()(
         }),
     }),
     {
-      name: "atlasgr-onboarding-demo",
+      name: "totaltrac-onboarding-demo",
       onRehydrateStorage: () => (state) => {
         state?.setHasHydrated(true);
       },

@@ -1,22 +1,38 @@
-export const AtlasTokens = {
+export const TotalTracTokens = {
   colors: {
     brand: {
-      orange: "#FF5618",
-      darkGray: "#333333",
+      primaryBlue: "#374898",
+      mediumBlue: "#008FCE",
+      darkBlue: "#2D3B78",
+      lightBlue: "#93DBF2",
+      darkestBlue: "#1E2F37",
       white: "#FFFFFF",
     },
     primary: {
-      50: "#fff0eb",
-      100: "#ffded4",
-      200: "#ffc2aa",
-      300: "#ff9975",
-      400: "#ff6635",
-      500: "#FF5618", // Brand Orange
-      600: "#ef3800",
-      700: "#c62700",
-      800: "#9d2100",
-      900: "#7e1e04",
-      950: "#440c00",
+      50: "#f0f2fb",
+      100: "#e4e8f7",
+      200: "#ccd6ef",
+      300: "#a8bce3",
+      400: "#7c9bd4",
+      500: "#5a7cc3",
+      600: "#374898", // Brand Primary Blue
+      700: "#344588",
+      800: "#2d3b78", // Brand Dark Blue
+      900: "#273363",
+      950: "#1e2f37", // Brand Darkest Blue
+    },
+    secondary: {
+      50: "#f0fafd",
+      100: "#e0f6fc",
+      200: "#b9ebfa",
+      300: "#93dbf2", // Brand Light Blue
+      400: "#44c6ec",
+      500: "#008fce", // Brand Medium Blue
+      600: "#007ab8",
+      700: "#006295",
+      800: "#00527c",
+      900: "#004568",
+      950: "#002c46",
     },
     neutral: {
       50: "#f6f6f6",
@@ -29,13 +45,13 @@ export const AtlasTokens = {
       700: "#4f4f4f",
       800: "#454545",
       900: "#3d3d3d",
-      950: "#333333", // Brand Dark Gray
+      950: "#1e2f37",
     }
   },
   typography: {
     fontFamily: {
-      sans: "var(--font-montserrat), sans-serif",
-      display: "var(--font-mont), sans-serif",
+      sans: "var(--font-fivo-sans), Roboto, sans-serif",
+      display: "var(--font-fivo-sans-display), Roboto, sans-serif",
     },
     weights: {
       regular: "400",

@@ -1,15 +1,15 @@
-import type { ModuleContentFull } from "@/lib/types";
+﻿import type { ModuleContentFull } from "@/lib/types";
 
 export const module_tt_04_total_jornada_4g: ModuleContentFull = {
   slug: "tt-04-total-jornada-4g",
   number: 0,
   title: "Total Jornada 4G",
-  shortDescription: "Módulo sobre Total Jornada 4G da Total Track.",
+  shortDescription: "Módulo sobre Total Jornada 4G da Total Trac.",
   durationMinutes: 30,
-  academy: "totaltrack",
+  academy: "totaltrac",
   status: "ready",
   category: "Geral",
-  sources: ["Documentação Total Track"],
+  sources: ["Documentação Total Trac"],
   objectives: ["Compreender Total Jornada 4G", "Entender as aplicações"],
   scenario: "Você precisa entender como funciona o Total Jornada 4G para aplicar na operação logística.",
   diagram: {
@@ -24,7 +24,7 @@ export const module_tt_04_total_jornada_4g: ModuleContentFull = {
         {
           type: "text",
           paragraphs: [
-            ["O ", { term: "Total Jornada 4G" }, " é uma solução desenvolvida pela Total Track para otimizar operações."],
+            ["O ", { term: "Total Jornada 4G" }, " é uma solução desenvolvida pela Total Trac para otimizar operações."],
           ],
         },
       ],

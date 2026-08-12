@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils";
+﻿import { cn } from "@/lib/utils";
 import { BASE_PATH } from "@/lib/basePath";
 import { useOnboardingStore } from "@/lib/store";
 import { ACADEMY_THEMES } from "@/lib/themeTypes";
@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 
 export function Logo({ className, withWordmark = true }: { className?: string; withWordmark?: boolean }) {
   const currentAcademy = useOnboardingStore((s) => s.currentAcademy);
-  const theme = ACADEMY_THEMES[currentAcademy || "atlasgr"];
+  const theme = ACADEMY_THEMES[currentAcademy || "totaltrac"];
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => setMounted(true), []);
@@ -22,17 +22,17 @@ export function Logo({ className, withWordmark = true }: { className?: string; w
     );
   }
 
-  // Fallback logos for Total Track until we add actual SVG assets
+  // Fallback logos for Total Trac until we add actual SVG assets
   if (currentAcademy === "totaltrack") {
      return (
-        <span className={cn("inline-flex items-center font-display font-black text-2xl tracking-tighter text-blue-600 dark:text-blue-400", className)} role="img" aria-label="Total Track">
+        <span className={cn("inline-flex items-center font-display font-black text-2xl tracking-tighter text-blue-600 dark:text-blue-400", className)} role="img" aria-label="Total Trac">
           TOTAL<span className="text-foreground">TRACK</span>
         </span>
      )
   }
 
   return (
-    <span className={cn("inline-flex items-center", className)} role="img" aria-label="ATLASGR">
+    <span className={cn("inline-flex items-center", className)} role="img" aria-label="Total Trac">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={`${BASE_PATH}${theme.logoLight}`}

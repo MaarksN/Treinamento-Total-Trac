@@ -6,7 +6,7 @@ const endpoint = process.env.OTEL_EXPORTER_OTLP_ENDPOINT;
 
 if (endpoint) {
   const sdk = new NodeSDK({
-    serviceName: process.env.OTEL_SERVICE_NAME ?? 'treinamento-atlasgr-api',
+    serviceName: process.env.OTEL_SERVICE_NAME ?? 'treinamento-totaltrac-api',
     traceExporter: new OTLPTraceExporter({
       url: `${endpoint.replace(/\/$/, '')}/v1/traces`,
     }),

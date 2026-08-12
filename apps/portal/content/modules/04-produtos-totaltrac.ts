@@ -1,21 +1,21 @@
-import type { ModuleContentFull } from "@/lib/types";
+﻿import type { ModuleContentFull } from "@/lib/types";
 import { getModuleMeta } from "./meta";
 
-const meta = getModuleMeta("04-produtos-atlasgr")!;
+const meta = getModuleMeta("04-produtos-totaltrac")!;
 
 export const module04: ModuleContentFull = {
   ...meta,
   sources: [
     "Outline consolidado (content/modules/meta.ts)",
     "Showcases de produto do portal",
-    "Material Comercial Institucional AtlasGR",
+    "Material Comercial Institucional Total Trac",
   ],
   objectives: [
-    "Listar, descrever e conectar os quatro pilares do portfólio AtlasGR.",
+    "Listar, descrever e conectar os quatro pilares do portfólio Total Trac.",
     "Entender a proposta de valor exclusiva do Atlas Profile e a redução de custos ocultos.",
     "Explicar a orquestração tática em tempo real feita pelo Atlas Connect e GR.",
     "Descrever como o Atlas Analytics transforma dados brutos em decisões executivas preditivas.",
-    "Diferenciar o portfólio AtlasGR de rastreadores genéricos de mercado e reconhecer os limites de escopo de cada produto.",
+    "Diferenciar o portfólio Total Trac de rastreadores genéricos de mercado e reconhecer os limites de escopo de cada produto.",
   ],
   sections: [
     {
@@ -27,7 +27,7 @@ export const module04: ModuleContentFull = {
           heading: "Não Vendemos Software, Vendemos Inteligência",
           paragraphs: [
             [
-              "Muitas empresas no mercado oferecem um software de rastreamento e deixam a cargo do cliente o problema de gerenciar as crises. A AtlasGR escolheu um caminho mais complexo, mas infinitamente mais valioso.",
+              "Muitas empresas no mercado oferecem um software de rastreamento e deixam a cargo do cliente o problema de gerenciar as crises. A Total Trac escolheu um caminho mais complexo, mas infinitamente mais valioso.",
             ],
             [
               "O nosso portfólio é um ecossistema projetado para blindar a operação de ponta a ponta. Atuamos antes da viagem começar, gerenciamos o milissegundo em que ela acontece, atuamos brutalmente caso haja desvios, e estudamos os resultados mensais para melhorar o futuro.",
@@ -77,7 +77,7 @@ export const module04: ModuleContentFull = {
     },
     {
       id: "capitulo-2-connect-gr",
-      title: "Capítulo 2: Atlas Connect & Atlas GR (A Execução)",
+      title: "Capítulo 2: Atlas Connect & Total Trac (A Execução)",
       blocks: [
         {
           type: "text",
@@ -103,7 +103,7 @@ export const module04: ModuleContentFull = {
             ],
           },
           right: {
-            label: "Atlas GR e CIA (O Humano)",
+            label: "Total Trac e CIA (O Humano)",
             points: [
               "Os operadores dentro da Torre que olham a tela do Connect.",
               "A aplicação rígida do PGR exigido pela seguradora.",
@@ -137,8 +137,8 @@ export const module04: ModuleContentFull = {
         {
           type: "case",
           title: "Operação Risco Zero (Embarcador de Bebidas)",
-          text: "Um grande fabricante perdia sistematicamente cargas não para roubos armados, mas para 'sumiços' de caminhões terceirizados (apropriação indébita). A Atlas implantou os 4 pilares: 1. O Atlas Profile barrou 12% dos motoristas contratados por fraude documental já no 1º mês. 2. O Atlas Connect amarrou as viagens a APIs automáticas, zerando erros de digitação. 3. O GR atuou em 5 tentativas de desvio no trimestre, acionando a CIA que recuperou 100% da carga. 4. O Analytics provou para a diretoria do fabricante que 90% das tentativas de roubo ocorriam com apenas duas transportadoras específicas da base deles, permitindo o descredenciamento cirúrgico dos maus parceiros. Resultado: Economia de R$ 12 milhões em 6 meses.",
-          source: "Case Comercial Integrado AtlasGR",
+          text: "Um grande fabricante perdia sistematicamente cargas não para roubos armados, mas para 'sumiços' de caminhões terceirizados (apropriação indébita). A Total Trac implantou os 4 pilares: 1. O Atlas Profile barrou 12% dos motoristas contratados por fraude documental já no 1º mês. 2. O Atlas Connect amarrou as viagens a APIs automáticas, zerando erros de digitação. 3. O GR atuou em 5 tentativas de desvio no trimestre, acionando a CIA que recuperou 100% da carga. 4. O Analytics provou para a diretoria do fabricante que 90% das tentativas de roubo ocorriam com apenas duas transportadoras específicas da base deles, permitindo o descredenciamento cirúrgico dos maus parceiros. Resultado: Economia de R$ 12 milhões em 6 meses.",
+          source: "Case Comercial Integrado Total Trac",
         },
       ],
     },
@@ -151,7 +151,7 @@ export const module04: ModuleContentFull = {
           heading: "Por que Não Somos 'Só Mais Um Rastreador'",
           paragraphs: [
             [
-              "Todo prospect já ouviu o discurso de um concorrente genérico: 'a gente também mostra o caminhão no mapa'. Verdade. E é exatamente por isso que essa comparação é a nossa melhor amiga em uma negociação: rastreador mostra o problema, a AtlasGR resolve o problema.",
+              "Todo prospect já ouviu o discurso de um concorrente genérico: 'a gente também mostra o caminhão no mapa'. Verdade. E é exatamente por isso que essa comparação é a nossa melhor amiga em uma negociação: rastreador mostra o problema, a Total Trac resolve o problema.",
             ],
             [
               "Mas cuidado: vender bem o portfólio também significa saber onde ele termina. Empurrar um produto para um caso de uso que ele não cobre gera cliente frustrado no mês 2 e cancelamento no mês 6. Este capítulo existe para você nunca prometer o que a ferramenta certa (Profile, Connect, GR ou Analytics) não entrega.",
@@ -166,8 +166,8 @@ export const module04: ModuleContentFull = {
               a: "O mapa é o começo, não o fim. Um rastreador genérico avisa que o caminhão saiu da rota; o Atlas Connect interpreta o desvio dentro de um Motor de Regras e decide se aquilo é um alerta crítico que precisa acordar a Torre às 3h da manhã. Rastreador notifica. Connect prioriza e escala.",
             },
             {
-              q: "Se o cliente já tem um software de rastreamento, para que ele contrataria o Atlas GR?",
-              a: "Porque tela de alerta sem gente treinada olhando é só uma luz piscando. O Atlas GR é a Torre, a CIA e o processo de tratativa de sinistro sob o PGR da apólice. É a diferença entre 'o sistema apitou' e 'o sinistro foi evitado'.",
+              q: "Se o cliente já tem um software de rastreamento, para que ele contrataria o Total Trac?",
+              a: "Porque tela de alerta sem gente treinada olhando é só uma luz piscando. O Total Trac é a Torre, a CIA e o processo de tratativa de sinistro sob o PGR da apólice. É a diferença entre 'o sistema apitou' e 'o sinistro foi evitado'.",
             },
             {
               q: "O Atlas Profile é só para motoristas terceirizados ou serve para qualquer contratação?",
@@ -181,7 +181,7 @@ export const module04: ModuleContentFull = {
         },
         {
           type: "comparison",
-          title: "Rastreador Genérico x Portfólio AtlasGR",
+          title: "Rastreador Genérico x Portfólio Total Trac",
           left: {
             label: "Rastreador de Mercado",
             points: [
@@ -192,7 +192,7 @@ export const module04: ModuleContentFull = {
             ],
           },
           right: {
-            label: "Portfólio AtlasGR",
+            label: "Portfólio Total Trac",
             points: [
               "Barra o risco antes da viagem começar (Profile).",
               "Classifica o alerta e aciona gente treinada 24/7 (Connect + GR/CIA).",
@@ -206,8 +206,8 @@ export const module04: ModuleContentFull = {
           title: "Limites de Escopo: O Que Cada Produto NÃO Faz",
           items: [
             "Atlas Profile não substitui validações oficiais exigidas por norma; ele audita documentos e biometria, mas não emite laudos.",
-            "Atlas Connect não decide sozinho se um alerta é um assalto real; a leitura e a decisão tática são do Atlas GR/CIA.",
-            "Atlas GR não é seguradora e não paga indenização; ele gerencia o risco e a tratativa dentro do PGR, a apólice e a SUSEP ficam com a seguradora.",
+            "Atlas Connect não decide sozinho se um alerta é um assalto real; a leitura e a decisão tática são do Total Trac/CIA.",
+            "Total Trac não é seguradora e não paga indenização; ele gerencia o risco e a tratativa dentro do PGR, a apólice e a SUSEP ficam com a seguradora.",
             "Atlas Analytics não gera dado novo; ele só é tão preciso quanto o histórico que Connect e GR alimentaram antes.",
           ],
         },
@@ -232,9 +232,9 @@ export const module04: ModuleContentFull = {
   summary: [
     "Atlas Profile age ANTES da viagem (Auditoria Documental e Biométrica).",
     "Atlas Connect é o software de gestão em TEMPO REAL (Mapas, Alertas, APIs).",
-    "Atlas GR é a equipe e o processo humano que atua NA CRISE (Torre, CIA, PGR).",
+    "Total Trac é a equipe e o processo humano que atua NA CRISE (Torre, CIA, PGR).",
     "Atlas Analytics age DEPOIS, consolidando dados táticos em estratégias de longo prazo.",
-    "A união dos quatro pilares é o que torna a AtlasGR líder no conceito de prevenção logística.",
+    "A união dos quatro pilares é o que torna a Total Trac líder no conceito de prevenção logística.",
   ],
   finalChecklist: [
     "Sei nominar e descrever cada um dos quatro produtos.",
@@ -242,7 +242,7 @@ export const module04: ModuleContentFull = {
     "Posso articular comercialmente o benefício do ecossistema completo usando o Estudo de Caso.",
   ],
   mindMap: {
-    root: "Produtos AtlasGR",
+    root: "Produtos Total Trac",
     branches: [
       { label: "Profile", items: ["Biometria", "CNH/Detran", "Prevenção Original"] },
       { label: "Connect", items: ["Software", "Alertas", "APIs", "Diferencial vs Rastreador Genérico"] },

@@ -16,8 +16,8 @@ function collectBlockTermRefs(block: ContentBlock): string[] {
 
 describe("module metadata", () => {
   it("has exactly 15 modules numbered 1..15 with unique slugs", () => {
-    expect(moduleMetas.filter(m => !m.academy || m.academy === "atlasgr")).toHaveLength(15);
-    const numbers = moduleMetas.filter(m => !m.academy || m.academy === "atlasgr").map((m) => m.number).sort((a, b) => a - b);
+    expect(moduleMetas.filter(m => !m.academy || m.academy === "totaltrac")).toHaveLength(15);
+    const numbers = moduleMetas.filter(m => !m.academy || m.academy === "totaltrac").map((m) => m.number).sort((a, b) => a - b);
     expect(numbers).toEqual(Array.from({ length: 15 }, (_, i) => i + 1));
     // expect(new Set(moduleMetas.map((m) => m.slug)).size).toBe(moduleMetas.length);
   });

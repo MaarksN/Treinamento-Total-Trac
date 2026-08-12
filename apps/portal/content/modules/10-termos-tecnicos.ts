@@ -1,4 +1,4 @@
-import type { ModuleContentFull } from "@/lib/types";
+﻿import type { ModuleContentFull } from "@/lib/types";
 import { getModuleMeta } from "./meta";
 
 const meta = getModuleMeta("10-termos-tecnicos")!;
@@ -6,7 +6,7 @@ const meta = getModuleMeta("10-termos-tecnicos")!;
 export const module10: ModuleContentFull = {
   ...meta,
   sources: [
-    "Glossário Oficial AtlasGR",
+    "Glossário Oficial Total Trac",
     "Documentação da ANTT e SEFAZ",
     "Manuais de Operação",
   ],
@@ -39,7 +39,7 @@ export const module10: ModuleContentFull = {
           variant: "success",
           title: "Funcionalidade do Portal",
           text: [
-            "Não precisa decorar tudo hoje. O portal da AtlasGR possui o sublinhado em termos-chave. Passou o mouse por cima do termo, a explicação aparece.",
+            "Não precisa decorar tudo hoje. O portal da Total Trac possui o sublinhado em termos-chave. Passou o mouse por cima do termo, a explicação aparece.",
           ],
         },
       ],
@@ -140,7 +140,7 @@ export const module10: ModuleContentFull = {
           type: "case",
           title: "O Pânico na Serra",
           text: "Caso Clássico: O caminhão entra na Rodovia Regis Bittencourt, num trecho de serra profundo. O sinal some. O operador inexperiente clica no relatório e escreve 'Perda de Sinal por Ação de Jammer'. Dispara o protocolo da CIA e a Polícia fecha a rodovia com helicóptero. O caminhão passa o túnel, o sinal volta. Foi apenas uma 'Área de Sombra' (sem cobertura de celular natural). O uso da palavra errada gera danos incalculáveis de desperdício de recursos policiais.",
-          source: "Manual de Falhas - AtlasGR DHO",
+          source: "Manual de Falhas - Total Trac DHO",
         },
       ],
     },
@@ -225,7 +225,7 @@ export const module10: ModuleContentFull = {
           type: "checklist",
           title: "Consolidação",
           items: [
-            "Acesse o Glossário Geral da AtlasGR no rodapé da página para mais de 300 termos mapeados.",
+            "Acesse o Glossário Geral da Total Trac no rodapé da página para mais de 300 termos mapeados.",
             "Vá para o Módulo 11 para ver tudo isso sendo usado sob extrema pressão na operação diária.",
           ],
         },

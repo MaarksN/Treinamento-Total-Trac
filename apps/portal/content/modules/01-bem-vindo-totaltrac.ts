@@ -1,18 +1,18 @@
-import type { ModuleContentFull } from "@/lib/types";
+﻿import type { ModuleContentFull } from "@/lib/types";
 import { getModuleMeta } from "./meta";
 
-const meta = getModuleMeta("01-bem-vindo-atlasgr")!;
+const meta = getModuleMeta("01-bem-vindo-totaltrac")!;
 
 export const module01: ModuleContentFull = {
   ...meta,
   sources: [
     "Política Organizacional e Ética (v2.1)",
     "CARGOS.pdf — Organograma",
-    "Apresentação Institucional AtlasGR",
+    "Apresentação Institucional Total Trac",
     "Jornada do Colaborador",
   ],
   objectives: [
-    "Compreender profundamente a origem, o propósito e os valores inegociáveis da ATLASGR.",
+    "Compreender profundamente a origem, o propósito e os valores inegociáveis da Total Trac.",
     "Mapear mentalmente a estrutura organizacional e a cadeia de comando.",
     "Assimilar as políticas rígidas de compliance e ética empresarial.",
     "Conhecer a trilha de desenvolvimento e a Universidade Corporativa.",
@@ -21,14 +21,14 @@ export const module01: ModuleContentFull = {
   sections: [
     {
       id: "introducao",
-      title: "Introdução: O Propósito da AtlasGR",
+      title: "Introdução: O Propósito da Total Trac",
       blocks: [
         {
           type: "text",
           heading: "A Gênese da Inteligência Logística",
           paragraphs: [
             [
-              "Antes da AtlasGR, o mercado brasileiro sofria com um modelo de segurança ultrapassado e puramente reativo. A fundação da empresa, em 2004, teve um objetivo claro: parar de apenas 'rastrear o que já foi roubado' e passar a 'antecipar o risco antes que ele se materialize'.",
+              "Antes da Total Trac, o mercado brasileiro sofria com um modelo de segurança ultrapassado e puramente reativo. A fundação da empresa, em 2004, teve um objetivo claro: parar de apenas 'rastrear o que já foi roubado' e passar a 'antecipar o risco antes que ele se materialize'.",
             ],
             [
               "Nosso propósito não mudou: ",
@@ -55,11 +55,11 @@ export const module01: ModuleContentFull = {
           type: "timeline",
           title: "Da Fundação à Era da IA",
           items: [
-            { label: "2004", text: "A semente: Fundação da AtlasGR com foco em processos rigorosos de PGR." },
+            { label: "2004", text: "A semente: Fundação da Total Trac com foco em processos rigorosos de PGR." },
             { label: "2010", text: "Expansão nacional: Abertura da Torre de Controle Operacional." },
             { label: "2018", text: "Inovação tecnológica: Desenvolvimento interno do sistema preditivo e integração de APIs." },
             { label: "2024", text: "Maturidade do Portfólio: Consolidação dos 4 pilares (Profile, Connect, GR, Analytics)." },
-            { label: "2026", text: "A Revolução do Conhecimento: Lançamento do AtlasGR Enterprise Learning com tutoria via IA." },
+            { label: "2026", text: "A Revolução do Conhecimento: Lançamento do Total Trac Enterprise Learning com tutoria via IA." },
           ],
         },
       ],
@@ -72,7 +72,7 @@ export const module01: ModuleContentFull = {
           type: "text",
           paragraphs: [
             [
-              "Valores são as regras de conduta para quando o manual acaba. Se o sistema cair e o telefone tocar, é nos valores da AtlasGR que você se apoiará para tomar a decisão correta.",
+              "Valores são as regras de conduta para quando o manual acaba. Se o sistema cair e o telefone tocar, é nos valores da Total Trac que você se apoiará para tomar a decisão correta.",
             ],
           ],
         },
@@ -110,7 +110,7 @@ export const module01: ModuleContentFull = {
         },
         {
           type: "checklist",
-          title: "As Engrenagens da AtlasGR",
+          title: "As Engrenagens da Total Trac",
           items: [
             "TI (Tecnologia da Informação): Engenharia do Connect, IA e infraestrutura de servidores.",
             "DHO (Desenvolvimento Humano e Organizacional): O guardião da cultura, dono da Universidade Corporativa e responsável por PDI.",
@@ -128,8 +128,8 @@ export const module01: ModuleContentFull = {
         {
           type: "case",
           title: "O Operador que Quebrou a Regra (para salvar o cliente)",
-          text: "Caso real de 2023: Um operador notou que o PGR de um embarcador de pneus não exigia escolta armada em um trecho específico, mas o operador sabia, por experiência, que aquela rodovia estava sob ataque nos últimos 3 dias. Usando a 'Atitude de Dono', ele parou a carreta no posto anterior, chamou o supervisor e escalonou. A transportadora aprovou a escolta emergencial. O caminhão que vinha logo atrás (de outra empresa) foi roubado no mesmo trecho. A Atlas salvou R$ 2.5 Milhões agindo preventivamente.",
-          source: "Repositório de Cases AtlasGR",
+          text: "Caso real de 2023: Um operador notou que o PGR de um embarcador de pneus não exigia escolta armada em um trecho específico, mas o operador sabia, por experiência, que aquela rodovia estava sob ataque nos últimos 3 dias. Usando a 'Atitude de Dono', ele parou a carreta no posto anterior, chamou o supervisor e escalonou. A transportadora aprovou a escolta emergencial. O caminhão que vinha logo atrás (de outra empresa) foi roubado no mesmo trecho. A Total Trac salvou R$ 2.5 Milhões agindo preventivamente.",
+          source: "Repositório de Cases Total Trac",
         },
         {
           type: "callout",
@@ -161,12 +161,12 @@ export const module01: ModuleContentFull = {
           type: "checklist",
           title: "Os Erros Mais Comuns de Quem Está Chegando",
           items: [
-            "Prometer prazo ou solução ao cliente sem validar antes com Operações — quem assina o compromisso é a Atlas, não você sozinho.",
+            "Prometer prazo ou solução ao cliente sem validar antes com Operações — quem assina o compromisso é a Total Trac, não você sozinho.",
             "Tratar dado de motorista (CPF, biometria, geolocalização) informalmente em print ou WhatsApp pessoal, ignorando a LGPD.",
             "Escalar direto para a C.I.A. qualquer imprevisto, sem seguir o fluxo padrão da Torre — isso satura o canal reservado para eventos críticos reais.",
             "Confundir sinistro com simples atraso de viagem, gerando alarme falso e desgaste desnecessário com o embarcador.",
             "Compartilhar login e senha de sistema com colega 'só para agilizar' — violação direta de segurança da informação, mesmo com boa intenção.",
-            "Evitar perguntar por medo de parecer despreparado — na Atlas, quem pergunta erra menos que quem finge saber.",
+            "Evitar perguntar por medo de parecer despreparado — na Total Trac, quem pergunta erra menos que quem finge saber.",
           ],
         },
         {
@@ -221,18 +221,18 @@ export const module01: ModuleContentFull = {
     },
   ],
   summary: [
-    "A AtlasGR foca na predição de risco logístico.",
+    "A Total Trac foca na predição de risco logístico.",
     "Os 5 valores guiam a conduta e decisões críticas.",
     "As 5 diretorias funcionam integradas para o cliente final.",
     "Atitude de Dono significa pró-atividade na prevenção de sinistros.",
   ],
   finalChecklist: [
-    "Compreendo perfeitamente o propósito e os valores da AtlasGR.",
+    "Compreendo perfeitamente o propósito e os valores da Total Trac.",
     "Sei as funções de TI, DHO, Comercial, Relações Institucionais e Operações.",
     "Entendi o Estudo de Caso de 'Atitude de Dono'.",
   ],
   mindMap: {
-    root: "Bem-vindo à AtlasGR",
+    root: "Bem-vindo à Total Trac",
     branches: [
       { label: "Identidade", items: ["Propósito", "5 Valores"] },
       { label: "Estrutura", items: ["TI", "DHO", "Operações", "Comercial"] },
@@ -243,6 +243,6 @@ export const module01: ModuleContentFull = {
     "Cenário Prático: Um cliente sugere uma mudança tecnológica que viola nossos princípios de segurança. Com qual área você deve debater internamente antes de responder?",
   diagram: {
     title: "Diretorias",
-    chart: "graph TD\n  AtlasGR --> TI\n  AtlasGR --> DHO\n  AtlasGR --> Operacoes\n  AtlasGR --> Comercial",
+    chart: "graph TD\n  Total Trac --> TI\n  Total Trac --> DHO\n  Total Trac --> Operacoes\n  Total Trac --> Comercial",
   },
 };

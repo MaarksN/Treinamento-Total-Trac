@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import { ArrowRight, LineChart, Radar, ShieldCheck, UserSearch } from "lucide-react";
@@ -20,7 +20,7 @@ const PRODUCTS = [
   },
   {
     slug: "gr",
-    name: "Atlas GR",
+    name: "Total Trac",
     icon: ShieldCheck,
     description: "Gestão por exceção do Gerenciamento de Risco, do PGR à resposta a incidentes.",
   },
@@ -37,9 +37,9 @@ export default function ProdutosPage() {
     <div className="min-h-screen">
       <SiteHeader />
       <main className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
-        <h1 className="font-display text-3xl font-bold text-foreground">Portfólio de Produtos ATLASGR</h1>
+        <h1 className="font-display text-3xl font-bold text-foreground">Portfólio de Produtos Total Trac</h1>
         <p className="mt-2 max-w-2xl text-muted">
-          Conheça as soluções que sustentam a operação AtlasGR — cada uma com um showcase dedicado.
+          Conheça as soluções que sustentam a operação Total Trac — cada uma com um showcase dedicado.
         </p>
 
         <div className="mt-8 grid gap-5 sm:grid-cols-2">

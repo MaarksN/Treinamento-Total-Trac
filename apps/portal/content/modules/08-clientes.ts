@@ -1,4 +1,4 @@
-import type { ModuleContentFull } from "@/lib/types";
+﻿import type { ModuleContentFull } from "@/lib/types";
 import { getModuleMeta } from "./meta";
 
 const meta = getModuleMeta("08-clientes")!;
@@ -11,7 +11,7 @@ export const module08: ModuleContentFull = {
     "Showcases de Casos de Sucesso Comerciais",
   ],
   objectives: [
-    "Reconhecer os três grandes perfis de cliente atendidos pela AtlasGR.",
+    "Reconhecer os três grandes perfis de cliente atendidos pela Total Trac.",
     "Mapear a 'dor' específica de cada perfil.",
     "Traduzir essas dores para os produtos do nosso portfólio (A solução).",
     "Compreender a dinâmica de poder entre Embarcador, Seguradora e Transportadora.",
@@ -27,7 +27,7 @@ export const module08: ModuleContentFull = {
           heading: "Falando a Língua Certa",
           paragraphs: [
             [
-              "Um erro clássico é vender 'segurança' para quem está preocupado com 'prazo de entrega'. Na AtlasGR, você precisa calibrar o seu discurso dependendo de quem está do outro lado da linha.",
+              "Um erro clássico é vender 'segurança' para quem está preocupado com 'prazo de entrega'. Na Total Trac, você precisa calibrar o seu discurso dependendo de quem está do outro lado da linha.",
             ],
             [
               "Para um embarcador de bebidas, perder 10 caminhões de refrigerante no roubo é ruim, mas perder 50 caminhões parados em uma doca por ineficiência é muito pior para a margem de lucro. Neste módulo, vamos aprender a ler mentes corporativas.",
@@ -39,7 +39,7 @@ export const module08: ModuleContentFull = {
           variant: "info",
           title: "Dica do Assistente IA",
           text: [
-            "Use o assistente virtual para gerar simulações de diálogos. Peça a ele: 'Haja como um Diretor de Transportadora furioso por causa de uma multa da apólice, e eu tentarei acalmá-lo usando o argumento do Atlas GR'.",
+            "Use o assistente virtual para gerar simulações de diálogos. Peça a ele: 'Haja como um Diretor de Transportadora furioso por causa de uma multa da apólice, e eu tentarei acalmá-lo usando o argumento do Total Trac'.",
           ],
         },
       ],
@@ -62,9 +62,9 @@ export const module08: ModuleContentFull = {
           type: "checklist",
           title: "O que a Transportadora quer de nós:",
           items: [
-            "Garantia Absoluta: Ela quer que a AtlasGR obrigue o motorista a seguir as regras, para que a apólice pague em caso de sinistro.",
-            "Custo Evitado: Se o motorista tentar desviar a rota, ela quer que a Atlas bloqueie o caminhão IMEDIATAMENTE.",
-            "Produto Alvo: O Atlas GR (Processo e Torre) e o Atlas Profile (Para não contratar o motorista errado).",
+            "Garantia Absoluta: Ela quer que a Total Trac obrigue o motorista a seguir as regras, para que a apólice pague em caso de sinistro.",
+            "Custo Evitado: Se o motorista tentar desviar a rota, ela quer que a Total Trac bloqueie o caminhão IMEDIATAMENTE.",
+            "Produto Alvo: O Total Trac (Processo e Torre) e o Atlas Profile (Para não contratar o motorista errado).",
           ],
         },
       ],
@@ -113,8 +113,8 @@ export const module08: ModuleContentFull = {
         {
           type: "case",
           title: "A Venda de R$ 95 Milhões vs A Venda de 26%",
-          text: "Dois cases reais da Atlas: Para um embarcador de combustíveis (alto índice de roubo e desvio), vendemos o Atlas GR pesado. Bloqueio automático de válvulas, CIA atuando fortemente e escoltas. Resultado: R$ 95 Milhões economizados em cargas roubadas. Para um embarcador de sucos (zero roubo), o discurso de segurança de válvula não serviria de nada. O foco foi o tempo. Vendemos o Atlas Connect e o Analytics para criar Cercas Eletrônicas em fazendas de laranja. O cliente diminuiu em 26% o tempo de fila de seus caminhões. É a mesma plataforma, vendida de formas completamente diferentes dependendo de quem escuta.",
-          source: "Playbook Comercial AtlasGR",
+          text: "Dois cases reais da Total Trac: Para um embarcador de combustíveis (alto índice de roubo e desvio), vendemos o Total Trac pesado. Bloqueio automático de válvulas, CIA atuando fortemente e escoltas. Resultado: R$ 95 Milhões economizados em cargas roubadas. Para um embarcador de sucos (zero roubo), o discurso de segurança de válvula não serviria de nada. O foco foi o tempo. Vendemos o Atlas Connect e o Analytics para criar Cercas Eletrônicas em fazendas de laranja. O cliente diminuiu em 26% o tempo de fila de seus caminhões. É a mesma plataforma, vendida de formas completamente diferentes dependendo de quem escuta.",
+          source: "Playbook Comercial Total Trac",
         },
       ],
     },
@@ -127,7 +127,7 @@ export const module08: ModuleContentFull = {
           heading: "Nem Todo Cliente Toca o Mesmo Alarme",
           paragraphs: [
             [
-              "Além do perfil (Transportadora, Embarcador, Operador), a AtlasGR classifica cada contrato por criticidade. Um cliente Enterprise com carga de alto valor (eletrônicos, máquinas industriais, combustível) não pode esperar na mesma fila que um cliente Padrão com carga de baixo risco. A Central de Monitoramento 24/7 opera com filas de prioridade, não com ordem de chegada.",
+              "Além do perfil (Transportadora, Embarcador, Operador), a Total Trac classifica cada contrato por criticidade. Um cliente Enterprise com carga de alto valor (eletrônicos, máquinas industriais, combustível) não pode esperar na mesma fila que um cliente Padrão com carga de baixo risco. A Central de Monitoramento 24/7 opera com filas de prioridade, não com ordem de chegada.",
             ],
             [
               "Isso está formalizado em contrato, no ",
@@ -194,9 +194,9 @@ export const module08: ModuleContentFull = {
     },
   ],
   summary: [
-    "Transportadoras compram AtlasGR para garantir o pagamento do seguro e evitar multas.",
-    "Embarcadores compram AtlasGR para enxergar cargas terceirizadas e medir a eficiência da logística.",
-    "Operadores Logísticos usam a AtlasGR para gerir toda a cadeia simultaneamente.",
+    "Transportadoras compram Total Trac para garantir o pagamento do seguro e evitar multas.",
+    "Embarcadores compram Total Trac para enxergar cargas terceirizadas e medir a eficiência da logística.",
+    "Operadores Logísticos usam a Total Trac para gerir toda a cadeia simultaneamente.",
     "O discurso comercial deve ancorar o produto na dor específica (Segurança vs Eficiência).",
   ],
   finalChecklist: [
@@ -213,9 +213,9 @@ export const module08: ModuleContentFull = {
     ],
   },
   scenario:
-    "Cenário Prático: O cliente é a Nike (Embarcador). Eles terceirizam 100% da frota. Eles reclamam que a transportadora sempre diz que 'está chegando', mas os tênis chegam 2 dias atrasados. Qual é o produto AtlasGR ideal para resolver isso e por quê?",
+    "Cenário Prático: O cliente é a Nike (Embarcador). Eles terceirizam 100% da frota. Eles reclamam que a transportadora sempre diz que 'está chegando', mas os tênis chegam 2 dias atrasados. Qual é o produto Total Trac ideal para resolver isso e por quê?",
   diagram: {
     title: "Mapeamento Dores vs Soluções",
-    chart: "graph TD\n  Trans[Transportadora] --> DorT[Não perder Seguro]\n  Emb[Embarcador] --> DorE[Quero Eficiência/Visibilidade]\n  DorT --> SolT[Venda: Atlas GR]\n  DorE --> SolE[Venda: Atlas Connect / Analytics]",
+    chart: "graph TD\n  Trans[Transportadora] --> DorT[Não perder Seguro]\n  Emb[Embarcador] --> DorE[Quero Eficiência/Visibilidade]\n  DorT --> SolT[Venda: Total Trac]\n  DorE --> SolE[Venda: Atlas Connect / Analytics]",
   },
 };

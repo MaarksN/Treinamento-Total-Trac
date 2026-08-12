@@ -1,4 +1,4 @@
-import type { ModuleContentFull } from "@/lib/types";
+﻿import type { ModuleContentFull } from "@/lib/types";
 import { getModuleMeta } from "./meta";
 
 const meta = getModuleMeta("12-compliance")!;
@@ -8,7 +8,7 @@ export const module12: ModuleContentFull = {
   sources: [
     "Política Organizacional e Ética (v2.1) — seções 9 a 12",
     "LGPD (Lei nº 13.709/2018)",
-    "Normas de Segurança da Informação AtlasGR",
+    "Normas de Segurança da Informação Total Trac",
   ],
   objectives: [
     "Dominar as regras da LGPD e sua aplicação prática no dia a dia da Torre.",
@@ -27,7 +27,7 @@ export const module12: ModuleContentFull = {
           heading: "A Maior Vulnerabilidade do Sistema",
           paragraphs: [
             [
-              "Os servidores da AtlasGR são protegidos por criptografia militar. Mas de nada adianta um cofre de titânio se o guarda da porta entrega a senha para o primeiro que liga gritando. Na segurança cibernética corporativa, o humano é sempre o elo mais fraco.",
+              "Os servidores da Total Trac são protegidos por criptografia militar. Mas de nada adianta um cofre de titânio se o guarda da porta entrega a senha para o primeiro que liga gritando. Na segurança cibernética corporativa, o humano é sempre o elo mais fraco.",
             ],
             [
               "Este módulo foca na sua blindagem mental. O vazamento de dados não resulta apenas em cargas roubadas; resulta em multas milionárias da Agência Nacional de Proteção de Dados (ANPD) e demissão imediata por justa causa.",
@@ -52,7 +52,7 @@ export const module12: ModuleContentFull = {
           type: "text",
           paragraphs: [
             [
-              "Nós não monitoramos caminhões; nós tratamos dados. O CPF do motorista, a biometria facial, as rotas que ele faz. Tudo isso pertence a ELE, não à AtlasGR.",
+              "Nós não monitoramos caminhões; nós tratamos dados. O CPF do motorista, a biometria facial, as rotas que ele faz. Tudo isso pertence a ELE, não à Total Trac.",
             ],
           ],
         },
@@ -83,7 +83,7 @@ export const module12: ModuleContentFull = {
           type: "faq",
           items: [
             { q: "O Falso Diretor: 'Sou diretor do embarcador, a carga está parada, libere a senha agora ou cancelo o contrato!'", a: "Resposta: O protocolo exige dupla verificação com contatos previamente cadastrados. Nenhum diretor real pede para burlar regras de segurança. Negue a informação e reporte ao DHO." },
-            { q: "O Falso TI: 'Oi, sou da TI da Atlas, precisamos da sua senha para resetar o sistema'.", a: "A TI NUNCA pede a sua senha. Desligue imediatamente." },
+            { q: "O Falso TI: 'Oi, sou da TI da Total Trac, precisamos da sua senha para resetar o sistema'.", a: "A TI NUNCA pede a sua senha. Desligue imediatamente." },
           ],
         },
       ],
@@ -113,7 +113,7 @@ export const module12: ModuleContentFull = {
         {
           type: "case",
           title: "O Grupo de WhatsApp",
-          text: "Um operador da torre achou engraçado o formato da rota que um caminhão fez no mapa do sistema e tirou uma foto da tela com o celular para mandar no grupo de WhatsApp da equipe. Sem perceber, a foto mostrava também a placa do veículo, o nome do cliente e a lista dos 3 próximos locais de entrega na região de Campinas. Alguém do grupo encaminhou para fora. Dois dias depois, uma das cargas listadas foi abordada com precisão militar, pois a quadrilha sabia exatamente a sequência de paradas. O operador foi demitido, indiciado e a Atlas assumiu um prejuízo civil colossal.",
+          text: "Um operador da torre achou engraçado o formato da rota que um caminhão fez no mapa do sistema e tirou uma foto da tela com o celular para mandar no grupo de WhatsApp da equipe. Sem perceber, a foto mostrava também a placa do veículo, o nome do cliente e a lista dos 3 próximos locais de entrega na região de Campinas. Alguém do grupo encaminhou para fora. Dois dias depois, uma das cargas listadas foi abordada com precisão militar, pois a quadrilha sabia exatamente a sequência de paradas. O operador foi demitido, indiciado e a Total Trac assumiu um prejuízo civil colossal.",
           source: "Manual de Incidentes de Segurança da Informação",
         },
       ],
@@ -144,8 +144,8 @@ export const module12: ModuleContentFull = {
           title: "Protocolo das Primeiras Horas",
           items: [
             { label: "Minuto 0", text: "Pare a ação que está causando ou expondo o vazamento, mas NÃO feche janelas, não apague logs, não desligue a máquina. Isole, não destrua." },
-            { label: "Até 15 min", text: "Acione simultaneamente o seu líder direto e a C.I.A (Célula de Inteligência Atlas) pelo canal de emergência. Descreva o que viu, quando e em que sistema." },
-            { label: "Até 1 hora", text: "O time de Segurança da Informação e o Encarregado de Dados (DPO) da AtlasGR precisam ser formalmente comunicados para abrir o registro interno de incidente e iniciar a contenção." },
+            { label: "Até 15 min", text: "Acione simultaneamente o seu líder direto e a C.I.A (Célula de Inteligência Total Trac) pelo canal de emergência. Descreva o que viu, quando e em que sistema." },
+            { label: "Até 1 hora", text: "O time de Segurança da Informação e o Encarregado de Dados (DPO) da Total Trac precisam ser formalmente comunicados para abrir o registro interno de incidente e iniciar a contenção." },
             { label: "Próximos dias", text: "Cabe ao DPO, junto à Jurídico, avaliar o risco ao titular dos dados e decidir se e quando a ANPD e os titulares afetados serão notificados, conforme exige a LGPD. Essa decisão não é sua — mas o seu relato preciso é o que a embasa." },
           ],
         },

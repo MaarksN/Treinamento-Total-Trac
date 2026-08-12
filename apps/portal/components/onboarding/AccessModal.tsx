@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
@@ -142,7 +142,7 @@ export function AccessModal({
             </div>
 
             <div className="mt-4 inline-flex items-center gap-1.5 rounded-full border border-atlas-orange/30 bg-atlas-orange/10 px-3 py-1 text-xs font-semibold text-atlas-orange">
-              + R$ 169 Bilhões monitorados pela operação AtlasGR
+              + R$ 169 Bilhões monitorados pela operação Total Trac
             </div>
 
             {enrolled.length === 0 ? (

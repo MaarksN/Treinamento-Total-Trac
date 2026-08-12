@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { PrismaClient } from '@atlasgr/database';
+import { PrismaClient } from '@totaltrac/database';
 
 @Injectable()
 export class GamificationService {
