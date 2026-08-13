@@ -6,7 +6,7 @@ const meta = getModuleMeta("06-atlas-profile")!;
 export const module06: ModuleContentFull = {
   ...meta,
   sources: [
-    "Atlas Profile - Guia de Produto",
+    "Total Trac Profile - Guia de Produto",
     "Cartilha de LGPD (Lei nº 13.709/2018)",
   ],
   objectives: [
@@ -26,7 +26,7 @@ export const module06: ModuleContentFull = {
           heading: "A Fraude Começa Fora da Estrada",
           paragraphs: [
             [
-              "Se você deixar um fraudador assumir a boleia do caminhão, o Atlas Connect e o Total Trac terão que travar uma guerra para parar o veículo. A lógica do Atlas Profile é simples: nós não deixamos o inimigo entrar no caminhão.",
+              "Se você deixar um fraudador assumir a boleia do caminhão, o Total Trac Connect e o Total Trac terão que travar uma guerra para parar o veículo. A lógica do Total Trac Profile é simples: nós não deixamos o inimigo entrar no caminhão.",
             ],
             [
               "O Profile atua no 'Background Check' (Pesquisa de Antecedentes e Validação Documental), atuando como um filtro implacável que varre o histórico da frota e do condutor antes do frete ser aprovado.",
@@ -51,7 +51,7 @@ export const module06: ModuleContentFull = {
           type: "text",
           paragraphs: [
             [
-              "No passado, despachantes passavam dias consultando sites de tribunais de justiça. Hoje, o Atlas Profile realiza milhares de requisições simultâneas via ",
+              "No passado, despachantes passavam dias consultando sites de tribunais de justiça. Hoje, o Total Trac Profile realiza milhares de requisições simultâneas via ",
               { term: "api" },
               ".",
             ],
@@ -140,7 +140,7 @@ export const module06: ModuleContentFull = {
           heading: "O Que a Lei Permite Usar na Decisão de Contratar",
           paragraphs: [
             [
-              "Saber que um antecedente existe é diferente de poder usá-lo para reprovar alguém. A LGPD trata dado criminal como dado sensível, e o critério de decisão do Atlas Profile precisa se limitar estritamente à finalidade declarada: avaliar se aquela pessoa pode dirigir aquela carga com segurança.",
+              "Saber que um antecedente existe é diferente de poder usá-lo para reprovar alguém. A LGPD trata dado criminal como dado sensível, e o critério de decisão do Total Trac Profile precisa se limitar estritamente à finalidade declarada: avaliar se aquela pessoa pode dirigir aquela carga com segurança.",
             ],
             [
               "Isso significa que categorias inteiras de informação são proibidas de influenciar o status, mesmo quando aparecem incidentalmente durante a varredura de bases públicas.",
@@ -227,7 +227,7 @@ export const module06: ModuleContentFull = {
     "Sei os 3 tipos de pareceres gerados pela pesquisa.",
   ],
   mindMap: {
-    root: "Atlas Profile",
+    root: "Total Trac Profile",
     branches: [
       { label: "Bases", items: ["Tribunais", "ANTT", "Detran"] },
       { label: "FaceID", items: ["Prova de Vida", "Biometria", "Anti-Falsidade"] },
@@ -235,7 +235,7 @@ export const module06: ModuleContentFull = {
     ],
   },
   scenario:
-    "Cenário Prático: Um despachante terceirizado liga furioso exigindo saber POR QUE o Atlas Profile reprovou um grande amigo dele. Como você bloqueia essa extração de dados usando a política de compliance?",
+    "Cenário Prático: Um despachante terceirizado liga furioso exigindo saber POR QUE o Total Trac Profile reprovou um grande amigo dele. Como você bloqueia essa extração de dados usando a política de compliance?",
   diagram: {
     title: "O Funil de Contratação",
     chart: "graph TD\n  Dados[Input Placa/CPF] --> CheckDoc[Bases Governamentais]\n  CheckDoc -- Limpo --> Selfie[SMS FaceID]\n  Selfie -- Rosto Confere --> Aprova[Viagem Liberada]\n  CheckDoc -- Crime --> Reprova[NÃO RECOMENDADO]\n  Selfie -- Rosto Falso --> Reprova",

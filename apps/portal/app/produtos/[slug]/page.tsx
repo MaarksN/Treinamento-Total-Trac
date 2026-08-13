@@ -11,10 +11,10 @@ import type { Metadata } from "next";
 
 const PRODUCT_SLUGS = ["profile", "connect", "gr", "analytics"];
 const PRODUCT_NAMES: Record<string, string> = {
-  profile: "Atlas Profile",
-  connect: "Atlas Connect",
+  profile: "Total Trac Profile",
+  connect: "Total Trac Connect",
   gr: "Total Trac",
-  analytics: "Atlas Analytics",
+  analytics: "Total Trac Analytics",
 };
 
 export function generateStaticParams() {
@@ -64,7 +64,7 @@ export default async function ProdutoPage({ params }: { params: Promise<{ slug: 
         </h1>
         <p className="text-xl text-gray-400 max-w-3xl mb-12 relative z-10">
           {isProfile && "Inteligência Artificial que analisa o risco de contratação em menos de 5 minutos, garantindo a conformidade da sua operação."}
-          {isConnectOrGR && "A Torre de Controle definitiva. Transforme eventos brutos em gestão por exceção e acione a Célula de Inteligência Atlas (C.I.A) automaticamente."}
+          {isConnectOrGR && "A Torre de Controle definitiva. Transforme eventos brutos em gestão por exceção e acione a Célula de Inteligência Total Trac (C.I.A) automaticamente."}
           {slug === "analytics" && "O Cockpit Executivo para visualização de dados logísticos e operacionais em tempo real."}
         </p>
       </section>
@@ -78,7 +78,7 @@ export default async function ProdutoPage({ params }: { params: Promise<{ slug: 
               <div className="lg:w-1/2">
                 <h2 className="text-3xl font-bold mb-4">O Custo Invisível da Contratação</h2>
                 <p className="text-gray-400 text-lg leading-relaxed mb-6">
-                  Um erro na contratação pode custar milhões. O Atlas Profile utiliza IA para cruzar dados criminais, biometria facial e histórico profissional instantaneamente.
+                  Um erro na contratação pode custar milhões. O Total Trac Profile utiliza IA para cruzar dados criminais, biometria facial e histórico profissional instantaneamente.
                 </p>
                 <GlossaryTooltip>
                   <ul className="space-y-4">
@@ -109,7 +109,7 @@ export default async function ProdutoPage({ params }: { params: Promise<{ slug: 
                 <h2 className="text-3xl font-bold mb-4">Arquitetura de Resposta Rápida</h2>
                 <GlossaryTooltip>
                   <p className="text-gray-400 text-lg leading-relaxed">
-                    Não dependa do WhatsApp para salvar sua carga. O Atlas Connect integra-se ao seu rastreador e escala automaticamente eventos críticos para a Torre de Controle e a C.I.A.
+                    Não dependa do WhatsApp para salvar sua carga. O Total Trac Connect integra-se ao seu rastreador e escala automaticamente eventos críticos para a Torre de Controle e a C.I.A.
                   </p>
                 </GlossaryTooltip>
               </div>

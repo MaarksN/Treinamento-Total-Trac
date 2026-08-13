@@ -7,13 +7,13 @@ export const module13: ModuleContentFull = {
   ...meta,
   sources: [
     "Visão Estratégica Total Trac 2026",
-    "Showcase de produto Atlas Analytics",
+    "Showcase de produto Total Trac Analytics",
     "Manuais de Telemetria Avançada",
   ],
   objectives: [
     "Diferenciar de forma definitiva a logística Reativa da logística Preditiva.",
     "Compreender a revolução das câmeras embarcadas com IA (Sensores de Safety e Fadiga).",
-    "Descrever como o Atlas Analytics entrega valor executivo e gera retenção.",
+    "Descrever como o Total Trac Analytics entrega valor executivo e gera retenção.",
     "Entender que a IA não demite o bom operador, mas potencializa sua eficiência.",
     "Reconhecer os limites da IA (falso positivo e viés de dados) e por que a decisão final é sempre humana.",
   ],
@@ -204,13 +204,13 @@ export const module13: ModuleContentFull = {
   summary: [
     "A IA aplicada substitui a gestão de frota baseada em 'achismos' por certeza matemática.",
     "Câmeras de fadiga salvam vidas (e cargas) agindo antes do cérebro humano desligar (Safety).",
-    "O Atlas Analytics é o produto de maior valor agregado da empresa, focando na C-Level (Diretores).",
+    "O Total Trac Analytics é o produto de maior valor agregado da empresa, focando na C-Level (Diretores).",
     "Tecnologia e Operador não competem; a IA faz o trabalho braçal e o Operador toma a decisão de crise.",
   ],
   finalChecklist: [
     "Sei a diferença entre a logística reativa do passado e a preditiva da Total Trac.",
     "Consigo explicar como um sensor de fadiga funciona na prática.",
-    "Entendo que o Atlas Analytics é feito para descobrir tendências e gerar dashboards executivos.",
+    "Entendo que o Total Trac Analytics é feito para descobrir tendências e gerar dashboards executivos.",
   ],
   mindMap: {
     root: "Tecnologia Total Trac",

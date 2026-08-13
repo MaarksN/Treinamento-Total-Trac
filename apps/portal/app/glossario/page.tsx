@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useMemo, useState } from "react";
 import { Search } from "lucide-react";
@@ -42,7 +42,7 @@ export default function GlossarioPage() {
             <Card key={g.id} className="p-5">
               <p className="font-display font-semibold text-foreground">{g.term}</p>
               <p className="mt-1.5 text-sm text-muted">{g.definition}</p>
-              {g.atlasUsage && <p className="mt-2 text-xs text-atlas-orange/90">Como a Atlas usa: {g.atlasUsage}</p>}
+              {g.atlasUsage && <p className="mt-2 text-xs text-atlas-orange/90">Como a Total Trac usa: {g.atlasUsage}</p>}
             </Card>
           ))}
           {filtered.length === 0 && <p className="text-muted">Nenhum termo encontrado para &ldquo;{query}&rdquo;.</p>}

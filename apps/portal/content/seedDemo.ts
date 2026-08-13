@@ -27,7 +27,7 @@ export const demoKpis = {
   questoesMaisErradas: [
     { pergunta: "O que é 'sublimite' em uma apólice de seguro?", errosPct: 34 },
     { pergunta: "Quantas permissões uma GR pode ter associada a um veículo?", errosPct: 27 },
-    { pergunta: "O que é o 'Consolidado SM' no Atlas Connect?", errosPct: 21 },
+    { pergunta: "O que é o 'Consolidado SM' no Total Trac Connect?", errosPct: 21 },
   ],
   questoesMaisAcertadas: [
     { pergunta: "Em que ano a Total Trac foi fundada?", acertosPct: 97 },

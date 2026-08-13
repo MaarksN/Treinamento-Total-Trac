@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 export function AtlasMentorPanel() {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<{role: 'user' | 'ai', content: string}[]>([
-    { role: 'ai', content: "Olá. Sou o Atlas Mentor, seu copiloto logístico. Como posso te ajudar na sua jornada hoje?" }
+    { role: 'ai', content: "Olá. Sou o Total Trac Mentor, seu copiloto logístico. Como posso te ajudar na sua jornada hoje?" }
   ]);
   const [input, setInput] = useState("");
   const [isTyping, setIsTyping] = useState(false);
@@ -24,7 +24,7 @@ export function AtlasMentorPanel() {
     setTimeout(() => {
       setMessages(prev => [...prev, {
         role: 'ai',
-        content: "Essa é uma simulação de resposta do Atlas Mentor. Em um cenário real, eu analisaria sua dúvida usando a base de conhecimento da Total Trac para fornecer a melhor tática logística."
+        content: "Essa é uma simulação de resposta do Total Trac Mentor. Em um cenário real, eu analisaria sua dúvida usando a base de conhecimento da Total Trac para fornecer a melhor tática logística."
       }]);
       setIsTyping(false);
     }, 1500);
@@ -60,7 +60,7 @@ export function AtlasMentorPanel() {
                   <Bot className="w-5 h-5 text-atlas-orange" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-white">Atlas Mentor</h3>
+                  <h3 className="font-bold text-white">Total Trac Mentor</h3>
                   <p className="text-xs text-atlas-orange">IA de Copiloto Logístico</p>
                 </div>
               </div>
@@ -104,7 +104,7 @@ export function AtlasMentorPanel() {
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
                   onKeyDown={(e) => e.key === 'Enter' && handleSend()}
-                  placeholder="Pergunte ao Atlas Mentor..."
+                  placeholder="Pergunte ao Total Trac Mentor..."
                   className="w-full bg-white/5 border border-white/10 rounded-full py-3 pl-4 pr-12 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-atlas-orange transition-colors"
                 />
                 <button

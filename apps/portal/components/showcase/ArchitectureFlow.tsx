@@ -1,11 +1,11 @@
-"use client";
+﻿"use client";
 
 import { motion } from "framer-motion";
 import { Truck, Signal, ShieldAlert, Users, Navigation } from "lucide-react";
 
 const nodes = [
   { id: "event", title: "Evento", subtitle: "Rastreador Perde Sinal", icon: Truck, color: "text-yellow-400", bg: "bg-yellow-400/10", border: "border-yellow-400/30" },
-  { id: "connect", title: "Atlas Connect", subtitle: "Regra Acionada", icon: Signal, color: "text-atlas-orange", bg: "bg-atlas-orange/10", border: "border-atlas-orange/50" },
+  { id: "connect", title: "Total Trac Connect", subtitle: "Regra Acionada", icon: Signal, color: "text-atlas-orange", bg: "bg-atlas-orange/10", border: "border-atlas-orange/50" },
   { id: "torre", title: "Torre de Controle", subtitle: "Tratativa Inicial", icon: Navigation, color: "text-blue-400", bg: "bg-blue-400/10", border: "border-blue-400/30" },
   { id: "cia", title: "C.I.A", subtitle: "Escalada de Risco", icon: ShieldAlert, color: "text-red-500", bg: "bg-red-500/10", border: "border-red-500/50" },
   { id: "police", title: "Ação Rápida", subtitle: "Escolta / Polícia", icon: Users, color: "text-green-400", bg: "bg-green-400/10", border: "border-green-400/30" },

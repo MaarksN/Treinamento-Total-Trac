@@ -110,7 +110,7 @@ export const module14: ModuleContentFull = {
             label: "Case Combustíveis (Roubo Zero)",
             points: [
               "Problema Original: 40 roubos e desvios ao ano (Prejuízos constantes).",
-              "Solução: Implantação massiva do Atlas Profile + Bloqueios Agressivos e regras restritas.",
+              "Solução: Implantação massiva do Total Trac Profile + Bloqueios Agressivos e regras restritas.",
               "Resultado Final: ZERO roubos por 24 meses seguidos. Economia contábil de R$ 95 Milhões.",
             ],
           },
@@ -118,7 +118,7 @@ export const module14: ModuleContentFull = {
             label: "Case Sucos (Otimização Extrema)",
             points: [
               "Problema Original: Zero roubos, mas os caminhões passavam dias em filas nas fazendas.",
-              "Solução: Cercas Virtuais do Connect ligadas ao Atlas Analytics para medição de pátio.",
+              "Solução: Cercas Virtuais do Connect ligadas ao Total Trac Analytics para medição de pátio.",
               "Resultado Final: Redução de 26% no tempo ocioso. Aumento bruto na margem de lucro da transportadora.",
             ],
           },
@@ -154,7 +154,7 @@ export const module14: ModuleContentFull = {
           type: "timeline",
           title: "Cronologia: Do Desvio à Recuperação Total",
           items: [
-            { label: "09:41 (O Alerta)", text: "Connect acusa desvio de rota fora do corredor logístico autorizado no Atlas Profile." },
+            { label: "09:41 (O Alerta)", text: "Connect acusa desvio de rota fora do corredor logístico autorizado no Total Trac Profile." },
             { label: "09:43 (A Verificação)", text: "Em vez de ligar e confiar na voz, o operador ativa o DMS e visualiza dois ocupantes estranhos na cabine. Contra-senha nem chega a ser solicitada: a evidência visual já basta." },
             { label: "09:47 (A Ação)", text: "CIA assume a ocorrência e aciona o bloqueio progressivo do motor via Total Trac Connect, evitando reação violenta dos criminosos." },
             { label: "10:05 (A Interceptação)", text: "Coordenadas em tempo real são repassadas à Polícia Rodoviária. Veículo é abordado antes de alcançar o ponto de troca de carga." },

@@ -58,7 +58,7 @@ export const glossary: GlossaryTerm[] = [
   },
   {
     id: "connect",
-    term: "Atlas Connect",
+    term: "Total Trac Connect",
     definition:
       "Sistema próprio da Total Trac usado pela Central para cadastrar clientes e veículos, criar e consolidar SMs, configurar o PGR, solicitar e validar checklists, acompanhar a Torre de Controle e registrar eventos e alertas.",
     importance: "É a principal ferramenta de trabalho de operadores, supervisão e CIA no dia a dia da Central.",
@@ -83,14 +83,14 @@ export const glossary: GlossaryTerm[] = [
       "Procedimento de verificação remota, feito com o motorista ao telefone ou via macro do equipamento, que testa se todos os sensores e atuadores do veículo (bloqueio, sirene, sensores de porta, botão de pânico etc.) estão funcionando corretamente antes ou durante uma viagem.",
     example:
       "O operador pede a macro de início de viagem, aciona o botão de pânico por 5 segundos, abre as portas para testar os sensores e confirma no Connect se bloqueio e sirene responderam.",
-    atlasUsage: "Validado e registrado no Atlas Connect, na tela de Checklist, aprovando ou reprovando cada item testado.",
+    atlasUsage: "Validado e registrado no Total Trac Connect, na tela de Checklist, aprovando ou reprovando cada item testado.",
   },
   {
     id: "sensores-atuadores",
     term: "Sensores e atuadores",
     definition:
       "Componentes do equipamento de rastreamento instalado no veículo. Sensores identificam eventos (ex.: Sensor de Porta do Motorista, Sensor de Desengate, Sensor de Painel); atuadores executam ações (ex.: Bloqueio, Sirene, Pisca).",
-    atlasUsage: "Cada item é testado item a item no checklist e aparece listado no Atlas Connect com status Aprovado/Reprovado.",
+    atlasUsage: "Cada item é testado item a item no checklist e aparece listado no Total Trac Connect com status Aprovado/Reprovado.",
   },
   {
     id: "botao-de-panico",
@@ -285,7 +285,7 @@ export const glossary: GlossaryTerm[] = [
     definition:
       "Validação biométrica facial usada para confirmar que a pessoa realizando um cadastro ou embarque é de fato o motorista documentado — comparando uma foto capturada no momento com a foto de referência do cadastro.",
     importance: "Reduz o risco de um motorista diferente do cadastrado assumir a viagem sem o conhecimento da transportadora ou do embarcador.",
-    atlasUsage: "Usado pelo Atlas Profile na etapa de aprovação de motoristas, junto com a checagem documental e de antecedentes.",
+    atlasUsage: "Usado pelo Total Trac Profile na etapa de aprovação de motoristas, junto com a checagem documental e de antecedentes.",
   },
   {
     id: "icp",
@@ -301,7 +301,7 @@ export function findGlossaryTerm(id: string): GlossaryTerm | undefined {
 }
 glossary.push({
   id: "analytics",
-  term: "Atlas Analytics",
+  term: "Total Trac Analytics",
   definition: "Produto do portfólio da Total Trac focado em consolidar dados históricos e gerar dashboards executivos para tomada de decisão estratégica.",
   atlasUsage: "Usado para descobrir padrões e gargalos de eficiência, diferentemente do Connect que foca no tempo real.",
 });

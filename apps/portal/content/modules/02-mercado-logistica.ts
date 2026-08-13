@@ -72,7 +72,7 @@ export const module02: ModuleContentFull = {
           type: "text",
           paragraphs: [
             [
-              "Existe também o Operador Logístico, que não é dono da carga nem do caminhão. Ele orquestra os galpões e quarteiriza o frete. Para eles, a visibilidade macro oferecida pelo Atlas Connect é o produto mais valioso.",
+              "Existe também o Operador Logístico, que não é dono da carga nem do caminhão. Ele orquestra os galpões e quarteiriza o frete. Para eles, a visibilidade macro oferecida pelo Total Trac Connect é o produto mais valioso.",
             ],
           ],
         },
@@ -119,7 +119,7 @@ export const module02: ModuleContentFull = {
         {
           type: "faq",
           items: [
-            { q: "TMS substitui o Atlas Connect?", a: "Nunca. O TMS foca no Faturamento. O Connect foca na Segurança e Gestão de Risco em Tempo Real." },
+            { q: "TMS substitui o Total Trac Connect?", a: "Nunca. O TMS foca no Faturamento. O Connect foca na Segurança e Gestão de Risco em Tempo Real." },
             { q: "Por que integramos?", a: "Para que o cliente não precise digitar a mesma placa e NF duas vezes. A integração evita erros humanos e acelera a liberação da viagem." },
           ],
         },
@@ -170,7 +170,7 @@ export const module02: ModuleContentFull = {
               "Flexibilidade total: porta a porta, sem necessidade de baldeação.",
               "Malha extensa e capilar, chega onde a ferrovia nunca vai chegar.",
               "Exposição alta: motorista sozinho, rota aberta, múltiplos pontos de parada vulneráveis a assalto e desvio de rota.",
-              "É o motivo pelo qual o Atlas Connect existe: rastreamento contínuo compensa a exposição estrutural do modal.",
+              "É o motivo pelo qual o Total Trac Connect existe: rastreamento contínuo compensa a exposição estrutural do modal.",
             ],
           },
           right: {
@@ -225,7 +225,7 @@ export const module02: ModuleContentFull = {
   summary: [
     "A indústria (embarcador) foca no SLA de entrega e segurança; a transportadora foca no custo e cumprimento da apólice.",
     "A atratividade da carga (eletrônicos vs granel) dita o rigor do PGR.",
-    "A logística depende de integrações sólidas entre TMS, ERP e o nosso Atlas Connect.",
+    "A logística depende de integrações sólidas entre TMS, ERP e o nosso Total Trac Connect.",
     "O mapeamento de áreas de risco em raios de até 200km ao redor de metrópoles dispara protocolos automáticos.",
   ],
   finalChecklist: [

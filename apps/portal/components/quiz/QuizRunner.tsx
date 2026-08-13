@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -176,7 +176,7 @@ export function QuizRunner({
                 <div>
                   <div className="flex items-center gap-2 mb-2">
                     <TerminalSquare className="w-4 h-4 text-muted" />
-                    <span className="text-muted text-xs font-mono font-bold uppercase">Atlas Mentor AI</span>
+                    <span className="text-muted text-xs font-mono font-bold uppercase">Total Trac Mentor AI</span>
                   </div>
                   <h3 className={`text-xl font-bold mb-3 ${isCorrect ? "text-green-600 dark:text-green-400" : "text-red-600 dark:text-red-400"}`}>
                     {isCorrect ? "Protocolo Executado com Sucesso" : "Falha Crítica na Operação"}

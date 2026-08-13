@@ -255,6 +255,6 @@ export const module10: ModuleContentFull = {
     "Cenário Prático: A carreta para em um local ermo, e o rastreador principal emite que a bateria foi cortada subitamente (corte de fio), mas há 100% de cobertura de celular na região. Isso é Área de Sombra ou possível ação humana?",
   diagram: {
     title: "Documentação de Risco",
-    chart: "graph LR\n  Cliente(Embarcador) --> NFE[NF-e : Valor Alto]\n  NFE --> PGR{PGR Exige Isca?}\n  PGR -- Sim --> Torre(Atlas Connect)\n  PGR -- Não --> VSR(Viagem de Baixo Risco)",
+    chart: "graph LR\n  Cliente(Embarcador) --> NFE[NF-e : Valor Alto]\n  NFE --> PGR{PGR Exige Isca?}\n  PGR -- Sim --> Torre(Total Trac Connect)\n  PGR -- Não --> VSR(Viagem de Baixo Risco)",
   },
 };

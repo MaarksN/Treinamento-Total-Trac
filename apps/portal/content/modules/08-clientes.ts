@@ -64,7 +64,7 @@ export const module08: ModuleContentFull = {
           items: [
             "Garantia Absoluta: Ela quer que a Total Trac obrigue o motorista a seguir as regras, para que a apólice pague em caso de sinistro.",
             "Custo Evitado: Se o motorista tentar desviar a rota, ela quer que a Total Trac bloqueie o caminhão IMEDIATAMENTE.",
-            "Produto Alvo: O Total Trac (Processo e Torre) e o Atlas Profile (Para não contratar o motorista errado).",
+            "Produto Alvo: O Total Trac (Processo e Torre) e o Total Trac Profile (Para não contratar o motorista errado).",
           ],
         },
       ],
@@ -87,7 +87,7 @@ export const module08: ModuleContentFull = {
           items: [
             "Visibilidade Total: Ver todos os transportadores terceirizados na mesma tela.",
             "Eficiência (SLA): Medir qual transportadora entrega no prazo e qual atrasa.",
-            "Produto Alvo: Atlas Connect (Para ver o GPS em tempo real) e o Atlas Analytics (Para ver os gráficos de performance no fim do mês).",
+            "Produto Alvo: Total Trac Connect (Para ver o GPS em tempo real) e o Total Trac Analytics (Para ver os gráficos de performance no fim do mês).",
           ],
         },
       ],
@@ -113,7 +113,7 @@ export const module08: ModuleContentFull = {
         {
           type: "case",
           title: "A Venda de R$ 95 Milhões vs A Venda de 26%",
-          text: "Dois cases reais da Total Trac: Para um embarcador de combustíveis (alto índice de roubo e desvio), vendemos o Total Trac pesado. Bloqueio automático de válvulas, CIA atuando fortemente e escoltas. Resultado: R$ 95 Milhões economizados em cargas roubadas. Para um embarcador de sucos (zero roubo), o discurso de segurança de válvula não serviria de nada. O foco foi o tempo. Vendemos o Atlas Connect e o Analytics para criar Cercas Eletrônicas em fazendas de laranja. O cliente diminuiu em 26% o tempo de fila de seus caminhões. É a mesma plataforma, vendida de formas completamente diferentes dependendo de quem escuta.",
+          text: "Dois cases reais da Total Trac: Para um embarcador de combustíveis (alto índice de roubo e desvio), vendemos o Total Trac pesado. Bloqueio automático de válvulas, CIA atuando fortemente e escoltas. Resultado: R$ 95 Milhões economizados em cargas roubadas. Para um embarcador de sucos (zero roubo), o discurso de segurança de válvula não serviria de nada. O foco foi o tempo. Vendemos o Total Trac Connect e o Analytics para criar Cercas Eletrônicas em fazendas de laranja. O cliente diminuiu em 26% o tempo de fila de seus caminhões. É a mesma plataforma, vendida de formas completamente diferentes dependendo de quem escuta.",
           source: "Playbook Comercial Total Trac",
         },
       ],
@@ -216,6 +216,6 @@ export const module08: ModuleContentFull = {
     "Cenário Prático: O cliente é a Nike (Embarcador). Eles terceirizam 100% da frota. Eles reclamam que a transportadora sempre diz que 'está chegando', mas os tênis chegam 2 dias atrasados. Qual é o produto Total Trac ideal para resolver isso e por quê?",
   diagram: {
     title: "Mapeamento Dores vs Soluções",
-    chart: "graph TD\n  Trans[Transportadora] --> DorT[Não perder Seguro]\n  Emb[Embarcador] --> DorE[Quero Eficiência/Visibilidade]\n  DorT --> SolT[Venda: Total Trac]\n  DorE --> SolE[Venda: Atlas Connect / Analytics]",
+    chart: "graph TD\n  Trans[Transportadora] --> DorT[Não perder Seguro]\n  Emb[Embarcador] --> DorE[Quero Eficiência/Visibilidade]\n  DorT --> SolT[Venda: Total Trac]\n  DorE --> SolE[Venda: Total Trac Connect / Analytics]",
   },
 };

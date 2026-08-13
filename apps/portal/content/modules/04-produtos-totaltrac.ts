@@ -12,9 +12,9 @@ export const module04: ModuleContentFull = {
   ],
   objectives: [
     "Listar, descrever e conectar os quatro pilares do portfólio Total Trac.",
-    "Entender a proposta de valor exclusiva do Atlas Profile e a redução de custos ocultos.",
-    "Explicar a orquestração tática em tempo real feita pelo Atlas Connect e GR.",
-    "Descrever como o Atlas Analytics transforma dados brutos em decisões executivas preditivas.",
+    "Entender a proposta de valor exclusiva do Total Trac Profile e a redução de custos ocultos.",
+    "Explicar a orquestração tática em tempo real feita pelo Total Trac Connect e GR.",
+    "Descrever como o Total Trac Analytics transforma dados brutos em decisões executivas preditivas.",
     "Diferenciar o portfólio Total Trac de rastreadores genéricos de mercado e reconhecer os limites de escopo de cada produto.",
   ],
   sections: [
@@ -46,7 +46,7 @@ export const module04: ModuleContentFull = {
     },
     {
       id: "capitulo-1-profile",
-      title: "Capítulo 1: Atlas Profile (O Filtro Inicial)",
+      title: "Capítulo 1: Total Trac Profile (O Filtro Inicial)",
       blocks: [
         {
           type: "text",
@@ -55,7 +55,7 @@ export const module04: ModuleContentFull = {
               "A fraude mais eficiente não precisa de armas. Ela usa um terno falso e um documento clonado para roubar a carga antes mesmo do caminhão sair do pátio.",
             ],
             [
-              "O Atlas Profile realiza o 'Background Check' ou ",
+              "O Total Trac Profile realiza o 'Background Check' ou ",
               { term: "perfil-securitario" },
               ". Ele integra bases criminais, tribunais, listas restritivas e o banco de dados do Detran. Mais importante: ele usa biometria facial (",
               { term: "faceid" },
@@ -77,7 +77,7 @@ export const module04: ModuleContentFull = {
     },
     {
       id: "capitulo-2-connect-gr",
-      title: "Capítulo 2: Atlas Connect & Total Trac (A Execução)",
+      title: "Capítulo 2: Total Trac Connect & Total Trac (A Execução)",
       blocks: [
         {
           type: "text",
@@ -95,7 +95,7 @@ export const module04: ModuleContentFull = {
           type: "comparison",
           title: "A Diferença na Prática",
           left: {
-            label: "Atlas Connect (A Máquina)",
+            label: "Total Trac Connect (A Máquina)",
             points: [
               "Sistema Web onde a mágica acontece.",
               "Agrega sinais de rastreadores, cria cercas virtuais, exibe mapas.",
@@ -115,7 +115,7 @@ export const module04: ModuleContentFull = {
     },
     {
       id: "capitulo-3-analytics",
-      title: "Capítulo 3: Atlas Analytics (Visão Executiva)",
+      title: "Capítulo 3: Total Trac Analytics (Visão Executiva)",
       blocks: [
         {
           type: "text",
@@ -137,7 +137,7 @@ export const module04: ModuleContentFull = {
         {
           type: "case",
           title: "Operação Risco Zero (Embarcador de Bebidas)",
-          text: "Um grande fabricante perdia sistematicamente cargas não para roubos armados, mas para 'sumiços' de caminhões terceirizados (apropriação indébita). A Total Trac implantou os 4 pilares: 1. O Atlas Profile barrou 12% dos motoristas contratados por fraude documental já no 1º mês. 2. O Atlas Connect amarrou as viagens a APIs automáticas, zerando erros de digitação. 3. O GR atuou em 5 tentativas de desvio no trimestre, acionando a CIA que recuperou 100% da carga. 4. O Analytics provou para a diretoria do fabricante que 90% das tentativas de roubo ocorriam com apenas duas transportadoras específicas da base deles, permitindo o descredenciamento cirúrgico dos maus parceiros. Resultado: Economia de R$ 12 milhões em 6 meses.",
+          text: "Um grande fabricante perdia sistematicamente cargas não para roubos armados, mas para 'sumiços' de caminhões terceirizados (apropriação indébita). A Total Trac implantou os 4 pilares: 1. O Total Trac Profile barrou 12% dos motoristas contratados por fraude documental já no 1º mês. 2. O Total Trac Connect amarrou as viagens a APIs automáticas, zerando erros de digitação. 3. O GR atuou em 5 tentativas de desvio no trimestre, acionando a CIA que recuperou 100% da carga. 4. O Analytics provou para a diretoria do fabricante que 90% das tentativas de roubo ocorriam com apenas duas transportadoras específicas da base deles, permitindo o descredenciamento cirúrgico dos maus parceiros. Resultado: Economia de R$ 12 milhões em 6 meses.",
           source: "Case Comercial Integrado Total Trac",
         },
       ],
@@ -162,19 +162,19 @@ export const module04: ModuleContentFull = {
           type: "faq",
           items: [
             {
-              q: "Um rastreador comum também tem mapa e cerca virtual. Qual é a diferença real do Atlas Connect?",
-              a: "O mapa é o começo, não o fim. Um rastreador genérico avisa que o caminhão saiu da rota; o Atlas Connect interpreta o desvio dentro de um Motor de Regras e decide se aquilo é um alerta crítico que precisa acordar a Torre às 3h da manhã. Rastreador notifica. Connect prioriza e escala.",
+              q: "Um rastreador comum também tem mapa e cerca virtual. Qual é a diferença real do Total Trac Connect?",
+              a: "O mapa é o começo, não o fim. Um rastreador genérico avisa que o caminhão saiu da rota; o Total Trac Connect interpreta o desvio dentro de um Motor de Regras e decide se aquilo é um alerta crítico que precisa acordar a Torre às 3h da manhã. Rastreador notifica. Connect prioriza e escala.",
             },
             {
               q: "Se o cliente já tem um software de rastreamento, para que ele contrataria o Total Trac?",
               a: "Porque tela de alerta sem gente treinada olhando é só uma luz piscando. O Total Trac é a Torre, a CIA e o processo de tratativa de sinistro sob o PGR da apólice. É a diferença entre 'o sistema apitou' e 'o sinistro foi evitado'.",
             },
             {
-              q: "O Atlas Profile é só para motoristas terceirizados ou serve para qualquer contratação?",
+              q: "O Total Trac Profile é só para motoristas terceirizados ou serve para qualquer contratação?",
               a: "O produto foi desenhado para o risco de operação logística (motoristas, ajudantes e prestadores que têm acesso à carga), não é uma ferramenta genérica de RH para todo o quadro de funcionários administrativos.",
             },
             {
-              q: "Dá para comprar só o Atlas Analytics sem ter Connect ou GR rodando?",
+              q: "Dá para comprar só o Total Trac Analytics sem ter Connect ou GR rodando?",
               a: "Tecnicamente sim, mas comercialmente é raro fazer sentido: o Analytics é tão bom quanto os dados que ele recebe. Sem o histórico de eventos gerado pelo Connect e pelo GR, o cliente compra um painel bonito e vazio.",
             },
           ],
@@ -205,10 +205,10 @@ export const module04: ModuleContentFull = {
           type: "checklist",
           title: "Limites de Escopo: O Que Cada Produto NÃO Faz",
           items: [
-            "Atlas Profile não substitui validações oficiais exigidas por norma; ele audita documentos e biometria, mas não emite laudos.",
-            "Atlas Connect não decide sozinho se um alerta é um assalto real; a leitura e a decisão tática são do Total Trac/CIA.",
+            "Total Trac Profile não substitui validações oficiais exigidas por norma; ele audita documentos e biometria, mas não emite laudos.",
+            "Total Trac Connect não decide sozinho se um alerta é um assalto real; a leitura e a decisão tática são do Total Trac/CIA.",
             "Total Trac não é seguradora e não paga indenização; ele gerencia o risco e a tratativa dentro do PGR, a apólice e a SUSEP ficam com a seguradora.",
-            "Atlas Analytics não gera dado novo; ele só é tão preciso quanto o histórico que Connect e GR alimentaram antes.",
+            "Total Trac Analytics não gera dado novo; ele só é tão preciso quanto o histórico que Connect e GR alimentaram antes.",
           ],
         },
       ],
@@ -230,10 +230,10 @@ export const module04: ModuleContentFull = {
     },
   ],
   summary: [
-    "Atlas Profile age ANTES da viagem (Auditoria Documental e Biométrica).",
-    "Atlas Connect é o software de gestão em TEMPO REAL (Mapas, Alertas, APIs).",
+    "Total Trac Profile age ANTES da viagem (Auditoria Documental e Biométrica).",
+    "Total Trac Connect é o software de gestão em TEMPO REAL (Mapas, Alertas, APIs).",
     "Total Trac é a equipe e o processo humano que atua NA CRISE (Torre, CIA, PGR).",
-    "Atlas Analytics age DEPOIS, consolidando dados táticos em estratégias de longo prazo.",
+    "Total Trac Analytics age DEPOIS, consolidando dados táticos em estratégias de longo prazo.",
     "A união dos quatro pilares é o que torna a Total Trac líder no conceito de prevenção logística.",
   ],
   finalChecklist: [

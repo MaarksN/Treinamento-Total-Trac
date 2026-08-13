@@ -92,7 +92,7 @@ export const module07: ModuleContentFull = {
           items: [
             "Um cliente tem uma frota misturada: Caminhões novos com 'Sascar' e antigos com 'OnixSat'.",
             "Para o cliente rastrear antes da Total Trac, ele abria o site da Sascar no Monitor 1 e o site da Onixsat no Monitor 2.",
-            "O Atlas Connect recebe a longitude/latitude dos dois fornecedores e coloca TUDO NA MESMA TELA, no mesmo formato.",
+            "O Total Trac Connect recebe a longitude/latitude dos dois fornecedores e coloca TUDO NA MESMA TELA, no mesmo formato.",
           ],
         },
       ],
@@ -113,7 +113,7 @@ export const module07: ModuleContentFull = {
           type: "timeline",
           title: "Exemplo Prático de Bloqueio",
           items: [
-            { label: "Torre Atlas", text: "O operador aperta o botão 'Bloquear Combustível' no Atlas Connect." },
+            { label: "Torre Atlas", text: "O operador aperta o botão 'Bloquear Combustível' no Total Trac Connect." },
             { label: "API Atlas", text: "O nosso sistema traduz o comando para a linguagem específica daquele fabricante (ex: Autotrac)." },
             { label: "Satélite", text: "A rede da Autotrac envia o comando." },
             { label: "Caminhão", text: "O motor do caminhão corta o diesel a milhares de quilômetros de distância." },
@@ -205,7 +205,7 @@ export const module07: ModuleContentFull = {
   ],
   summary: [
     "APIs conectam sistemas, removendo a necessidade de digitação humana.",
-    "Ser agnóstico significa aceitar e centralizar dados de qualquer hardware/rastreador do mercado no Atlas Connect.",
+    "Ser agnóstico significa aceitar e centralizar dados de qualquer hardware/rastreador do mercado no Total Trac Connect.",
     "Bidirecionalidade permite que a Torre Atlas gerencie bloqueios sem sair da própria ferramenta.",
     "A maior causa de falha em PGRs é o erro humano na digitação/atribuição. A API mata esse erro.",
   ],
@@ -226,6 +226,6 @@ export const module07: ModuleContentFull = {
     "Cenário Prático: O cliente diz que o Operador dele prefere usar o sistema do rastreador direto do que o Connect. Explique a ele por que o sistema do rastreador não ajuda em nada quando a apólice de seguro entra na jogada.",
   diagram: {
     title: "O Hub Omnicanal",
-    chart: "graph TD\n  SistCliente[ERP/TMS Cliente] <-->|APIs de NF/Frete| Connect((Atlas Connect))\n  Rastreador1[Hardware Sascar] -->|Posição GPS| Connect\n  Rastreador2[Hardware Omnilink] -->|Posição GPS| Connect\n  Connect -->|Comandos de Bloqueio| Rastreador1",
+    chart: "graph TD\n  SistCliente[ERP/TMS Cliente] <-->|APIs de NF/Frete| Connect((Total Trac Connect))\n  Rastreador1[Hardware Sascar] -->|Posição GPS| Connect\n  Rastreador2[Hardware Omnilink] -->|Posição GPS| Connect\n  Connect -->|Comandos de Bloqueio| Rastreador1",
   },
 };

@@ -1,4 +1,4 @@
-import { PDFDocument, PDFFont, PDFPage, rgb, StandardFonts, degrees } from "pdf-lib";
+﻿import { PDFDocument, PDFFont, PDFPage, rgb, StandardFonts, degrees } from "pdf-lib";
 import QRCode from "qrcode";
 import type { CertificateInfo, RegistrationData } from "@/lib/types";
 import { BASE_PATH } from "@/lib/basePath";
@@ -12,7 +12,7 @@ const TEXT_PRIMARY = rgb(0.95, 0.95, 0.95);
 const TEXT_SECONDARY = rgb(0.6, 0.62, 0.65);
 const BORDER_COLOR = rgb(0.17, 0.18, 0.2);
 
-const MARK_RATIO = 2514 / 1717; // width / height of atlas-mark.png
+const MARK_RATIO = 2514 / 1717; // width / height of totaltrac-mark.png
 
 function centerText(
   page: PDFPage,
@@ -51,7 +51,7 @@ export async function generateCertificatePdf(
 
   let markImage: Awaited<ReturnType<typeof doc.embedPng>> | null = null;
   try {
-    const res = await fetch(`${BASE_PATH}/brand/atlas-mark.png`);
+    const res = await fetch(`${BASE_PATH}/brand/totaltrac-mark.png`);
     const bytes = new Uint8Array(await res.arrayBuffer());
     markImage = await doc.embedPng(bytes);
   } catch {

@@ -1,4 +1,4 @@
-import { ShieldCheck } from "lucide-react";
+﻿import { ShieldCheck } from "lucide-react";
 
 export default function EmptyState() {
   return (
@@ -11,7 +11,7 @@ export default function EmptyState() {
       </div>
       <h3 className="text-xl font-bold text-white mb-2">Sua operação está sob controle.</h3>
       <p className="text-gray-400 max-w-sm mx-auto">
-        Nenhuma não conformidade detectada nas últimas 24h. O Atlas Connect continua monitorando seus veículos em tempo real.
+        Nenhuma não conformidade detectada nas últimas 24h. O Total Trac Connect continua monitorando seus veículos em tempo real.
       </p>
     </div>
   );

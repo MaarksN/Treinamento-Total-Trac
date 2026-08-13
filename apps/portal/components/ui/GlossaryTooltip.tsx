@@ -1,16 +1,16 @@
-"use client";
+﻿"use client";
 
 import React, { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 const GLOSSARY: Record<string, string> = {
-  SLA: "Service Level Agreement. Acordo de Nível de Serviço. Na Atlas, o tempo máximo aceitável para tratativa de um evento.",
-  ETA: "Estimated Time of Arrival. Tempo Estimado de Chegada. Calculado dinamicamente via Atlas Connect.",
+  SLA: "Service Level Agreement. Acordo de Nível de Serviço. Na Total Trac, o tempo máximo aceitável para tratativa de um evento.",
+  ETA: "Estimated Time of Arrival. Tempo Estimado de Chegada. Calculado dinamicamente via Total Trac Connect.",
   PGR: "Plano de Gerenciamento de Risco. Documento que define as regras de segurança e operação aprovadas pela seguradora.",
   "Transit Time": "Tempo total de trânsito de uma mercadoria da origem ao destino.",
-  CIA: "Célula de Inteligência Atlas. Central especializada em resposta a eventos críticos e crises de segurança.",
-  FaceID: "Validação biométrica facial para garantir a identidade real do motorista durante o onboarding no Atlas Profile.",
-  "C.I.A": "Célula de Inteligência Atlas. Central especializada em resposta a eventos críticos e crises de segurança.",
+  CIA: "Célula de Inteligência Total Trac. Central especializada em resposta a eventos críticos e crises de segurança.",
+  FaceID: "Validação biométrica facial para garantir a identidade real do motorista durante o onboarding no Total Trac Profile.",
+  "C.I.A": "Célula de Inteligência Total Trac. Central especializada em resposta a eventos críticos e crises de segurança.",
 };
 
 export default function GlossaryTooltip({ children }: { children: React.ReactNode }) {

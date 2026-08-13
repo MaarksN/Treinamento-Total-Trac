@@ -44,7 +44,7 @@ export const moduleMetas: ModuleMeta[] = [
   {
     slug: "06-atlas-profile",
     number: 6,
-    title: "Atlas Profile",
+    title: "Total Trac Profile",
     shortDescription: "Background check, biometria e compliance na análise de motoristas e veículos.",
     durationMinutes: 35,
     academy: "totaltrac", status: "ready", category: "Soluções Total Trac",
@@ -53,7 +53,7 @@ export const moduleMetas: ModuleMeta[] = [
     slug: "07-integracoes",
     number: 7,
     title: "Integrações",
-    shortDescription: "Como o Atlas Connect conversa com ERP, TMS e rastreadores de diferentes fabricantes.",
+    shortDescription: "Como o Total Trac Connect conversa com ERP, TMS e rastreadores de diferentes fabricantes.",
     durationMinutes: 30,
     academy: "totaltrac", status: "ready", category: "Soluções Total Trac",
   },

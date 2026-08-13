@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { BookOpen } from "lucide-react";
 import { findGlossaryTerm } from "@/content/glossary";
@@ -32,7 +32,7 @@ export function GlossaryTerm({ id }: { id: string }) {
         )}
         {entry.atlasUsage && (
           <p className="mt-2 rounded-lg bg-surface-2 p-2 text-xs text-muted">
-            <span className="font-semibold text-foreground/70">Como a Atlas usa: </span>
+            <span className="font-semibold text-foreground/70">Como a Total Trac usa: </span>
             {entry.atlasUsage}
           </p>
         )}

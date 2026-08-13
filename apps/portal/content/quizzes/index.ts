@@ -217,7 +217,7 @@ const quiz02: QuizQuestion[] = [
   {
     id: "q02-6",
     moduleSlug: "02-mercado-logistica",
-    question: "O que o Atlas Connect usa para receber dados do TMS do cliente automaticamente?",
+    question: "O que o Total Trac Connect usa para receber dados do TMS do cliente automaticamente?",
     options: [
       "Pen drives",
       "Ligações telefônicas",
@@ -447,7 +447,7 @@ const quiz04: QuizQuestion[] = [
   {
     id: "q04-2",
     moduleSlug: "04-produtos-totaltrac",
-    question: "O que o Atlas Profile resolve antes da viagem?",
+    question: "O que o Total Trac Profile resolve antes da viagem?",
     options: [
       "Define a rota no GPS",
       "Valida documentação, antecedentes e biometria do motorista e veículo",
@@ -461,7 +461,7 @@ const quiz04: QuizQuestion[] = [
   {
     id: "q04-3",
     moduleSlug: "04-produtos-totaltrac",
-    question: "O que o Atlas Connect fornece à operação?",
+    question: "O que o Total Trac Connect fornece à operação?",
     options: [
       "Punição para motoristas",
       "Apólice de seguros",
@@ -505,8 +505,8 @@ const quiz04: QuizQuestion[] = [
     moduleSlug: "04-produtos-totaltrac",
     question: "No Case de 26% de economia (Embarcador de Suco), qual pilar foi fundamental para provar a ineficiência logística?",
     options: [
-      "Atlas Profile",
-      "Atlas Analytics",
+      "Total Trac Profile",
+      "Total Trac Analytics",
       "Total Trac",
       "Apenas o TMS do cliente",
     ],
@@ -519,8 +519,8 @@ const quiz04: QuizQuestion[] = [
     moduleSlug: "04-produtos-totaltrac",
     question: "Em qual pilar a CIA (Central de Inteligência Total Trac) atua diretamente?",
     options: [
-      "Atlas Profile",
-      "Atlas Analytics",
+      "Total Trac Profile",
+      "Total Trac Analytics",
       "Total Trac",
       "TMS",
     ],
@@ -531,7 +531,7 @@ const quiz04: QuizQuestion[] = [
   {
     id: "q04-8",
     moduleSlug: "04-produtos-totaltrac",
-    question: "O que é o 'Custo Invisível' que o Atlas Profile tenta mitigar?",
+    question: "O que é o 'Custo Invisível' que o Total Trac Profile tenta mitigar?",
     options: [
       "O pedágio",
       "A contratação de fraudadores que gerará um sinistro futuro grave",
@@ -545,7 +545,7 @@ const quiz04: QuizQuestion[] = [
   {
     id: "q04-9",
     moduleSlug: "04-produtos-totaltrac",
-    question: "Para que serve a Biometria (FaceID) no Atlas Profile?",
+    question: "Para que serve a Biometria (FaceID) no Total Trac Profile?",
     options: [
       "Para bater ponto",
       "Para garantir que a pessoa na portaria é realmente a do documento, prevenindo falsidade ideológica",
@@ -576,7 +576,7 @@ const quiz05: QuizQuestion[] = [
   {
     id: "q05-1",
     moduleSlug: "05-software-logistico",
-    question: "Como o Atlas Connect divide a sua tela principal (cockpit)?",
+    question: "Como o Total Trac Connect divide a sua tela principal (cockpit)?",
     options: [
       "Google Maps e YouTube",
       "Grade (status geral/passivo) e Fila de Alertas (problemas/ativo)",
@@ -688,7 +688,7 @@ const quiz05: QuizQuestion[] = [
   {
     id: "q05-9",
     moduleSlug: "05-software-logistico",
-    question: "O Atlas Connect foi desenhado para que os operadores não precisem...",
+    question: "O Total Trac Connect foi desenhado para que os operadores não precisem...",
     options: [
       "Falar com motoristas",
       "Trabalhar à noite",
@@ -719,7 +719,7 @@ const quiz06: QuizQuestion[] = [
   {
     id: "q06-1",
     moduleSlug: "06-atlas-profile",
-    question: "Qual golpe clássico o Atlas Profile barra usando o FaceID?",
+    question: "Qual golpe clássico o Total Trac Profile barra usando o FaceID?",
     options: [
       "Roubo com arma de fogo",
       "Falsidade Ideológica (uso de documentos falsos/roubados de motoristas limpos)",
@@ -747,7 +747,7 @@ const quiz06: QuizQuestion[] = [
   {
     id: "q06-3",
     moduleSlug: "06-atlas-profile",
-    question: "Além do histórico criminal, o que mais o Atlas Profile pesquisa?",
+    question: "Além do histórico criminal, o que mais o Total Trac Profile pesquisa?",
     options: [
       "O saldo bancário",
       "O status da CNH, multas impeditivas do veículo e documentação no Detran",
@@ -775,7 +775,7 @@ const quiz06: QuizQuestion[] = [
   {
     id: "q06-5",
     moduleSlug: "06-atlas-profile",
-    question: "Como o Atlas Profile descobre o histórico em segundos sem uso de humanos digitando?",
+    question: "Como o Total Trac Profile descobre o histórico em segundos sem uso de humanos digitando?",
     options: [
       "Ele adivinha",
       "Conexão direta com bases governamentais e tribunais via API",
@@ -845,7 +845,7 @@ const quiz06: QuizQuestion[] = [
   {
     id: "q06-10",
     moduleSlug: "06-atlas-profile",
-    question: "Onde o Atlas Profile entra na Linha do Tempo da viagem?",
+    question: "Onde o Total Trac Profile entra na Linha do Tempo da viagem?",
     options: [
       "No momento do roubo",
       "Durante o descarregamento",
@@ -1047,7 +1047,7 @@ const quiz08: QuizQuestion[] = [
   {
     id: "q08-4",
     moduleSlug: "08-clientes",
-    question: "Qual argumento usar com um Embarcador sobre o Atlas Analytics?",
+    question: "Qual argumento usar com um Embarcador sobre o Total Trac Analytics?",
     options: [
       "Sua transportadora não vai tomar multa de trânsito",
       "Podemos mostrar por que seus motoristas passam 26% do tempo parados na fazenda/fábrica (Eficiência)",
@@ -1117,7 +1117,7 @@ const quiz08: QuizQuestion[] = [
   {
     id: "q08-9",
     moduleSlug: "08-clientes",
-    question: "Quem seria o 'consumidor final' do serviço Atlas Analytics em uma Transportadora grande?",
+    question: "Quem seria o 'consumidor final' do serviço Total Trac Analytics em uma Transportadora grande?",
     options: [
       "O auxiliar administrativo",
       "O Operador da Torre da Total Trac",
@@ -1221,7 +1221,7 @@ const quiz09: QuizQuestion[] = [
     question: "A 'Demonstração' (Demo) é a fase onde o Vendedor (Closer) faz o quê?",
     options: [
       "Liga frio para achar o cliente",
-      "Apresenta tecnicamente o Atlas Connect ao vivo e defende o valor do produto",
+      "Apresenta tecnicamente o Total Trac Connect ao vivo e defende o valor do produto",
       "Assina os papéis fiscais",
       "Instala o rastreador no caminhão",
     ],
@@ -1748,7 +1748,7 @@ const quiz13: QuizQuestion[] = [
   {
     id: "q13-3",
     moduleSlug: "13-tecnologia",
-    question: "Qual o objetivo principal do Atlas Analytics?",
+    question: "Qual o objetivo principal do Total Trac Analytics?",
     options: [
       "Mandar e-mail para a polícia",
       "Bloquear o caminhão",
@@ -2008,10 +2008,10 @@ const quiz15: QuizQuestion[] = [
     moduleSlug: "15-preparacao-final",
     question: "Na revisão final do ciclo: O que garante que os motoristas são confiáveis ANTES da viagem?",
     options: [
-      "Atlas Analytics",
+      "Total Trac Analytics",
       "O Sindicato dos motoristas",
       "A intuição do contratante",
-      "Atlas Profile (Biometria e Background Check)",
+      "Total Trac Profile (Biometria e Background Check)",
     ],
     correctIndex: 3,
     explanation: "O Profile atua na Fundação/Origem (quem vai dirigir).",
@@ -2023,9 +2023,9 @@ const quiz15: QuizQuestion[] = [
     question: "Qual sistema é o 'cockpit' tático em Tempo Real que a Torre usa para tratar eventos (Durante a viagem)?",
     options: [
       "O ERP da Transportadora",
-      "O Atlas Connect",
+      "O Total Trac Connect",
       "O WhatsApp da Polícia",
-      "O Atlas Analytics",
+      "O Total Trac Analytics",
     ],
     correctIndex: 1,
     explanation: "O Connect é o sistema orquestrador operacional ao vivo.",
@@ -2048,7 +2048,7 @@ const quiz15: QuizQuestion[] = [
   {
     id: "q15-4",
     moduleSlug: "15-preparacao-final",
-    question: "Qual a função DEPOIS da viagem de produtos como Atlas Analytics?",
+    question: "Qual a função DEPOIS da viagem de produtos como Total Trac Analytics?",
     options: [
       "Prender os ladrões via satélite",
       "Consolidar 1 milhão de eventos em dashboards para gerar inteligência, descobrir onde se perde dinheiro e corrigir gargalos futuros",

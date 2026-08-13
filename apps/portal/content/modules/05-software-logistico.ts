@@ -6,11 +6,11 @@ const meta = getModuleMeta("05-software-logistico")!;
 export const module05: ModuleContentFull = {
   ...meta,
   sources: [
-    "Manuais de Operação Atlas Connect",
+    "Manuais de Operação Total Trac Connect",
     "Torre de Controle - Guias Práticos",
   ],
   objectives: [
-    "Dominar a arquitetura visual e a hierarquia da tela do Atlas Connect.",
+    "Dominar a arquitetura visual e a hierarquia da tela do Total Trac Connect.",
     "Explicar a dinâmica de criação, rastreamento e baixa de uma SM (Solicitação de Monitoramento).",
     "Compreender a mecânica do Motor de Regras e a priorização de níveis de alerta.",
     "Entender a diferença operacional entre Grade Passiva e Fila Ativa de Alertas.",
@@ -26,7 +26,7 @@ export const module05: ModuleContentFull = {
           heading: "A Orquestração do Risco",
           paragraphs: [
             [
-              "Bem-vindo ao Atlas Connect. Se o PGR é a lei, o Connect é a delegacia, o juiz e o camburão, tudo em um sistema só. É nesta tela que milhares de veículos são acompanhados e onde a inteligência artificial da Total Trac separa o que é rotina do que é tragédia.",
+              "Bem-vindo ao Total Trac Connect. Se o PGR é a lei, o Connect é a delegacia, o juiz e o camburão, tudo em um sistema só. É nesta tela que milhares de veículos são acompanhados e onde a inteligência artificial da Total Trac separa o que é rotina do que é tragédia.",
             ],
             [
               "Seu objetivo aqui não é decorar onde fica o botão de 'Salvar'. É entender o FLUXO DA INFORMAÇÃO: como uma viagem nasce, como o sistema vigia e como os alertas são priorizados.",
@@ -190,7 +190,7 @@ export const module05: ModuleContentFull = {
           title: "O que vem a seguir",
           items: [
             "Você passará por uma semana de 'Treinamento Sombra' (ouvindo ligações reais).",
-            "Seu próximo módulo será focado na etapa ANTERIOR ao Connect: O Atlas Profile.",
+            "Seu próximo módulo será focado na etapa ANTERIOR ao Connect: O Total Trac Profile.",
           ],
         },
       ],
@@ -208,7 +208,7 @@ export const module05: ModuleContentFull = {
     "Sei a consequência fatal de subverter a ordem de Níveis de Prioridade.",
   ],
   mindMap: {
-    root: "Atlas Connect",
+    root: "Total Trac Connect",
     branches: [
       { label: "Visões", items: ["Grade", "Fila de Alertas", "Mapa Virtual"] },
       { label: "Jornada", items: ["SM", "Ping", "Trânsito", "Baixa"] },

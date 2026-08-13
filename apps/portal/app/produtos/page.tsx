@@ -8,13 +8,13 @@ import { Card } from "@/components/ui/Card";
 const PRODUCTS = [
   {
     slug: "profile",
-    name: "Atlas Profile",
+    name: "Total Trac Profile",
     icon: UserSearch,
     description: "IA que analisa o risco de contratação em minutos, cruzando dados criminais, biometria e histórico profissional.",
   },
   {
     slug: "connect",
-    name: "Atlas Connect",
+    name: "Total Trac Connect",
     icon: Radar,
     description: "A Torre de Controle: integra rastreadores e escala eventos críticos automaticamente para a Central e a C.I.A.",
   },
@@ -26,7 +26,7 @@ const PRODUCTS = [
   },
   {
     slug: "analytics",
-    name: "Atlas Analytics",
+    name: "Total Trac Analytics",
     icon: LineChart,
     description: "Cockpit executivo com visão em tempo real de risco por rodovia, safety e SLA de permanência em alvos.",
   },

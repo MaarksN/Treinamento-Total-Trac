@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState } from "react";
 import * as Tabs from "@radix-ui/react-tabs";
@@ -9,7 +9,7 @@ import { ArrowRight, BookOpen, AlertCircle, Target, CheckCircle2 } from "lucide-
 const STEPS = [
   { id: "context", label: "Contexto", icon: BookOpen },
   { id: "problem", label: "Problema", icon: AlertCircle },
-  { id: "solution", label: "Solução Atlas", icon: Target },
+  { id: "solution", label: "Solução Total Trac", icon: Target },
   { id: "quiz", label: "Quiz", icon: CheckCircle2 },
 ] as const;
 
@@ -27,7 +27,7 @@ export interface StorytellingWrapperProps {
 /**
  * StorytellingWrapper
  *
- * Força a estrutura narrativa: Contexto -> Problema -> Solução Atlas -> Quiz.
+ * Força a estrutura narrativa: Contexto -> Problema -> Solução Total Trac -> Quiz.
  * Utiliza o componente Tabs do Radix UI para acessibilidade e navegação com suporte a teclado.
  * Anima a transição das abas usando framer-motion.
  */

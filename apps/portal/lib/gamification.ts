@@ -13,11 +13,11 @@ export interface LevelInfo {
 }
 
 export const LEVELS: LevelInfo[] = [
-  { level: 1, title: "Recruta Atlas", minXp: 0, maxXp: 149 },
+  { level: 1, title: "Recruta Total Trac", minXp: 0, maxXp: 149 },
   { level: 2, title: "Agente Logístico", minXp: 150, maxXp: 349 },
   { level: 3, title: "Operador Tático", minXp: 350, maxXp: 599 },
   { level: 4, title: "Estrategista de Rota", minXp: 600, maxXp: 899 },
-  { level: 5, title: "Comandante Atlas", minXp: 900, maxXp: null },
+  { level: 5, title: "Comandante Total Trac", minXp: 900, maxXp: null },
 ];
 
 export function getLevel(xp: number): LevelInfo {

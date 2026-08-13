@@ -112,7 +112,7 @@ export const module09: ModuleContentFull = {
         {
           type: "case",
           title: "Do SDR ao Closer",
-          text: "Um vendedor inicial (SDR) mapeia transportadoras de alto valor (ICP). Ele faz ligação fria e acha uma que perdeu o seguro (Gatilho). Ele qualifica o lead e passa para o Executivo de Contas (Closer). O Closer faz a demonstração do Atlas Connect e prova que a empresa será aceita pela seguradora novamente. Ele contorna a objeção de preço ('o barato sai caro'), envia o contrato e fecha o negócio no sistema (CRM). Todo esse processo deve ser registrado no Bitrix24/Hubspot de forma milimétrica.",
+          text: "Um vendedor inicial (SDR) mapeia transportadoras de alto valor (ICP). Ele faz ligação fria e acha uma que perdeu o seguro (Gatilho). Ele qualifica o lead e passa para o Executivo de Contas (Closer). O Closer faz a demonstração do Total Trac Connect e prova que a empresa será aceita pela seguradora novamente. Ele contorna a objeção de preço ('o barato sai caro'), envia o contrato e fecha o negócio no sistema (CRM). Todo esse processo deve ser registrado no Bitrix24/Hubspot de forma milimétrica.",
           source: "Diretrizes Comerciais Total Trac",
         },
       ],
@@ -147,7 +147,7 @@ export const module09: ModuleContentFull = {
         {
           type: "case",
           title: "A Renovação que Quase Foi Perdida",
-          text: "Um cliente do ICP (frota de 80 caminhões) avisou no mês 10 que 'estava avaliando propostas concorrentes' porque, na visão dele, pagava caro por um serviço que só usava 'quando dava problema'. O Closer ligou em pânico, mas quem reverteu o cancelamento foi a Central de Operações: levantou o histórico e mostrou, em números, que a C.I.A. havia evitado 4 sinistros de grande porte naquele ano, com acionamento médio de 3 minutos. O cliente renovou com upgrade para o Atlas Analytics, porque viu prova operacional, não promessa comercial.",
+          text: "Um cliente do ICP (frota de 80 caminhões) avisou no mês 10 que 'estava avaliando propostas concorrentes' porque, na visão dele, pagava caro por um serviço que só usava 'quando dava problema'. O Closer ligou em pânico, mas quem reverteu o cancelamento foi a Central de Operações: levantou o histórico e mostrou, em números, que a C.I.A. havia evitado 4 sinistros de grande porte naquele ano, com acionamento médio de 3 minutos. O cliente renovou com upgrade para o Total Trac Analytics, porque viu prova operacional, não promessa comercial.",
           source: "Diretrizes Comerciais Total Trac",
         },
         {

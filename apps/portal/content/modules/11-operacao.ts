@@ -27,7 +27,7 @@ export const module11: ModuleContentFull = {
           heading: "O Coração da Total Trac",
           paragraphs: [
             [
-              "Todos os módulos anteriores construíram a base teórica. Agora você está sentado na cadeira, o fone de ouvido no ouvido, e a tela do Atlas Connect piscando em vermelho. Bem-vindo à Operação 24 horas.",
+              "Todos os módulos anteriores construíram a base teórica. Agora você está sentado na cadeira, o fone de ouvido no ouvido, e a tela do Total Trac Connect piscando em vermelho. Bem-vindo à Operação 24 horas.",
             ],
             [
               "Na Torre de Controle, 5 minutos de distração podem custar vidas, cargas milionárias e contratos gigantescos. A eficiência não vem de improviso, vem da obediência cega ao processo.",

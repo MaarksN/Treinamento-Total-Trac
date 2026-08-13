@@ -76,9 +76,9 @@ export const module15: ModuleContentFull = {
           left: {
             label: "As Ferramentas",
             points: [
-              "Atlas Profile: Filtro da portaria, bloqueia biometria falsa (Falsidade Ideológica).",
-              "Atlas Connect: O Cockpit. Fila de Alertas e Integrações API.",
-              "Atlas Analytics: A visão do CEO para corrigir gargalos logísticos crônicos.",
+              "Total Trac Profile: Filtro da portaria, bloqueia biometria falsa (Falsidade Ideológica).",
+              "Total Trac Connect: O Cockpit. Fila de Alertas e Integrações API.",
+              "Total Trac Analytics: A visão do CEO para corrigir gargalos logísticos crônicos.",
             ],
           },
           right: {
@@ -159,7 +159,7 @@ export const module15: ModuleContentFull = {
           type: "faq",
           items: [
             { q: "Errei mais de 30% e reprovei. E agora?", a: "Sem drama. Reprovar não é demissão, é feedback. Você revisa o conteúdo do próprio relatório de erros, foca nos módulos fracos e reagenda uma nova tentativa com o DHO." },
-            { q: "Qual é o erro mais comum de quem reprova?", a: "Confundir os pilares tecnológicos entre si (trocar a função do Atlas Connect pela do Atlas Analytics) e esquecer os prazos de SLA da Torre de Controle. São detalhes, mas a prova cobra precisão, não 'mais ou menos'." },
+            { q: "Qual é o erro mais comum de quem reprova?", a: "Confundir os pilares tecnológicos entre si (trocar a função do Total Trac Connect pela do Total Trac Analytics) e esquecer os prazos de SLA da Torre de Controle. São detalhes, mas a prova cobra precisão, não 'mais ou menos'." },
             { q: "Vale a pena estudar até a última hora antes da prova?", a: "Revisão leve, sim. Decoreba de última hora sob ansiedade, não — ela mais atrapalha do que ajuda. Prefira reler o resumo executivo de cada módulo e descansar a cabeça." },
           ],
         },
